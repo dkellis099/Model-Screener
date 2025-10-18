@@ -138,7 +138,22 @@ class MagicFormulaCalculator:
         
         return df[output_columns].reset_index(drop=True)
     
-    def get_top_stocks(self, limit: int = 30) -> pd.DataFrame:
+    def get_stock_price_history(self, symbol: str, days: int = 180) -> List[Dict]:
+        """Fetch historical price data for stock chart"""
+        try:
+            url = f"{self.base_url}/historical-price-full/{symbol}?apikey={self.api_key}"
+            response = requests.get(url)
+            if response.status_code == 200:
+                data = response.json()
+                if 'historical' in data:
+                    # Get last N days
+                    historical = data['historical'][:days]
+                    return [{'date': item['date'], 'close': item['close']} for item in reversed(historical)]
+        except Exception as e:
+            print(f"Error fetching price history for {symbol}: {str(e)}")
+        return []
+    
+    def get_top_stocks(self, limit: int = 100) -> pd.DataFrame:
         """Get top ranked stocks using Magic Formula"""
         symbols = self.get_sp500_symbols()
         print(f"Found {len(symbols)} S&P 500 stocks")
@@ -148,24 +163,25 @@ class MagicFormulaCalculator:
 
 # Usage example
 if __name__ == "__main__":
-    # Replace with your API key
-    API_KEY = "vPO3Q9TJPSQQuIGLSDfEJB1mtuJazaYP"
+    # Get API key from environment variable (for GitHub Actions) or use hardcoded value
+    import os
+    API_KEY = os.getenv('FMP_API_KEY', 'vPO3Q9TJPSQQuIGLSDfEJB1mtuJazaYP')
     
     calculator = MagicFormulaCalculator(API_KEY)
     
-    # Get top 30 stocks
-    top_stocks = calculator.get_top_stocks(limit=30)
+    # Get top 100 stocks (or change this number)
+    top_stocks = calculator.get_top_stocks(limit=100)
     
     # Display results
     print("\n" + "="*80)
-    print("MAGIC FORMULA TOP 30 STOCKS")
+    print(f"MAGIC FORMULA TOP {len(top_stocks)} STOCKS")
     print("="*80)
-    print(top_stocks.to_string(index=False))
+    print(top_stocks.head(30).to_string(index=False))  # Print first 30
     
     # Save to CSV
     top_stocks.to_csv('magic_formula_results.csv', index=False)
-    print("\nResults saved to magic_formula_results.csv")
+    print(f"\nResults saved to magic_formula_results.csv ({len(top_stocks)} stocks)")
     
     # Save to JSON for web display
     top_stocks.to_json('magic_formula_results.json', orient='records', indent=2)
-    print("Results saved to magic_formula_results.json")
+    print(f"Results saved to magic_formula_results.json ({len(top_stocks)} stocks)")
