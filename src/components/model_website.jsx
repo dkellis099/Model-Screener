@@ -156,7 +156,7 @@ const MagicFormulaDashboard = () => {
             </h1>
           </div>
           <p className="text-slate-600 ml-13">
-            Data Sourced and Constructed by Dylan Ellis 
+            Data Sourced and Constructed by Dylan Ellis and Alexis Washington
           </p>
           <p className="text-slate-500 text-sm ml-13 mt-1">
             Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
