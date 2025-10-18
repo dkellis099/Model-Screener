@@ -29,3 +29,73 @@ DECK,Deckers Outdoor Corporation,Consumer Cyclical,14807634395.0,7.67,42.56,86.0
 MOH,"Molina Healthcare, Inc.",Healthcare,10443256000.0,11.26,29.45,18.0,182.0,200.0
 PHM,"PulteGroup, Inc.",Consumer Cyclical,24553683084.0,16.98,25.73,4.0,201.0,205.0
 BLDR,"Builders FirstSource, Inc.",Industrials,13546420925.0,7.58,39.65,88.0,123.0,211.0
+STZ,"Constellation Brands, Inc.",Consumer Defensive,24597372157.0,8.24,36.34,72.5,139.0,211.5
+OTIS,Otis Worldwide Corporation,Industrials,35829063655.0,5.24,133.84,195.0,17.0,212.0
+BIIB,Biogen Inc.,Healthcare,20965887514.0,8.36,34.94,68.0,145.0,213.0
+CTSH,Cognizant Technology Solutions Corporation,Technology,32273203517.0,7.73,36.94,84.5,136.0,220.5
+ACN,Accenture plc,Technology,148968042261.0,6.42,50.89,135.0,86.0,221.0
+MRK,"Merck & Co., Inc.",Healthcare,211787038461.0,7.3,39.92,100.0,122.0,222.0
+NRG,"NRG Energy, Inc.",Utilities,32639513529.0,8.47,33.25,65.0,159.0,224.0
+ULTA,"Ulta Beauty, Inc.",Consumer Cyclical,23921715578.0,7.57,37.16,89.0,135.0,224.0
+MCK,McKesson Corporation,Healthcare,97766132898.0,5.0,213.27,217.0,9.0,226.0
+PFE,Pfizer Inc.,Healthcare,139352842755.0,7.74,35.48,83.0,143.0,226.0
+TKO,"TKO Group Holdings, Inc.",Communication Services,15546869782.0,5.51,70.35,176.0,53.0,229.0
+UNH,UnitedHealth Group Incorporated,Healthcare,322963214675.0,6.19,50.05,142.0,87.0,229.0
+NTAP,"NetApp, Inc.",Technology,23768561221.0,7.11,39.38,106.5,124.0,230.5
+DVA,DaVita Inc.,Healthcare,9000420000.0,8.72,31.02,60.5,171.0,231.5
+CL,Colgate-Palmolive Company,Consumer Defensive,63946430883.0,5.36,83.34,189.5,43.0,232.5
+CPB,Campbell Soup Company,Consumer Defensive,9196290462.0,6.73,42.53,119.5,115.0,234.5
+SYF,Synchrony Financial,Financial Services,26605867580.0,30.01,22.57,2.0,233.0,235.0
+HCA,"HCA Healthcare, Inc.",Healthcare,99718669960.0,8.72,30.8,60.5,175.0,235.5
+CAH,"Cardinal Health, Inc.",Healthcare,37350201544.0,5.04,111.08,213.5,24.0,237.5
+FOXA,Fox Corporation,Communication Services,25872820449.0,11.55,23.59,16.5,222.5,239.0
+FOX,Fox Corporation,Communication Services,23610066234.0,11.55,23.59,16.5,222.5,239.0
+EXPD,"Expeditors International of Washington, Inc.",Industrials,16275364918.0,6.92,38.85,113.5,126.0,239.5
+K,Kellanova,Consumer Defensive,28887833828.0,6.04,48.09,148.0,92.0,240.0
+FTV,Fortive Corporation,Technology,16463446548.0,5.16,91.81,202.5,38.0,240.5
+HAL,Halliburton Company,Energy,18987448812.0,12.75,22.89,10.0,231.0,241.0
+VST,Vistra Corp.,Utilities,68221472237.0,9.78,25.61,38.0,203.0,241.0
+JNJ,Johnson & Johnson,Healthcare,465339236848.0,6.17,46.18,143.5,98.0,241.5
+FDS,FactSet Research Systems Inc.,Financial Services,10838067903.0,4.92,128.54,222.0,20.0,242.0
+ITW,Illinois Tool Works Inc.,Industrials,72659290000.0,5.18,80.03,200.0,44.0,244.0
+CDW,CDW Corporation,Technology,19980210575.0,5.74,51.17,162.5,85.0,247.5
+EXPE,"Expedia Group, Inc.",Consumer Cyclical,25382942054.0,4.91,118.19,224.5,23.0,247.5
+KMB,Kimberly-Clark Corporation,Consumer Defensive,40291355671.0,6.33,42.85,136.0,113.0,249.0
+ALLE,Allegion plc,Industrials,15236898835.0,6.06,45.06,147.0,102.0,249.0
+BBY,"Best Buy Co., Inc.",Consumer Cyclical,16747171833.0,8.21,29.84,74.0,181.0,255.0
+IQV,IQVIA Holdings Inc.,Healthcare,34773500000.0,4.58,300.41,250.0,5.0,255.0
+APA,APA Corporation,Energy,8057351079.0,22.94,19.46,3.0,252.0,255.0
+AVY,Avery Dennison Corporation,Industrials,12433385347.0,6.27,40.12,138.0,120.0,258.0
+BMY,Bristol-Myers Squibb Company,Healthcare,88806065612.0,6.21,41.16,141.0,117.0,258.0
+TROW,"T. Rowe Price Group, Inc.",Financial Services,22784470492.0,10.22,23.29,31.0,229.0,260.0
+EOG,"EOG Resources, Inc.",Energy,57995420648.0,12.0,19.32,14.0,253.0,267.0
+PPG,"PPG Industries, Inc.",Basic Materials,22924349000.0,6.92,33.6,113.5,156.0,269.5
+VZ,Verizon Communications Inc.,Communication Services,170971970964.0,9.19,23.66,49.0,221.0,270.0
+CBOE,"Cboe Global Markets, Inc.",Financial Services,25061886951.0,5.18,59.5,200.0,70.0,270.0
+PG,The Procter & Gamble Company,Consumer Defensive,354602539520.0,4.9,79.85,227.0,45.0,272.0
+STX,Seagate Technology Holdings plc,Technology,47942563771.0,5.54,45.5,173.0,100.5,273.5
+IBKR,"Interactive Brokers Group, Inc.",Financial Services,114081805708.0,9.04,23.7,54.0,220.0,274.0
+UHS,"Universal Health Services, Inc.",Healthcare,13018702436.0,10.03,20.2,36.5,243.0,279.5
+DGX,Quest Diagnostics Incorporated,Healthcare,21191660304.0,5.78,40.0,161.0,121.0,282.0
+WSM,"Williams-Sonoma, Inc.",Consumer Cyclical,22870264539.0,5.51,43.18,176.0,111.0,287.0
+RJF,"Raymond James Financial, Inc.",Financial Services,32198518284.0,15.03,15.93,5.0,284.0,289.0
+HAS,"Hasbro, Inc.",Consumer Cyclical,10490796317.0,6.58,32.21,127.0,164.0,291.0
+BKNG,Booking Holdings Inc.,Consumer Cyclical,164318765148.0,4.5,95.88,257.5,34.0,291.5
+CF,"CF Industries Holdings, Inc.",Basic Materials,13526361472.0,10.23,18.04,30.0,263.5,293.5
+DAL,"Delta Air Lines, Inc.",Industrials,38942698649.0,10.18,18.18,33.0,262.0,295.0
+GPN,Global Payments Inc.,Industrials,20723498995.0,5.45,43.06,184.0,112.0,296.0
+DVN,Devon Energy Corporation,Energy,20148552000.0,13.11,14.27,8.0,297.0,305.0
+DHI,"D.R. Horton, Inc.",Consumer Cyclical,45818605172.0,9.51,18.04,42.0,263.5,305.5
+YUM,"Yum! Brands, Inc.",Consumer Cyclical,40312059844.0,4.85,55.81,230.0,76.0,306.0
+LOW,"Lowe's Companies, Inc.",Consumer Cyclical,137232522351.0,5.46,39.17,181.5,125.0,306.5
+MMC,"Marsh & McLennan Companies, Inc.",Financial Services,93206994160.0,4.69,65.83,244.0,63.0,307.0
+SNA,Snap-on Incorporated,Industrials,17757450623.0,7.47,23.98,91.0,216.0,307.0
+SOLV,Solventum Corporation,Healthcare,12511663648.0,5.54,36.57,173.0,138.0,311.0
+ICE,"Intercontinental Exchange, Inc.",Financial Services,87924186317.0,4.09,144.89,299.0,14.0,313.0
+FFIV,"F5, Inc.",Technology,17285853453.0,5.44,38.75,186.0,127.0,313.0
+APTV,Aptiv PLC,Consumer Cyclical,18021801958.0,9.04,18.47,54.0,260.0,314.0
+PAYC,"Paycom Software, Inc.",Technology,11290403570.0,5.66,34.19,166.5,149.0,315.5
+LKQ,LKQ Corporation,Consumer Cyclical,7729087488.0,7.96,21.82,79.0,237.0,316.0
+V,Visa Inc.,Financial Services,658775360306.0,4.16,106.46,288.5,30.0,318.5
+BRO,"Brown & Brown, Inc.",Financial Services,28996481603.0,4.25,90.29,281.5,39.0,320.5
+LULU,Lululemon Athletica Inc.,Consumer Cyclical,18995691608.0,4.98,44.8,218.0,103.0,321.0
