@@ -152,11 +152,11 @@ const MagicFormulaDashboard = () => {
               <TrendingUp className="w-6 h-6 text-white" />
             </div>
             <h1 className="text-3xl font-bold text-slate-800">
-              Magic Formula Stock Screener
+              Ellis Stock Screener 
             </h1>
           </div>
           <p className="text-slate-600 ml-13">
-            Top-ranked stocks using Joel Greenblatt's proven investment strategy
+            Data Sourced and Constructed by Dylan Ellis 
           </p>
           <p className="text-slate-500 text-sm ml-13 mt-1">
             Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
