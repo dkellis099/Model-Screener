@@ -1,0 +1,31 @@
+symbol,name,sector,market_cap,earnings_yield,return_on_capital,ey_rank,roc_rank,combined_rank
+OMC,Omnicom Group Inc.,Communication Services,15017398355.0,12.08,110.66,13.0,25.0,38.0
+MO,"Altria Group, Inc.",Consumer Defensive,109276906493.0,10.07,173.53,34.0,11.0,45.0
+CLX,The Clorox Company,Consumer Defensive,14647062230.0,11.22,106.55,19.0,29.0,48.0
+HPQ,HP Inc.,Technology,25582789662.0,9.0,299.22,56.0,6.0,62.0
+GIS,"General Mills, Inc.",Consumer Defensive,26600059601.0,7.41,131.46,95.0,19.0,114.0
+GEN,Gen Digital Inc.,Technology,16332848877.0,6.82,1150.0,117.5,2.0,119.5
+CAG,"Conagra Brands, Inc.",Consumer Defensive,8876875724.0,10.03,51.49,36.5,84.0,120.5
+WDC,Western Digital Corporation,Technology,43791652905.0,9.5,54.72,43.0,78.0,121.0
+LDOS,"Leidos Holdings, Inc.",Technology,23672140727.0,7.59,64.13,87.0,67.0,154.0
+CI,The Cigna Group,Healthcare,79883565005.0,9.25,44.23,48.0,107.0,155.0
+HSY,The Hershey Company,Consumer Defensive,38063034276.0,7.41,65.31,95.0,65.0,160.0
+CPAY,"Corpay, Inc.",Technology,20157581771.0,5.91,209.26,152.5,10.0,162.5
+KDP,Keurig Dr Pepper Inc.,Consumer Defensive,38076940870.0,5.9,215.7,155.0,8.0,163.0
+MDLZ,"Mondelez International, Inc.",Consumer Defensive,80819830434.0,6.53,89.58,130.5,40.0,170.5
+IPG,"The Interpublic Group of Companies, Inc.",Communication Services,9665770032.0,9.56,37.38,40.0,133.0,173.0
+MTCH,"Match Group, Inc.",Technology,7803376227.0,7.22,59.23,103.0,71.0,174.0
+EME,"EMCOR Group, Inc.",Industrials,30843015893.0,6.67,70.93,124.0,52.0,176.0
+MAS,Masco Corporation,Industrials,14209509975.0,7.41,51.65,95.0,83.0,178.0
+AOS,A. O. Smith Corporation,Industrials,9719387087.0,7.17,56.89,105.0,74.0,179.0
+PM,Philip Morris International Inc.,Consumer Defensive,246034510606.0,5.87,122.48,157.0,22.0,179.0
+DELL,Dell Technologies Inc.,Technology,100578713855.0,6.7,68.46,123.0,56.0,179.0
+SLB,Slb N.V.,Energy,48749219837.0,10.04,34.16,35.0,150.0,185.0
+TAP,Molson Coors Beverage Company,Consumer Defensive,9655285733.0,10.2,33.45,32.0,158.0,190.0
+CHTR,"Charter Communications, Inc.",Communication Services,34579373509.0,9.18,34.47,50.0,146.0,196.0
+NVR,"NVR, Inc.",Consumer Cyclical,21922574388.0,8.35,38.36,69.0,128.0,197.0
+CMCSA,Comcast Corporation,Communication Services,108788793232.0,9.77,32.85,39.0,160.0,199.0
+DECK,Deckers Outdoor Corporation,Consumer Cyclical,14807634395.0,7.67,42.56,86.0,114.0,200.0
+MOH,"Molina Healthcare, Inc.",Healthcare,10443256000.0,11.26,29.45,18.0,182.0,200.0
+PHM,"PulteGroup, Inc.",Consumer Cyclical,24553683084.0,16.98,25.73,4.0,201.0,205.0
+BLDR,"Builders FirstSource, Inc.",Industrials,13546420925.0,7.58,39.65,88.0,123.0,211.0
