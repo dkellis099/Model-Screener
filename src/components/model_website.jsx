@@ -11,6 +11,7 @@ const MagicFormulaDashboard = () => {
   const [selectedStock, setSelectedStock] = useState(null);
   const [chartData, setChartData] = useState([]);
   const [loadingChart, setLoadingChart] = useState(false);
+  const [returnPeriod, setReturnPeriod] = useState('1m'); // '1d', '1m', or '1y'
   
   const FMP_API_KEY = 'vPO3Q9TJPSQQuIGLSDfEJB1mtuJazaYP';
   
@@ -42,11 +43,44 @@ const MagicFormulaDashboard = () => {
   }, [filteredStocks, displayCount]);
   
   const formatMarketCap = (value) => {
-    if (value >= 1e12) return `$${(value / 1e12).toFixed(2)}T`;
-    if (value >= 1e9) return `$${(value / 1e9).toFixed(2)}B`;
-    if (value >= 1e6) return `$${(value / 1e6).toFixed(2)}M`;
-    return `$${value}`;
+    if (value >= 1e12) return `${(value / 1e12).toFixed(2)}T`;
+    if (value >= 1e9) return `${(value / 1e9).toFixed(2)}B`;
+    if (value >= 1e6) return `${(value / 1e6).toFixed(2)}M`;
+    return `${value}`;
   };
+  
+  const getReturn = (stock) => {
+    if (returnPeriod === '1d') return stock.return_1d;
+    if (returnPeriod === '1m') return stock.return_1m;
+    if (returnPeriod === '1y') return stock.return_1y;
+    return null;
+  };
+  
+  const getReturnLabel = () => {
+    if (returnPeriod === '1d') return '1 Day';
+    if (returnPeriod === '1m') return '1 Month';
+    if (returnPeriod === '1y') return '1 Year';
+    return '';
+  };
+  
+  const formatReturn = (value) => {
+    if (value === null || value === undefined) return 'N/A';
+    const sign = value >= 0 ? '+' : '';
+    return `${sign}${value.toFixed(2)}%`;
+  };
+  
+  const getReturnColor = (value) => {
+    if (value === null || value === undefined) return 'text-slate-500';
+    return value >= 0 ? 'text-emerald-600' : 'text-red-600';
+  };
+  
+  const calculatePortfolioReturn = useMemo(() => {
+    const stocksWithReturns = displayedStocks.filter(s => getReturn(s) !== null);
+    if (stocksWithReturns.length === 0) return null;
+    
+    const totalReturn = stocksWithReturns.reduce((sum, stock) => sum + getReturn(stock), 0);
+    return totalReturn / stocksWithReturns.length;
+  }, [displayedStocks, returnPeriod]);
   
   const fetchStockChart = async (symbol) => {
     setLoadingChart(true);
@@ -201,10 +235,24 @@ const MagicFormulaDashboard = () => {
                     </button>
                   </div>
 
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                  <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
                     <div className="bg-slate-50 rounded-lg p-4 border border-slate-200">
                       <div className="text-slate-500 text-sm mb-1">Market Cap</div>
                       <div className="text-xl font-bold text-slate-800">{formatMarketCap(selectedStock.market_cap)}</div>
+                    </div>
+                    <div className={`rounded-lg p-4 border ${
+                      getReturn(selectedStock) >= 0 ? 'bg-emerald-50 border-emerald-200' : 'bg-red-50 border-red-200'
+                    }`}>
+                      <div className={`text-sm mb-1 ${
+                        getReturn(selectedStock) >= 0 ? 'text-emerald-700' : 'text-red-700'
+                      }`}>
+                        {getReturnLabel()} Return
+                      </div>
+                      <div className={`text-xl font-bold ${
+                        getReturn(selectedStock) >= 0 ? 'text-emerald-700' : 'text-red-700'
+                      }`}>
+                        {formatReturn(getReturn(selectedStock))}
+                      </div>
                     </div>
                     <div className="bg-emerald-50 rounded-lg p-4 border border-emerald-200">
                       <div className="text-emerald-700 text-sm mb-1">Earnings Yield</div>
@@ -217,6 +265,28 @@ const MagicFormulaDashboard = () => {
                     <div className="bg-purple-50 rounded-lg p-4 border border-purple-200">
                       <div className="text-purple-700 text-sm mb-1">Rank</div>
                       <div className="text-xl font-bold text-purple-700">#{Math.round(selectedStock.combined_rank)}</div>
+                    </div>
+                  </div>
+                  
+                  {/* All Returns Overview */}
+                  <div className="grid grid-cols-3 gap-4 mb-6">
+                    <div className="bg-slate-50 rounded-lg p-3 border border-slate-200">
+                      <div className="text-slate-500 text-xs mb-1">1 Day Return</div>
+                      <div className={`text-lg font-bold ${getReturnColor(selectedStock.return_1d)}`}>
+                        {formatReturn(selectedStock.return_1d)}
+                      </div>
+                    </div>
+                    <div className="bg-slate-50 rounded-lg p-3 border border-slate-200">
+                      <div className="text-slate-500 text-xs mb-1">1 Month Return</div>
+                      <div className={`text-lg font-bold ${getReturnColor(selectedStock.return_1m)}`}>
+                        {formatReturn(selectedStock.return_1m)}
+                      </div>
+                    </div>
+                    <div className="bg-slate-50 rounded-lg p-3 border border-slate-200">
+                      <div className="text-slate-500 text-xs mb-1">1 Year Return</div>
+                      <div className={`text-lg font-bold ${getReturnColor(selectedStock.return_1y)}`}>
+                        {formatReturn(selectedStock.return_1y)}
+                      </div>
                     </div>
                   </div>
 
@@ -270,7 +340,7 @@ const MagicFormulaDashboard = () => {
 
             {/* Controls Card */}
             <div className="bg-white rounded-xl p-6 mb-6 shadow-sm border border-slate-200">
-              <div className="flex flex-wrap gap-4 items-center justify-between">
+              <div className="flex flex-wrap gap-4 items-center justify-between mb-4">
                 <div className="flex items-center gap-4">
                   <div className="flex items-center gap-2">
                     <Filter className="w-5 h-5 text-slate-500" />
@@ -309,10 +379,66 @@ const MagicFormulaDashboard = () => {
                   </button>
                 </div>
               </div>
+              
+              {/* Return Period Selector */}
+              <div className="flex items-center gap-2">
+                <span className="text-slate-600 text-sm font-medium">Market Return:</span>
+                <div className="flex gap-1 bg-slate-100 rounded-lg p-1">
+                  <button
+                    onClick={() => setReturnPeriod('1d')}
+                    className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                      returnPeriod === '1d' 
+                        ? 'bg-white text-blue-600 shadow-sm' 
+                        : 'text-slate-600 hover:text-slate-800'
+                    }`}
+                  >
+                    1 Day
+                  </button>
+                  <button
+                    onClick={() => setReturnPeriod('1m')}
+                    className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                      returnPeriod === '1m' 
+                        ? 'bg-white text-blue-600 shadow-sm' 
+                        : 'text-slate-600 hover:text-slate-800'
+                    }`}
+                  >
+                    1 Month
+                  </button>
+                  <button
+                    onClick={() => setReturnPeriod('1y')}
+                    className={`px-4 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                      returnPeriod === '1y' 
+                        ? 'bg-white text-blue-600 shadow-sm' 
+                        : 'text-slate-600 hover:text-slate-800'
+                    }`}
+                  >
+                    1 Year
+                  </button>
+                </div>
+              </div>
             </div>
 
             {/* Stats Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+              <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200">
+                <div className="flex items-start justify-between">
+                  <div>
+                    <div className="text-slate-500 text-sm mb-2">Portfolio Return ({getReturnLabel()})</div>
+                    <div className={`text-3xl font-bold mb-1 ${getReturnColor(calculatePortfolioReturn)}`}>
+                      {formatReturn(calculatePortfolioReturn)}
+                    </div>
+                    <div className="text-slate-500 text-xs">Average across {displayedStocks.length} stocks</div>
+                  </div>
+                  <div className={`w-12 h-12 rounded-lg flex items-center justify-center ${
+                    calculatePortfolioReturn >= 0 ? 'bg-emerald-100' : 'bg-red-100'
+                  }`}>
+                    <TrendingUp className={`w-6 h-6 ${
+                      calculatePortfolioReturn >= 0 ? 'text-emerald-600' : 'text-red-600'
+                    }`} />
+                  </div>
+                </div>
+              </div>
+              
               <div className="bg-white rounded-xl p-6 shadow-sm border border-slate-200">
                 <div className="flex items-start justify-between">
                   <div>
@@ -364,6 +490,7 @@ const MagicFormulaDashboard = () => {
                       <th className="px-6 py-4 text-left text-xs font-semibold text-slate-600 uppercase tracking-wider">Company</th>
                       <th className="px-6 py-4 text-left text-xs font-semibold text-slate-600 uppercase tracking-wider">Sector</th>
                       <th className="px-6 py-4 text-right text-xs font-semibold text-slate-600 uppercase tracking-wider">Market Cap</th>
+                      <th className="px-6 py-4 text-right text-xs font-semibold text-slate-600 uppercase tracking-wider">Return ({getReturnLabel()})</th>
                       <th className="px-6 py-4 text-right text-xs font-semibold text-slate-600 uppercase tracking-wider">Earnings Yield</th>
                       <th className="px-6 py-4 text-right text-xs font-semibold text-slate-600 uppercase tracking-wider">ROC</th>
                       <th className="px-6 py-4 text-center text-xs font-semibold text-slate-600 uppercase tracking-wider">Chart</th>
@@ -396,6 +523,11 @@ const MagicFormulaDashboard = () => {
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-right text-sm text-slate-700">
                           {formatMarketCap(stock.market_cap)}
+                        </td>
+                        <td className="px-6 py-4 whitespace-nowrap text-right">
+                          <span className={`font-semibold ${getReturnColor(getReturn(stock))}`}>
+                            {formatReturn(getReturn(stock))}
+                          </span>
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-right">
                           <span className="font-semibold text-emerald-600">{stock.earnings_yield.toFixed(2)}%</span>
