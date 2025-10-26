@@ -20,8 +20,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m venv venv
-          source venv/bin/activate
           pip install --upgrade pip
           pip install requests pandas
 
@@ -29,7 +27,6 @@ jobs:
         env:
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
         run: |
-          source venv/bin/activate
           python backend/Model_Generator.py large_cap 200
 
       - name: Commit and push updated results
