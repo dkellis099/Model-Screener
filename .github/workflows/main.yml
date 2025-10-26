@@ -1,0 +1,41 @@
+name: Update Magic Formula Rankings
+
+on:
+  schedule:
+    - cron: "0 14 * * *"   # every day at 2 PM UTC (adjust as needed)
+  workflow_dispatch:       # allow manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install --upgrade pip
+          pip install requests pandas
+
+      - name: Run Model Generator
+        env:
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+        run: |
+          source venv/bin/activate
+          python backend/Model_Generator.py large_cap 200
+
+      - name: Commit and push updated results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/magic_formula_results.csv public/magic_formula_results.json
+          git commit -m "🔄 Auto-update Magic Formula results"
+          git push
