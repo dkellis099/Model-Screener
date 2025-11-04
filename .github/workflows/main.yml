@@ -2,16 +2,22 @@ name: Update Magic Formula Rankings
 
 on:
   schedule:
-    - cron: "0 14 * * *"   # every day at 2 PM UTC (adjust as needed)
-  workflow_dispatch:       # allow manual trigger
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
+      # Ensure token is available and full history (optional)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,6 +39,18 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
+
+          # Only commit if there are changes
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git add -A
           git commit -m "🔄 Auto-update Magic Formula results"
-          git push
+
+          # Rebase in case of concurrent updates
+          git pull --rebase
+
+          # Push to the currently checked out branch
+          git push origin HEAD
