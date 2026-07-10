@@ -87,7 +87,7 @@ const MagicFormulaDashboard = () => {
     
     try {
       const response = await fetch(
-        `https://financialmodelingprep.com/api/v3/historical-price-full/${symbol}?apikey=${FMP_API_KEY}`
+        `https://financialmodelingprep.com/api/chart?symbol=${symbol}`
       );
       const data = await response.json();
       
