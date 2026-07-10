@@ -270,7 +270,9 @@ if __name__ == "__main__":
     import os
     import sys
     
-    API_KEY = os.getenv('FMP_API_KEY', 'REDACTED')
+    API_KEY = os.getenv('FMP_API_KEY')
+    if not API_KEY:
+        raise SystemExit("API Key not loaded")
     
     # Parse command line arguments
     universe = 'large_cap'  # Default to S&P 500

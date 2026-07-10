@@ -13,7 +13,6 @@ const MagicFormulaDashboard = () => {
   const [loadingChart, setLoadingChart] = useState(false);
   const [returnPeriod, setReturnPeriod] = useState('1m'); // '1d', '1m', or '1y'
   
-  const FMP_API_KEY = 'REDACTED';
   
   useEffect(() => {
     fetch('/magic_formula_results.json')
