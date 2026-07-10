@@ -12,7 +12,8 @@ const MagicFormulaDashboard = () => {
   const [chartData, setChartData] = useState([]);
   const [loadingChart, setLoadingChart] = useState(false);
   const [returnPeriod, setReturnPeriod] = useState('1m'); // '1d', '1m', or '1y'
-  
+  const [lastUpdated, setLastUpdated] = useState(null);
+
   
   useEffect(() => {
     fetch('/magic_formula_results.json')
@@ -25,6 +26,18 @@ const MagicFormulaDashboard = () => {
         console.error('Error loading stock data:', error);
         setLoading(false);
       });
+  }, []);
+
+  useEffect(() => {
+    fetch('/magic_formula_results.json')
+      .then(r => r.json())
+      .then(data => { setStocks(data); setLoading(false); })
+      .catch(err => { console.error(err); setLoading(false); });
+
+    fetch('/last_updated.json')
+      .then(r => r.json())
+      .then(data => setLastUpdated(data.generated_at))
+      .catch(() => setLastUpdated(null));
   }, []);
   
   const sectors = useMemo(() => {
@@ -87,7 +100,7 @@ const MagicFormulaDashboard = () => {
     
     try {
       const response = await fetch(
-        `https://financialmodelingprep.com/api/chart?symbol=${symbol}`
+        `/api/chart?symbol=${symbol}`
       );
       const data = await response.json();
       
@@ -158,7 +171,9 @@ const MagicFormulaDashboard = () => {
             Data Sourced and Constructed by Dylan Ellis 
           </p>
           <p className="text-slate-500 text-sm ml-13 mt-1">
-            Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
+           Last updated: {lastUpdated
+            ? new Date(lastUpdated).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
+            : 'Unknown'}
           </p>
         </div>
 

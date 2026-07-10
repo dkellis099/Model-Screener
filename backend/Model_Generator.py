@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 import time
+import datetime
 from typing import List, Dict
 import json
 
@@ -301,13 +302,17 @@ if __name__ == "__main__":
     print(top_stocks.head(30).to_string(index=False))  # Print first 30
     
     # Save to CSV
-    top_stocks.to_csv('magic_formula_results.csv', index=False)
+    top_stocks.to_csv('public/magic_formula_results.csv', index=False)
     print(f"\nResults saved to magic_formula_results.csv ({len(top_stocks)} stocks)")
     
     # Save to JSON for web display
-    top_stocks.to_json('magic_formula_results.json', orient='records', indent=2)
+    top_stocks.to_json('public/magic_formula_results.json', orient='records', indent=2)
     print(f"Results saved to magic_formula_results.json ({len(top_stocks)} stocks)")
     
+    with open('public/last_updated.json', 'w') as f:
+        json.dump({'generated_at': datetime.datetime.utcnow().isoformat() + 'Z'}, f, indent=2)
+    print("Timestamp written to public/last_updated.json")
+
     # Summary statistics
     print("\n" + "="*80)
     print("SUMMARY STATISTICS")
