@@ -20,15 +20,19 @@ class MagicFormulaCalculator:
         return []
     
     def get_stock_screener(self, market_cap_min: int = 50000000, limit: int = 3000) -> List[str]:
-        """Fetch stocks using stock screener - gets largest stocks by market cap"""
-        url = f"{self.base_url}/stock-screener?marketCapMoreThan={market_cap_min}&limit={limit}&apikey={self.api_key}"
+        url = (f"{self.base_url}/stock-screener?marketCapMoreThan={market_cap_min}"
+            f"&isEtf=false&isFund=false&isActivelyTrading=true"
+            f"&limit={limit}&apikey={self.api_key}")
         response = requests.get(url)
-        if response.status_code == 200:
-            data = response.json()
-            # Sort by market cap and return symbols
-            sorted_stocks = sorted(data, key=lambda x: x.get('marketCap', 0), reverse=True)
-            return [item['symbol'] for item in sorted_stocks[:limit]]
-        return []
+        if response.status_code != 200:
+            print(f"Screener request failed: HTTP {response.status_code} — {response.text[:300]}")
+            return []
+        data = response.json()
+        if not data:
+            print("Screener returned an empty result set — check API key/plan limits.")
+            return []
+        sorted_stocks = sorted(data, key=lambda x: x.get('marketCap', 0), reverse=True)
+        return [item['symbol'] for item in sorted_stocks[:limit]]
     
     def get_all_tradable_stocks(self) -> List[str]:
         """Get all tradable stocks, filter to largest ~3000 by attempting to get market caps"""
@@ -314,14 +318,14 @@ if __name__ == "__main__":
     print("Timestamp written to public/last_updated.json")
 
     # Summary statistics
-    print("\n" + "="*80)
-    print("SUMMARY STATISTICS")
-    print("="*80)
-    print(f"Total stocks screened: {len(top_stocks)}")
-    print(f"Average Earnings Yield: {top_stocks['earnings_yield'].mean():.2f}%")
-    print(f"Average Return on Capital: {top_stocks['return_on_capital'].mean():.2f}%")
-    if 'return_1y' in top_stocks.columns:
-        valid_returns = top_stocks['return_1y'].dropna()
-        if len(valid_returns) > 0:
-            print(f"Average 1-Year Return: {valid_returns.mean():.2f}%")
+    if top_stocks.empty:
+        print("No stocks passed screening — check the log above for the screener error.")
+    else:
+        print(f"Total stocks screened: {len(top_stocks)}")
+        print(f"Average Earnings Yield: {top_stocks['earnings_yield'].mean():.2f}%")
+        print(f"Average Return on Capital: {top_stocks['return_on_capital'].mean():.2f}%")
+        if 'return_1y' in top_stocks.columns:
+            valid_returns = top_stocks['return_1y'].dropna()
+            if len(valid_returns) > 0:
+                print(f"Average 1-Year Return: {valid_returns.mean():.2f}%")
     print("="*80)
