@@ -1,0 +1,27 @@
+[
+  "AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "AVGO", "ORCL", "ADBE", "CRM",
+  "CSCO", "ACN", "AMD", "INTC", "IBM", "TXN", "QCOM", "INTU", "NOW", "AMAT",
+  "MU", "ADI", "LRCX", "KLAC", "SNPS", "CDNS", "PANW", "FTNT", "ANET", "MRVL",
+  "UBER", "ABNB", "SHOP", "DELL", "HPQ",
+
+  "UNH", "JNJ", "LLY", "ABBV", "MRK", "PFE", "TMO", "ABT", "DHR", "BMY",
+  "AMGN", "MDT", "GILD", "VRTX", "ISRG", "REGN", "HUM", "ZTS", "BSX", "SYK",
+  "BDX", "CVS", "CNC", "MCK",
+
+  "WMT", "PG", "KO", "PEP", "COST", "MCD", "NKE", "SBUX", "TGT", "LOW",
+  "HD", "TJX", "BKNG", "CMG", "DIS", "NFLX", "EL", "CL", "KHC", "MDLZ",
+  "GIS", "HSY", "YUM", "MO", "PM", "DG", "ROST", "ORLY", "AZO",
+
+  "HON", "UNP", "UPS", "CAT", "DE", "BA", "LMT", "RTX", "GE", "MMM",
+  "ETN", "EMR", "ITW", "PH", "NSC", "CSX", "FDX", "WM", "GD", "NOC",
+  "PCAR", "CMI", "ROK", "DOV",
+
+  "XOM", "CVX", "COP", "EOG", "SLB", "PSX", "MPC", "VLO", "OXY", "WMB",
+  "KMI", "HES", "DVN", "BKR",
+
+  "T", "VZ", "TMUS", "CMCSA", "CHTR", "EA", "TTWO",
+
+  "LIN", "APD", "SHW", "ECL", "FCX", "NEM", "DOW", "NUE", "STLD",
+
+  "ADP", "PAYX", "VRSK", "ROP", "TDY", "FAST", "PWR", "URI", "EXPD"
+]

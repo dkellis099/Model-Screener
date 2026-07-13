@@ -13,7 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-      # Ensure token is available and full history (optional)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -27,13 +26,13 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install requests pandas
+          pip install -r backend/requirements.txt
 
       - name: Run Model Generator
         env:
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
         run: |
-          python backend/Model_Generator.py large_cap 200
+          python backend/Model_Generator.py
 
       - name: Commit and push updated results
         run: |

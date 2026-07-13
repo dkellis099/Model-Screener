@@ -1,331 +1,311 @@
+"""
+Magic Formula Stock Screener — data pipeline.
+
+Redesigned to work entirely within Financial Modeling Prep's free tier
+(250 requests/day). See Readme.md for the full architecture explanation.
+
+Key design choices:
+- Ticker universe is a static, curated list (backend/universe.json), NOT
+  pulled from FMP's company-screener or sp500-constituent endpoints — both
+  are paid-tier only on the stable API. Refresh universe.json periodically
+  by hand from a free source, e.g.:
+  https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv
+- Fundamentals (income statement, balance sheet, profile — 3 calls/symbol)
+  are cached in backend/fundamentals_cache.json and refreshed on a rotating
+  basis (a limited number of symbols per run), since they only change
+  quarterly. This is the expensive part of the budget, so it's spread out.
+- Enterprise value / market cap / price (1 call/symbol via the
+  enterprise-values endpoint, which bundles all of it) is refreshed for
+  every cached symbol on every run, since that's cheap and changes daily.
+- Historical returns (1d/1m/1y) are only fetched for the final top-N ranked
+  stocks, not the whole scan universe, since they're a display feature and
+  the most expensive call per symbol.
+"""
+
 import requests
 import pandas as pd
 import time
-import datetime
-from typing import List, Dict
+import re
 import json
+import datetime
+import os
+from typing import Dict, List, Optional
+
+# --- Config ---------------------------------------------------------------
+
+UNIVERSE_FILE = "backend/universe.json"
+FUNDAMENTALS_CACHE_FILE = "backend/fundamentals_cache.json"
+RESULTS_JSON = "public/magic_formula_results.json"
+RESULTS_CSV = "public/magic_formula_results.csv"
+LAST_UPDATED_FILE = "public/last_updated.json"
+
+FUNDAMENTALS_MAX_AGE_DAYS = 30      # re-pull income/balance/profile at most this often
+FUNDAMENTALS_REFRESH_BUDGET = 15    # symbols refreshed per run (3 calls each = 45 calls)
+TOP_N_FOR_RETURNS = 30              # only fetch historical returns for the final top N
+
+MIN_MARKET_CAP = 2_000_000_000      # $2B floor for "large cap"
+SECTOR_EXCLUDE = {"Financial Services", "Utilities", "Real Estate"}
+
+REQUEST_DELAY_SECONDS = 0.25        # be polite to the API between calls
+
+
+# --- Helpers ----------------------------------------------------------------
+
+def load_json(path: str, default):
+    if os.path.exists(path):
+        with open(path) as f:
+            return json.load(f)
+    return default
+
+
+def save_json(path: str, data):
+    directory = os.path.dirname(path)
+    if directory:
+        os.makedirs(directory, exist_ok=True)
+    with open(path, "w") as f:
+        json.dump(data, f, indent=2)
+
+
+# --- Core calculator ----------------------------------------------------------
 
 class MagicFormulaCalculator:
     def __init__(self, api_key: str):
         self.api_key = api_key
-        self.base_url = "https://financialmodelingprep.com/api/v3"
-        
-    def get_sp500_symbols(self) -> List[str]:
-        """Fetch S&P 500 stock symbols"""
-        url = f"{self.base_url}/sp500_constituent?apikey={self.api_key}"
-        response = requests.get(url)
-        if response.status_code == 200:
-            data = response.json()
-            return [item['symbol'] for item in data]
-        return []
-    
-    def get_stock_screener(self, market_cap_min: int = 50000000, limit: int = 3000) -> List[str]:
-        url = (f"{self.base_url}/stock-screener?marketCapMoreThan={market_cap_min}"
-            f"&isEtf=false&isFund=false&isActivelyTrading=true"
-            f"&limit={limit}&apikey={self.api_key}")
-        response = requests.get(url)
+        self.base_url = "https://financialmodelingprep.com/stable"
+
+    def _get(self, path: str, **params):
+        params["apikey"] = self.api_key
+        url = f"{self.base_url}/{path}"
+        try:
+            response = requests.get(url, params=params, timeout=20)
+        except requests.RequestException as e:
+            print(f"Request error for {path} ({params.get('symbol', '')}): {e}")
+            return None
+
         if response.status_code != 200:
-            print(f"Screener request failed: HTTP {response.status_code} — {response.text[:300]}")
-            return []
-        data = response.json()
-        if not data:
-            print("Screener returned an empty result set — check API key/plan limits.")
-            return []
-        sorted_stocks = sorted(data, key=lambda x: x.get('marketCap', 0), reverse=True)
-        return [item['symbol'] for item in sorted_stocks[:limit]]
-    
-    def get_all_tradable_stocks(self) -> List[str]:
-        """Get all tradable stocks, filter to largest ~3000 by attempting to get market caps"""
+            print(f"{path} failed for {params.get('symbol', '')}: "
+                  f"HTTP {response.status_code} — {response.text[:200]}")
+            return None
+
         try:
-            # Get all available stock symbols
-            url = f"{self.base_url}/stock/list?apikey={self.api_key}"
-            response = requests.get(url)
-            if response.status_code == 200:
-                data = response.json()
-                # Filter for US exchanges and common stock types
-                us_stocks = [
-                    item['symbol'] for item in data 
-                    if item.get('exchangeShortName') in ['NASDAQ', 'NYSE', 'AMEX']
-                    and item.get('type') == 'stock'
-                    and len(item['symbol']) <= 5  # Filter out weird tickers
-                ]
-                print(f"Found {len(us_stocks)} US stocks")
-                return us_stocks[:3000]  # Limit to first 3000
-        except Exception as e:
-            print(f"Error fetching stock list: {str(e)}")
-        return []
-    
-    def get_stock_data(self, symbol: str) -> Dict:
-        """Fetch financial data for a single stock"""
+            return response.json()
+        except ValueError:
+            print(f"{path} returned non-JSON for {params.get('symbol', '')}")
+            return None
+
+    def fetch_fundamentals(self, symbol: str) -> Optional[Dict]:
+        """3 API calls: income statement, balance sheet, profile."""
+        income = self._get("income-statement", symbol=symbol, limit=1)
+        time.sleep(REQUEST_DELAY_SECONDS)
+        balance = self._get("balance-sheet-statement", symbol=symbol, limit=1)
+        time.sleep(REQUEST_DELAY_SECONDS)
+        profile = self._get("profile", symbol=symbol)
+        time.sleep(REQUEST_DELAY_SECONDS)
+
+        if not income or not balance or not profile:
+            return None
+
+        income = income[0]
+        balance = balance[0]
+        profile = profile[0]
+
+        return {
+            "symbol": symbol,
+            "name": profile.get("companyName", ""),
+            "sector": profile.get("sector", ""),
+            # stable API's income-statement includes a real 'ebit' field;
+            # fall back to operatingIncome as an approximation if it's missing.
+            "ebit": income.get("ebit", income.get("operatingIncome", 0)),
+            "total_assets": balance.get("totalAssets", 0),
+            "total_current_assets": balance.get("totalCurrentAssets", 0),
+            "total_current_liabilities": balance.get("totalCurrentLiabilities", 0),
+            "intangible_assets": balance.get("intangibleAssets", 0),
+            "goodwill": balance.get("goodwill", 0),
+            "fetched_at": datetime.datetime.utcnow().isoformat() + "Z",
+        }
+
+    def fetch_market_data(self, symbol: str) -> Optional[Dict]:
+        """1 API call: enterprise-values bundles price, market cap, debt, cash, EV."""
+        ev = self._get("enterprise-values", symbol=symbol, limit=1)
+        time.sleep(REQUEST_DELAY_SECONDS)
+        if not ev:
+            return None
+        ev = ev[0]
+        return {
+            "market_cap": ev.get("marketCapitalization", 0),
+            "enterprise_value": ev.get("enterpriseValue", 0),
+        }
+
+    def fetch_returns(self, symbol: str) -> Dict:
+        """1 API call: historical daily prices, used to compute 1d/1m/1y % change."""
+        hist = self._get("historical-price-eod/full", symbol=symbol)
+        time.sleep(REQUEST_DELAY_SECONDS)
+        if not hist:
+            return {"return_1d": None, "return_1m": None, "return_1y": None}
+
+        # Stable API returns a flat array, most-recent-first.
+        closes = [row["close"] for row in hist if "close" in row]
+
+        def pct_change(past_index):
+            if len(closes) > past_index and closes[past_index]:
+                return round((closes[0] - closes[past_index]) / closes[past_index] * 100, 2)
+            return None
+
+        return {
+            "return_1d": pct_change(1),
+            "return_1m": pct_change(21),
+            "return_1y": pct_change(252),
+        }
+
+    @staticmethod
+    def is_common_stock(symbol: str, name: str) -> bool:
+        """Best-effort filter for junk tickers (preferred shares, notes, etc.).
+
+        Preferred/debt issues are often named with keywords like "Preferred" or
+        "Depositary", but just as often just have a bare coupon rate tacked on
+        (e.g. "Prudential Financial, Inc. 5.95") with no keyword at all — so a
+        numeric-rate pattern is checked too.
+        """
+        if not re.fullmatch(r"[A-Z]{1,5}", symbol):
+            return False
+        name_lower = (name or "").lower()
+        junk_terms = ["preferred", "depositary", "trust pfd", "notes", "debenture", "%"]
+        if any(term in name_lower for term in junk_terms):
+            return False
+        if re.search(r"\d+\.\d+", name or ""):  # e.g. "... 5.95" coupon rate
+            return False
+        return True
+
+    @staticmethod
+    def calculate_magic_formula_metrics(fundamentals: Dict, market_data: Dict) -> Optional[Dict]:
         try:
-            # Get income statement for EBIT
-            income_url = f"{self.base_url}/income-statement/{symbol}?limit=1&apikey={self.api_key}"
-            income_response = requests.get(income_url)
-            
-            # Get balance sheet for working capital and fixed assets
-            balance_url = f"{self.base_url}/balance-sheet-statement/{symbol}?limit=1&apikey={self.api_key}"
-            balance_response = requests.get(balance_url)
-            
-            # Get key metrics for enterprise value
-            metrics_url = f"{self.base_url}/key-metrics/{symbol}?limit=1&apikey={self.api_key}"
-            metrics_response = requests.get(metrics_url)
-            
-            # Get company profile for market cap
-            profile_url = f"{self.base_url}/profile/{symbol}?apikey={self.api_key}"
-            profile_response = requests.get(profile_url)
-            
-            if all(r.status_code == 200 for r in [income_response, balance_response, metrics_response, profile_response]):
-                income = income_response.json()[0] if income_response.json() else {}
-                balance = balance_response.json()[0] if balance_response.json() else {}
-                metrics = metrics_response.json()[0] if metrics_response.json() else {}
-                profile = profile_response.json()[0] if profile_response.json() else {}
-                
-                return {
-                    'symbol': symbol,
-                    'name': profile.get('companyName', ''),
-                    'sector': profile.get('sector', ''),
-                    'market_cap': profile.get('mktCap', 0),
-                    'ebit': income.get('operatingIncome', 0),  # EBIT approximation
-                    'enterprise_value': metrics.get('enterpriseValue', 0),
-                    'total_assets': balance.get('totalAssets', 0),
-                    'total_current_assets': balance.get('totalCurrentAssets', 0),
-                    'total_current_liabilities': balance.get('totalCurrentLiabilities', 0),
-                    'intangible_assets': balance.get('intangibleAssets', 0),
-                    'goodwill': balance.get('goodwill', 0),
-                }
-            
-        except Exception as e:
-            print(f"Error fetching data for {symbol}: {str(e)}")
-        
-        return None
-    
-    def calculate_magic_formula_metrics(self, stock_data: Dict) -> Dict:
-        """Calculate Earnings Yield and Return on Capital"""
-        try:
-            ebit = stock_data['ebit']
-            enterprise_value = stock_data['enterprise_value']
-            
-            # Calculate Net Working Capital
-            net_working_capital = (stock_data['total_current_assets'] - 
-                                 stock_data['total_current_liabilities'])
-            
-            # Calculate Net Fixed Assets (Tangible Assets)
-            net_fixed_assets = (stock_data['total_assets'] - 
-                              stock_data['total_current_assets'] - 
-                              stock_data['intangible_assets'] - 
-                              stock_data['goodwill'])
-            
-            # Calculate Earnings Yield (higher is better)
+            ebit = fundamentals["ebit"]
+            enterprise_value = market_data["enterprise_value"]
+
+            net_working_capital = (
+                fundamentals["total_current_assets"] - fundamentals["total_current_liabilities"]
+            )
+            net_fixed_assets = (
+                fundamentals["total_assets"]
+                - fundamentals["total_current_assets"]
+                - fundamentals["intangible_assets"]
+                - fundamentals["goodwill"]
+            )
+
             earnings_yield = (ebit / enterprise_value * 100) if enterprise_value > 0 else 0
-            
-            # Calculate Return on Capital (higher is better)
             capital_employed = net_working_capital + net_fixed_assets
             return_on_capital = (ebit / capital_employed * 100) if capital_employed > 0 else 0
-            
+
             return {
-                **stock_data,
-                'earnings_yield': round(earnings_yield, 2),
-                'return_on_capital': round(return_on_capital, 2),
-                'net_working_capital': net_working_capital,
-                'net_fixed_assets': net_fixed_assets
+                "symbol": fundamentals["symbol"],
+                "name": fundamentals["name"],
+                "sector": fundamentals["sector"],
+                "market_cap": market_data["market_cap"],
+                "earnings_yield": round(earnings_yield, 2),
+                "return_on_capital": round(return_on_capital, 2),
             }
-            
-        except Exception as e:
-            print(f"Error calculating metrics for {stock_data.get('symbol', 'unknown')}: {str(e)}")
+        except (KeyError, TypeError, ZeroDivisionError) as e:
+            print(f"Error calculating metrics for {fundamentals.get('symbol', 'unknown')}: {e}")
             return None
-    
-    def screen_stocks(self, symbols: List[str], min_market_cap: float = 50e6, max_stocks: int = None) -> pd.DataFrame:
-        """Screen stocks and calculate Magic Formula rankings"""
-        stock_metrics = []
-        total = len(symbols)
-        
-        print(f"Screening {total} stocks...")
-        print(f"This may take a while. Estimated time: {total * 0.5 / 60:.1f} minutes")
-        
-        for i, symbol in enumerate(symbols):
-            # Progress update every 10 stocks
-            if i % 10 == 0:
-                print(f"Progress: {i}/{total} ({i/total*100:.1f}%) - {len(stock_metrics)} stocks passed screening")
-                time.sleep(0.5)  # Rate limiting
-            
-            stock_data = self.get_stock_data(symbol)
-            if stock_data and stock_data['market_cap'] >= min_market_cap:
-                metrics = self.calculate_magic_formula_metrics(stock_data)
-                if metrics and metrics['earnings_yield'] > 0 and metrics['return_on_capital'] > 0:
-                    # Calculate returns
-                    returns = self.calculate_returns(symbol)
-                    metrics.update(returns)
-                    stock_metrics.append(metrics)
-                    
-                    # Early exit if we have enough stocks and max_stocks is set
-                    if max_stocks and len(stock_metrics) >= max_stocks * 3:
-                        print(f"Collected {len(stock_metrics)} stocks, stopping early")
-                        break
-        
-        print(f"\nScreening complete! Found {len(stock_metrics)} qualifying stocks")
-        
-        # Create DataFrame
-        df = pd.DataFrame(stock_metrics)
-        
-        if df.empty:
-            return df
-        
-        # Rank stocks (1 = best)
-        df['ey_rank'] = df['earnings_yield'].rank(ascending=False)
-        df['roc_rank'] = df['return_on_capital'].rank(ascending=False)
-        
-        # Combined rank (lower is better)
-        df['combined_rank'] = df['ey_rank'] + df['roc_rank']
-        
-        # Sort by combined rank
-        df = df.sort_values('combined_rank')
-        
-        # Select relevant columns
-        output_columns = [
-            'symbol', 'name', 'sector', 'market_cap',
-            'earnings_yield', 'return_on_capital', 
-            'return_1d', 'return_1m', 'return_1y',
-            'ey_rank', 'roc_rank', 'combined_rank'
-        ]
-        
-        return df[output_columns].reset_index(drop=True)
-    
-    def get_stock_price_history(self, symbol: str, days: int = 365) -> List[Dict]:
-        """Fetch historical price data for stock chart and returns"""
-        try:
-            url = f"{self.base_url}/historical-price-full/{symbol}?apikey={self.api_key}"
-            response = requests.get(url)
-            if response.status_code == 200:
-                data = response.json()
-                if 'historical' in data:
-                    historical = data['historical'][:days]
-                    return [{'date': item['date'], 'close': item['close']} for item in reversed(historical)]
-        except Exception as e:
-            print(f"Error fetching price history for {symbol}: {str(e)}")
-        return []
-    
-    def calculate_returns(self, symbol: str) -> Dict:
-        """Calculate 1-day, 1-month, and 1-year returns"""
-        try:
-            url = f"{self.base_url}/historical-price-full/{symbol}?apikey={self.api_key}"
-            response = requests.get(url)
-            
-            if response.status_code == 200:
-                data = response.json()
-                if 'historical' in data and len(data['historical']) > 0:
-                    historical = data['historical']
-                    current_price = historical[0]['close']
-                    
-                    # 1-day return
-                    day_1_return = None
-                    if len(historical) > 1:
-                        day_1_price = historical[1]['close']
-                        day_1_return = ((current_price - day_1_price) / day_1_price) * 100
-                    
-                    # 1-month return (approximately 21 trading days)
-                    month_1_return = None
-                    if len(historical) > 21:
-                        month_1_price = historical[21]['close']
-                        month_1_return = ((current_price - month_1_price) / month_1_price) * 100
-                    
-                    # 1-year return (approximately 252 trading days)
-                    year_1_return = None
-                    if len(historical) > 252:
-                        year_1_price = historical[252]['close']
-                        year_1_return = ((current_price - year_1_price) / year_1_price) * 100
-                    
-                    return {
-                        'return_1d': round(day_1_return, 2) if day_1_return is not None else None,
-                        'return_1m': round(month_1_return, 2) if month_1_return is not None else None,
-                        'return_1y': round(year_1_return, 2) if year_1_return is not None else None
-                    }
-        except Exception as e:
-            print(f"Error calculating returns for {symbol}: {str(e)}")
-        
-        return {'return_1d': None, 'return_1m': None, 'return_1y': None}
-    
-    def get_top_stocks(self, universe: str = 'sp500', limit: int = 100) -> pd.DataFrame:
-        """Get top ranked stocks using Magic Formula
-        
-        Args:
-            universe: 'sp500', 'large_cap' (3000 biggest), or 'all'
-            limit: Number of top stocks to return
-        """
-        if universe == 'sp500':
-            print("Using S&P 500 universe (~500 stocks)")
-            symbols = self.get_sp500_symbols()
-        elif universe == 'large_cap':
-            print("Using Large Cap universe (~3000 biggest stocks)")
-            symbols = self.get_stock_screener(market_cap_min=50000000, limit=3000)
-        elif universe == 'all':
-            print("Using All tradable US stocks")
-            symbols = self.get_all_tradable_stocks()
+
+
+# --- Orchestration ------------------------------------------------------------
+
+def is_stale(entry: Optional[Dict], now: datetime.datetime) -> bool:
+    if not entry:
+        return True
+    fetched_at = datetime.datetime.fromisoformat(entry["fetched_at"].replace("Z", ""))
+    return (now - fetched_at).days >= FUNDAMENTALS_MAX_AGE_DAYS
+
+
+def main():
+    api_key = os.getenv("FMP_API_KEY")
+    if not api_key:
+        raise SystemExit("FMP_API_KEY not set")
+
+    calc = MagicFormulaCalculator(api_key)
+    now = datetime.datetime.utcnow()
+
+    universe: List[str] = load_json(UNIVERSE_FILE, [])
+    if not universe:
+        raise SystemExit(f"No tickers found in {UNIVERSE_FILE} — nothing to screen.")
+    print(f"Universe: {len(universe)} symbols")
+
+    # --- Step 1: rotate fundamentals refresh for stale/missing symbols ---
+    cache: Dict[str, Dict] = load_json(FUNDAMENTALS_CACHE_FILE, {})
+    stale_symbols = [s for s in universe if is_stale(cache.get(s), now)][:FUNDAMENTALS_REFRESH_BUDGET]
+    print(f"Refreshing fundamentals for {len(stale_symbols)} symbol(s) this run "
+          f"({len(universe) - len([s for s in universe if is_stale(cache.get(s), now)])} already fresh)")
+
+    for symbol in stale_symbols:
+        data = calc.fetch_fundamentals(symbol)
+        if data:
+            cache[symbol] = data
         else:
-            print("Unknown universe, defaulting to S&P 500")
-            symbols = self.get_sp500_symbols()
-        
-        print(f"Found {len(symbols)} symbols in universe")
-        
-        results = self.screen_stocks(symbols, max_stocks=limit)
-        return results.head(limit)
+            print(f"  Skipping {symbol} — fundamentals fetch failed")
 
-# Usage example
+    save_json(FUNDAMENTALS_CACHE_FILE, cache)
+
+    # --- Step 2: daily EV/price pull + ranking for every symbol with cached fundamentals ---
+    rows = []
+    cached_symbols = [s for s in universe if s in cache]
+    print(f"Scoring {len(cached_symbols)} symbol(s) with cached fundamentals "
+          f"({len(universe) - len(cached_symbols)} not yet cached — will appear in a future run)")
+
+    for symbol in cached_symbols:
+        fundamentals = cache[symbol]
+
+        if not calc.is_common_stock(symbol, fundamentals.get("name", "")):
+            continue
+        if fundamentals.get("sector") in SECTOR_EXCLUDE:
+            continue
+
+        market_data = calc.fetch_market_data(symbol)
+        if not market_data or market_data["market_cap"] < MIN_MARKET_CAP:
+            continue
+
+        metrics = calc.calculate_magic_formula_metrics(fundamentals, market_data)
+        if metrics and metrics["earnings_yield"] > 0 and metrics["return_on_capital"] > 0:
+            rows.append(metrics)
+
+    print(f"{len(rows)} stock(s) passed screening")
+
+    df = pd.DataFrame(rows)
+    if df.empty:
+        print("No stocks passed screening — refusing to overwrite existing data.")
+        return
+
+    df["ey_rank"] = df["earnings_yield"].rank(ascending=False)
+    df["roc_rank"] = df["return_on_capital"].rank(ascending=False)
+    df["combined_rank"] = df["ey_rank"] + df["roc_rank"]
+    df = df.sort_values("combined_rank").reset_index(drop=True)
+
+    # --- Step 3: historical returns only for the final top-N (budget-limited) ---
+    top_symbols = df.head(TOP_N_FOR_RETURNS)["symbol"].tolist()
+    print(f"Fetching historical returns for top {len(top_symbols)} ranked stock(s)")
+    returns_map = {symbol: calc.fetch_returns(symbol) for symbol in top_symbols}
+
+    for col in ["return_1d", "return_1m", "return_1y"]:
+        df[col] = df["symbol"].map(lambda s: returns_map.get(s, {}).get(col))
+
+    output_columns = [
+        "symbol", "name", "sector", "market_cap",
+        "earnings_yield", "return_on_capital",
+        "return_1d", "return_1m", "return_1y",
+        "ey_rank", "roc_rank", "combined_rank",
+    ]
+    df = df[output_columns]
+
+    df.to_csv(RESULTS_CSV, index=False)
+    df.to_json(RESULTS_JSON, orient="records", indent=2)
+    save_json(LAST_UPDATED_FILE, {"generated_at": now.isoformat() + "Z"})
+
+    print("=" * 80)
+    print(f"Saved {len(df)} ranked stock(s) to {RESULTS_JSON} / {RESULTS_CSV}")
+    print(f"Average Earnings Yield: {df['earnings_yield'].mean():.2f}%")
+    print(f"Average Return on Capital: {df['return_on_capital'].mean():.2f}%")
+    print("=" * 80)
+
+
 if __name__ == "__main__":
-    # Get API key from environment variable (for GitHub Actions) or use hardcoded value
-    import os
-    import sys
-    
-    API_KEY = os.getenv('FMP_API_KEY')
-    if not API_KEY:
-        raise SystemExit("API Key not loaded")
-    
-    # Parse command line arguments
-    universe = 'large_cap'  # Default to S&P 500
-    limit = 200  # Default to top 100
-    
-    if len(sys.argv) > 1:
-        universe = sys.argv[1]  # sp500, large_cap, or all
-    if len(sys.argv) > 2:
-        limit = int(sys.argv[2])
-    
-    print(f"\n{'='*80}")
-    print(f"MAGIC FORMULA STOCK SCREENER")
-    print(f"Universe: {universe.upper()}")
-    print(f"Target stocks: {limit}")
-    print(f"{'='*80}\n")
-    
-    calculator = MagicFormulaCalculator(API_KEY)
-    
-    # Get top stocks from selected universe
-    top_stocks = calculator.get_top_stocks(universe=universe, limit=limit)
-    
-    # Display results
-    print("\n" + "="*80)
-    print(f"MAGIC FORMULA TOP {len(top_stocks)} STOCKS")
-    print("="*80)
-    print(top_stocks.head(30).to_string(index=False))  # Print first 30
-    
-    # Save to CSV
-    top_stocks.to_csv('public/magic_formula_results.csv', index=False)
-    print(f"\nResults saved to magic_formula_results.csv ({len(top_stocks)} stocks)")
-    
-    # Save to JSON for web display
-    top_stocks.to_json('public/magic_formula_results.json', orient='records', indent=2)
-    print(f"Results saved to magic_formula_results.json ({len(top_stocks)} stocks)")
-    
-    with open('public/last_updated.json', 'w') as f:
-        json.dump({'generated_at': datetime.datetime.utcnow().isoformat() + 'Z'}, f, indent=2)
-    print("Timestamp written to public/last_updated.json")
-
-    # Summary statistics
-    if top_stocks.empty:
-        print("No stocks passed screening — check the log above for the screener error.")
-    else:
-        print(f"Total stocks screened: {len(top_stocks)}")
-        print(f"Average Earnings Yield: {top_stocks['earnings_yield'].mean():.2f}%")
-        print(f"Average Return on Capital: {top_stocks['return_on_capital'].mean():.2f}%")
-        if 'return_1y' in top_stocks.columns:
-            valid_returns = top_stocks['return_1y'].dropna()
-            if len(valid_returns) > 0:
-                print(f"Average 1-Year Return: {valid_returns.mean():.2f}%")
-    print("="*80)
+    main()

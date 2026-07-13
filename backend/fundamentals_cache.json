@@ -1,0 +1,122 @@
+{
+  "AAPL": {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "sector": "Technology",
+    "ebit": 132729000000,
+    "total_assets": 359241000000,
+    "total_current_assets": 147957000000,
+    "total_current_liabilities": 165631000000,
+    "intangible_assets": 0,
+    "goodwill": 0,
+    "fetched_at": "2026-07-11T13:06:37.011688Z"
+  },
+  "MSFT": {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "sector": "Technology",
+    "ebit": 126012000000,
+    "total_assets": 619003000000,
+    "total_current_assets": 191131000000,
+    "total_current_liabilities": 141218000000,
+    "intangible_assets": 22604000000,
+    "goodwill": 119509000000,
+    "fetched_at": "2026-07-11T13:06:38.138150Z"
+  },
+  "GOOGL": {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "sector": "Communication Services",
+    "ebit": 158826000000,
+    "total_assets": 595281000000,
+    "total_current_assets": 206038000000,
+    "total_current_liabilities": 102745000000,
+    "intangible_assets": 0,
+    "goodwill": 33380000000,
+    "fetched_at": "2026-07-11T13:06:39.339248Z"
+  },
+  "AMZN": {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "sector": "Consumer Cyclical",
+    "ebit": 99585000000,
+    "total_assets": 818042000000,
+    "total_current_assets": 229083000000,
+    "total_current_liabilities": 218005000000,
+    "intangible_assets": 9197000000,
+    "goodwill": 23273000000,
+    "fetched_at": "2026-07-11T13:06:40.557857Z"
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "sector": "Technology",
+    "ebit": 141709000000,
+    "total_assets": 206803000000,
+    "total_current_assets": 125605000000,
+    "total_current_liabilities": 32163000000,
+    "intangible_assets": 3306000000,
+    "goodwill": 20832000000,
+    "fetched_at": "2026-07-11T13:06:41.749335Z"
+  },
+  "META": {
+    "symbol": "META",
+    "name": "Meta Platforms, Inc.",
+    "sector": "Communication Services",
+    "ebit": 85932000000,
+    "total_assets": 366021000000,
+    "total_current_assets": 108722000000,
+    "total_current_liabilities": 41836000000,
+    "intangible_assets": 3692000000,
+    "goodwill": 24534000000,
+    "fetched_at": "2026-07-11T13:06:43.380375Z"
+  },
+  "ADBE": {
+    "symbol": "ADBE",
+    "name": "Adobe Inc.",
+    "sector": "Technology",
+    "ebit": 8931000000,
+    "total_assets": 29496000000,
+    "total_current_assets": 10163000000,
+    "total_current_liabilities": 10200000000,
+    "intangible_assets": 495000000,
+    "goodwill": 12857000000,
+    "fetched_at": "2026-07-11T13:06:47.027677Z"
+  },
+  "CSCO": {
+    "symbol": "CSCO",
+    "name": "Cisco Systems, Inc.",
+    "sector": "Technology",
+    "ebit": 12516000000,
+    "total_assets": 122291000000,
+    "total_current_assets": 34986000000,
+    "total_current_liabilities": 35064000000,
+    "intangible_assets": 9175000000,
+    "goodwill": 59136000000,
+    "fetched_at": "2026-07-11T13:06:49.442122Z"
+  },
+  "AMD": {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices, Inc.",
+    "sector": "Technology",
+    "ebit": 4271000000,
+    "total_assets": 76926000000,
+    "total_current_assets": 26947000000,
+    "total_current_liabilities": 9455000000,
+    "intangible_assets": 16705000000,
+    "goodwill": 25126000000,
+    "fetched_at": "2026-07-11T13:06:51.827866Z"
+  },
+  "INTC": {
+    "symbol": "INTC",
+    "name": "Intel Corp.",
+    "sector": "Technology",
+    "ebit": 2648000000,
+    "total_assets": 211429000000,
+    "total_current_assets": 63688000000,
+    "total_current_liabilities": 31575000000,
+    "intangible_assets": 2772000000,
+    "goodwill": 23912000000,
+    "fetched_at": "2026-07-11T13:06:53.107722Z"
+  }
+}
