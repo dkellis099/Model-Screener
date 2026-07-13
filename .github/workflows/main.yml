@@ -32,7 +32,7 @@ jobs:
         env:
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
         run: |
-          python backend/Model_Generator.py
+          python backend/Model_Generator.py large_cap 200
 
       - name: Commit and push updated results
         run: |

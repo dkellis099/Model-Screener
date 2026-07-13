@@ -1,25 +1,26 @@
 """
-Magic Formula Stock Screener — data pipeline.
+Magic Formula Stock Screener — data pipeline (paid-tier version).
 
-Redesigned to work entirely within Financial Modeling Prep's free tier
-(250 requests/day). See Readme.md for the full architecture explanation.
+Assumes an FMP plan with access to company-screener and sp500-constituent
+(Starter or above) — the universe is pulled live from FMP again, not from a
+static curated list. See Readme.md for the methodology.
 
-Key design choices:
-- Ticker universe is a static, curated list (backend/universe.json), NOT
-  pulled from FMP's company-screener or sp500-constituent endpoints — both
-  are paid-tier only on the stable API. Refresh universe.json periodically
-  by hand from a free source, e.g.:
-  https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv
-- Fundamentals (income statement, balance sheet, profile — 3 calls/symbol)
-  are cached in backend/fundamentals_cache.json and refreshed on a rotating
-  basis (a limited number of symbols per run), since they only change
-  quarterly. This is the expensive part of the budget, so it's spread out.
-- Enterprise value / market cap / price (1 call/symbol via the
-  enterprise-values endpoint, which bundles all of it) is refreshed for
-  every cached symbol on every run, since that's cheap and changes daily.
-- Historical returns (1d/1m/1y) are only fetched for the final top-N ranked
-  stocks, not the whole scan universe, since they're a display feature and
-  the most expensive call per symbol.
+Retained from the free-tier version, because they're good practice
+independent of budget:
+- Fundamentals (income statement, balance sheet, profile) are cached in
+  backend/fundamentals_cache.json and only re-pulled when stale — they only
+  change quarterly, no reason to hit the API for them every single day.
+- The enterprise-values endpoint is used for market cap/EV in one call
+  instead of two.
+- Junk-ticker filtering (preferred shares, notes) and sector exclusion
+  (financials/utilities/real estate, per Greenblatt's original methodology).
+- The empty-DataFrame guard: a run that finds 0 qualifying stocks refuses to
+  overwrite existing good data instead of wiping the site's results.
+
+Usage:
+    python backend/Model_Generator.py [universe] [limit]
+    universe: "large_cap" (default) or "sp500"
+    limit:    number of top-ranked stocks to output (default 200)
 """
 
 import requests
@@ -29,24 +30,24 @@ import re
 import json
 import datetime
 import os
+import sys
 from typing import Dict, List, Optional
 
 # --- Config ---------------------------------------------------------------
 
-UNIVERSE_FILE = "backend/universe.json"
 FUNDAMENTALS_CACHE_FILE = "backend/fundamentals_cache.json"
 RESULTS_JSON = "public/magic_formula_results.json"
 RESULTS_CSV = "public/magic_formula_results.csv"
 LAST_UPDATED_FILE = "public/last_updated.json"
 
 FUNDAMENTALS_MAX_AGE_DAYS = 30      # re-pull income/balance/profile at most this often
-FUNDAMENTALS_REFRESH_BUDGET = 15    # symbols refreshed per run (3 calls each = 45 calls)
-TOP_N_FOR_RETURNS = 30              # only fetch historical returns for the final top N
+TOP_N_FOR_RETURNS = 100             # fetch historical returns for the final top N only
 
 MIN_MARKET_CAP = 2_000_000_000      # $2B floor for "large cap"
 SECTOR_EXCLUDE = {"Financial Services", "Utilities", "Real Estate"}
 
-REQUEST_DELAY_SECONDS = 0.25        # be polite to the API between calls
+SCREENER_UNIVERSE_LIMIT = 500       # how many symbols to pull from the screener before filtering
+REQUEST_DELAY_SECONDS = 0.1         # paid tier's rate limit is generous, but stay polite
 
 
 # --- Helpers ----------------------------------------------------------------
@@ -93,6 +94,37 @@ class MagicFormulaCalculator:
             print(f"{path} returned non-JSON for {params.get('symbol', '')}")
             return None
 
+    # --- Universe discovery (live, now that the plan supports it) ---
+
+    def get_sp500_symbols(self) -> List[str]:
+        data = self._get("sp500-constituent")
+        if not data:
+            return []
+        return [item["symbol"] for item in data if "symbol" in item]
+
+    def get_large_cap_symbols(self, limit: int = SCREENER_UNIVERSE_LIMIT) -> List[str]:
+        data = self._get(
+            "company-screener",
+            marketCapMoreThan=MIN_MARKET_CAP,
+            isEtf="false",
+            isFund="false",
+            isActivelyTrading="true",
+            limit=limit,
+        )
+        if not data:
+            return []
+        sorted_stocks = sorted(data, key=lambda x: x.get("marketCap", 0), reverse=True)
+        return [item["symbol"] for item in sorted_stocks[:limit]]
+
+    def get_universe(self, universe: str) -> List[str]:
+        if universe == "sp500":
+            print("Pulling S&P 500 constituents from FMP")
+            return self.get_sp500_symbols()
+        print(f"Pulling top {SCREENER_UNIVERSE_LIMIT} large-cap symbols from FMP's screener")
+        return self.get_large_cap_symbols()
+
+    # --- Fundamentals (cached, quarterly cadence) ---
+
     def fetch_fundamentals(self, symbol: str) -> Optional[Dict]:
         """3 API calls: income statement, balance sheet, profile."""
         income = self._get("income-statement", symbol=symbol, limit=1)
@@ -113,8 +145,6 @@ class MagicFormulaCalculator:
             "symbol": symbol,
             "name": profile.get("companyName", ""),
             "sector": profile.get("sector", ""),
-            # stable API's income-statement includes a real 'ebit' field;
-            # fall back to operatingIncome as an approximation if it's missing.
             "ebit": income.get("ebit", income.get("operatingIncome", 0)),
             "total_assets": balance.get("totalAssets", 0),
             "total_current_assets": balance.get("totalCurrentAssets", 0),
@@ -123,6 +153,8 @@ class MagicFormulaCalculator:
             "goodwill": balance.get("goodwill", 0),
             "fetched_at": datetime.datetime.utcnow().isoformat() + "Z",
         }
+
+    # --- Market data (fresh every run) ---
 
     def fetch_market_data(self, symbol: str) -> Optional[Dict]:
         """1 API call: enterprise-values bundles price, market cap, debt, cash, EV."""
@@ -143,7 +175,6 @@ class MagicFormulaCalculator:
         if not hist:
             return {"return_1d": None, "return_1m": None, "return_1y": None}
 
-        # Stable API returns a flat array, most-recent-first.
         closes = [row["close"] for row in hist if "close" in row]
 
         def pct_change(past_index):
@@ -157,15 +188,11 @@ class MagicFormulaCalculator:
             "return_1y": pct_change(252),
         }
 
+    # --- Filters & ranking math (pure functions, no network) ---
+
     @staticmethod
     def is_common_stock(symbol: str, name: str) -> bool:
-        """Best-effort filter for junk tickers (preferred shares, notes, etc.).
-
-        Preferred/debt issues are often named with keywords like "Preferred" or
-        "Depositary", but just as often just have a bare coupon rate tacked on
-        (e.g. "Prudential Financial, Inc. 5.95") with no keyword at all — so a
-        numeric-rate pattern is checked too.
-        """
+        """Best-effort filter for junk tickers (preferred shares, notes, etc.)."""
         if not re.fullmatch(r"[A-Z]{1,5}", symbol):
             return False
         name_lower = (name or "").lower()
@@ -223,21 +250,32 @@ def main():
     if not api_key:
         raise SystemExit("FMP_API_KEY not set")
 
+    universe_mode = sys.argv[1] if len(sys.argv) > 1 else "large_cap"
+    output_limit = int(sys.argv[2]) if len(sys.argv) > 2 else 200
+
     calc = MagicFormulaCalculator(api_key)
     now = datetime.datetime.utcnow()
 
-    universe: List[str] = load_json(UNIVERSE_FILE, [])
+    print("=" * 80)
+    print(f"MAGIC FORMULA STOCK SCREENER — universe={universe_mode}, limit={output_limit}")
+    print("=" * 80)
+
+    universe = calc.get_universe(universe_mode)
     if not universe:
-        raise SystemExit(f"No tickers found in {UNIVERSE_FILE} — nothing to screen.")
+        print("Universe discovery returned 0 symbols (screener/sp500-constituent call "
+              "failed or your plan doesn't include it) — refusing to proceed.")
+        return
     print(f"Universe: {len(universe)} symbols")
 
-    # --- Step 1: rotate fundamentals refresh for stale/missing symbols ---
+    # --- Step 1: refresh stale fundamentals (all of them — paid tier can afford it) ---
     cache: Dict[str, Dict] = load_json(FUNDAMENTALS_CACHE_FILE, {})
-    stale_symbols = [s for s in universe if is_stale(cache.get(s), now)][:FUNDAMENTALS_REFRESH_BUDGET]
-    print(f"Refreshing fundamentals for {len(stale_symbols)} symbol(s) this run "
-          f"({len(universe) - len([s for s in universe if is_stale(cache.get(s), now)])} already fresh)")
+    stale_symbols = [s for s in universe if is_stale(cache.get(s), now)]
+    print(f"Refreshing fundamentals for {len(stale_symbols)} symbol(s) "
+          f"({len(universe) - len(stale_symbols)} already fresh)")
 
-    for symbol in stale_symbols:
+    for i, symbol in enumerate(stale_symbols):
+        if i % 25 == 0:
+            print(f"  fundamentals progress: {i}/{len(stale_symbols)}")
         data = calc.fetch_fundamentals(symbol)
         if data:
             cache[symbol] = data
@@ -249,8 +287,7 @@ def main():
     # --- Step 2: daily EV/price pull + ranking for every symbol with cached fundamentals ---
     rows = []
     cached_symbols = [s for s in universe if s in cache]
-    print(f"Scoring {len(cached_symbols)} symbol(s) with cached fundamentals "
-          f"({len(universe) - len(cached_symbols)} not yet cached — will appear in a future run)")
+    print(f"Scoring {len(cached_symbols)} symbol(s) with cached fundamentals")
 
     for symbol in cached_symbols:
         fundamentals = cache[symbol]
@@ -279,8 +316,9 @@ def main():
     df["roc_rank"] = df["return_on_capital"].rank(ascending=False)
     df["combined_rank"] = df["ey_rank"] + df["roc_rank"]
     df = df.sort_values("combined_rank").reset_index(drop=True)
+    df = df.head(output_limit)
 
-    # --- Step 3: historical returns only for the final top-N (budget-limited) ---
+    # --- Step 3: historical returns for the final top-N ---
     top_symbols = df.head(TOP_N_FOR_RETURNS)["symbol"].tolist()
     print(f"Fetching historical returns for top {len(top_symbols)} ranked stock(s)")
     returns_map = {symbol: calc.fetch_returns(symbol) for symbol in top_symbols}
