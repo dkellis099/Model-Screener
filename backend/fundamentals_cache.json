@@ -5986,5 +5986,29 @@
     "intangible_assets": 1344000000,
     "goodwill": 0,
     "fetched_at": "2026-07-13T14:10:46.564815Z"
+  },
+  "NMR": {
+    "symbol": "NMR",
+    "name": "Nomura Holdings, Inc.",
+    "sector": "Financial Services",
+    "ebit": 539821000000,
+    "total_assets": 62645925000000,
+    "total_current_assets": 59083761000000,
+    "total_current_liabilities": 41432419000000,
+    "intangible_assets": 0,
+    "goodwill": 0,
+    "fetched_at": "2026-07-13T16:32:55.305314Z"
+  },
+  "WTW": {
+    "symbol": "WTW",
+    "name": "Willis Towers Watson Public Limited Company",
+    "sector": "Financial Services",
+    "ebit": 2257000000,
+    "total_assets": 29530000000,
+    "total_current_assets": 16874000000,
+    "total_current_liabilities": 14004000000,
+    "intangible_assets": 1141000000,
+    "goodwill": 8938000000,
+    "fetched_at": "2026-07-13T16:32:55.822933Z"
   }
 }
