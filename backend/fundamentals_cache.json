@@ -6010,5 +6010,41 @@
     "intangible_assets": 1141000000,
     "goodwill": 8938000000,
     "fetched_at": "2026-07-13T16:32:55.822933Z"
+  },
+  "TSEM": {
+    "symbol": "TSEM",
+    "name": "Tower Semiconductor Ltd.",
+    "sector": "Technology",
+    "ebit": 240383000,
+    "total_assets": 3322290000,
+    "total_current_assets": 1709622000,
+    "total_current_liabilities": 263747000,
+    "intangible_assets": 3981000,
+    "goodwill": 7000000,
+    "fetched_at": "2026-07-14T15:23:09.298133Z"
+  },
+  "TECK": {
+    "symbol": "TECK",
+    "name": "Teck Resources Limited",
+    "sector": "Basic Materials",
+    "ebit": 2470984667,
+    "total_assets": 45398972658,
+    "total_current_assets": 11154902076,
+    "total_current_liabilities": 4399411845,
+    "intangible_assets": 168862276,
+    "goodwill": 420656912,
+    "fetched_at": "2026-07-14T15:23:09.810716Z"
+  },
+  "MSTR": {
+    "symbol": "MSTR",
+    "name": "Strategy Inc",
+    "sector": "Technology",
+    "ebit": -5460986000,
+    "total_assets": 61641082000,
+    "total_current_assets": 2564137000,
+    "total_current_liabilities": 456492000,
+    "intangible_assets": 58854028000,
+    "goodwill": 0,
+    "fetched_at": "2026-07-14T15:23:10.389234Z"
   }
 }
