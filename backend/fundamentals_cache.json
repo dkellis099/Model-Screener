@@ -6046,5 +6046,53 @@
     "intangible_assets": 58854028000,
     "goodwill": 0,
     "fetched_at": "2026-07-14T15:23:10.389234Z"
+  },
+  "BDXA": {
+    "symbol": "BDXA",
+    "name": "Becton, Dickinson and Company",
+    "sector": "Healthcare",
+    "ebit": 2495000000,
+    "total_assets": 55325000000,
+    "total_current_assets": 9255000000,
+    "total_current_liabilities": 8313000000,
+    "intangible_assets": 2994000000,
+    "goodwill": 33023000000,
+    "fetched_at": "2026-07-15T15:26:22.972745Z"
+  },
+  "FE": {
+    "symbol": "FE",
+    "name": "FirstEnergy Corp.",
+    "sector": "Utilities",
+    "ebit": 2699000000,
+    "total_assets": 55904000000,
+    "total_current_assets": 2979000000,
+    "total_current_liabilities": 5271000000,
+    "intangible_assets": 0,
+    "goodwill": 5618000000,
+    "fetched_at": "2026-07-15T15:26:23.897851Z"
+  },
+  "TPR": {
+    "symbol": "TPR",
+    "name": "Tapestry, Inc.",
+    "sector": "Consumer Cyclical",
+    "ebit": 301500000,
+    "total_assets": 6580500000,
+    "total_current_assets": 2905600000,
+    "total_current_liabilities": 1556900000,
+    "intangible_assets": 719600000,
+    "goodwill": 983300000,
+    "fetched_at": "2026-07-15T15:26:24.738680Z"
+  },
+  "VICI": {
+    "symbol": "VICI",
+    "name": "VICI Properties Inc.",
+    "sector": "Real Estate",
+    "ebit": 3639084000,
+    "total_assets": 46724168000,
+    "total_current_assets": 19339997000,
+    "total_current_liabilities": 724974000,
+    "intangible_assets": 0,
+    "goodwill": 0,
+    "fetched_at": "2026-07-15T15:26:25.550366Z"
   }
 }
