@@ -6094,5 +6094,29 @@
     "intangible_assets": 0,
     "goodwill": 0,
     "fetched_at": "2026-07-15T15:26:25.550366Z"
+  },
+  "SKHYV": {
+    "symbol": "SKHYV",
+    "name": "SK hynix Inc.",
+    "sector": "Technology",
+    "ebit": 51389255000000,
+    "total_assets": 176107659000000,
+    "total_current_assets": 69458073000000,
+    "total_current_liabilities": 37378999000000,
+    "intangible_assets": 3241879000000,
+    "goodwill": 807523000000,
+    "fetched_at": "2026-07-16T15:38:28.157270Z"
+  },
+  "AMRZ": {
+    "symbol": "AMRZ",
+    "name": "Amrize Ltd",
+    "sector": "Basic Materials",
+    "ebit": 1910000000,
+    "total_assets": 24249000000,
+    "total_current_assets": 4681000000,
+    "total_current_liabilities": 2857000000,
+    "intangible_assets": 1728000000,
+    "goodwill": 9020000000,
+    "fetched_at": "2026-07-16T15:38:29.150168Z"
   }
 }
