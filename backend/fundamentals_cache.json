@@ -6142,5 +6142,17 @@
     "intangible_assets": 1200050000,
     "goodwill": 4338589000,
     "fetched_at": "2026-07-17T15:13:09.323596Z"
+  },
+  "DVN": {
+    "symbol": "DVN",
+    "name": "Devon Energy Corporation",
+    "sector": "Energy",
+    "ebit": 3963000000,
+    "total_assets": 31599000000,
+    "total_current_assets": 4006000000,
+    "total_current_liabilities": 4086000000,
+    "intangible_assets": 0,
+    "goodwill": 753000000,
+    "fetched_at": "2026-07-23T15:55:35.161845Z"
   }
 }
