@@ -6154,5 +6154,17 @@
     "intangible_assets": 0,
     "goodwill": 753000000,
     "fetched_at": "2026-07-23T15:55:35.161845Z"
+  },
+  "WRB": {
+    "symbol": "WRB",
+    "name": "W. R. Berkley Corporation",
+    "sector": "Financial Services",
+    "ebit": 2405017000,
+    "total_assets": 44071071000,
+    "total_current_assets": 36889653000,
+    "total_current_liabilities": 26540556000,
+    "intangible_assets": 1000691000,
+    "goodwill": 184332000,
+    "fetched_at": "2026-07-24T15:25:20.893190Z"
   }
 }
