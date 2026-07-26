@@ -294,20 +294,6 @@
     "combined_rank":135.0
   },
   {
-    "symbol":"ACN",
-    "name":"Accenture plc",
-    "sector":"Technology",
-    "market_cap":162453081990,
-    "earnings_yield":6.6,
-    "return_on_capital":52.24,
-    "return_1d":5.95,
-    "return_1m":13.81,
-    "return_1y":-48.61,
-    "ey_rank":82.0,
-    "roc_rank":57.0,
-    "combined_rank":139.0
-  },
-  {
     "symbol":"KVUE",
     "name":"Kenvue Inc.",
     "sector":"Consumer Defensive",
@@ -319,6 +305,20 @@
     "return_1y":-14.46,
     "ey_rank":111.0,
     "roc_rank":28.0,
+    "combined_rank":139.0
+  },
+  {
+    "symbol":"ACN",
+    "name":"Accenture plc",
+    "sector":"Technology",
+    "market_cap":162453081990,
+    "earnings_yield":6.6,
+    "return_on_capital":52.24,
+    "return_1d":5.95,
+    "return_1m":13.81,
+    "return_1y":-48.61,
+    "ey_rank":82.0,
+    "roc_rank":57.0,
     "combined_rank":139.0
   },
   {
@@ -476,20 +476,6 @@
     "combined_rank":157.0
   },
   {
-    "symbol":"MRK",
-    "name":"Merck & Co., Inc.",
-    "sector":"Healthcare",
-    "market_cap":263360520000,
-    "earnings_yield":7.49,
-    "return_on_capital":37.2,
-    "return_1d":0.45,
-    "return_1m":8.68,
-    "return_1y":56.07,
-    "ey_rank":66.0,
-    "roc_rank":95.0,
-    "combined_rank":161.0
-  },
-  {
     "symbol":"HCA",
     "name":"HCA Healthcare, Inc.",
     "sector":"Healthcare",
@@ -501,6 +487,20 @@
     "return_1y":8.19,
     "ey_rank":62.0,
     "roc_rank":99.0,
+    "combined_rank":161.0
+  },
+  {
+    "symbol":"MRK",
+    "name":"Merck & Co., Inc.",
+    "sector":"Healthcare",
+    "market_cap":263360520000,
+    "earnings_yield":7.49,
+    "return_on_capital":37.2,
+    "return_1d":0.45,
+    "return_1m":8.68,
+    "return_1y":56.07,
+    "ey_rank":66.0,
+    "roc_rank":95.0,
     "combined_rank":161.0
   },
   {
@@ -532,20 +532,6 @@
     "combined_rank":165.5
   },
   {
-    "symbol":"NEM",
-    "name":"Newmont Corporation",
-    "sector":"Basic Materials",
-    "market_cap":110434100000,
-    "earnings_yield":11.12,
-    "return_on_capital":24.75,
-    "return_1d":-1.62,
-    "return_1m":-0.9,
-    "return_1y":51.73,
-    "ey_rank":19.0,
-    "roc_rank":157.0,
-    "combined_rank":176.0
-  },
-  {
     "symbol":"PG",
     "name":"The Procter & Gamble Company",
     "sector":"Consumer Defensive",
@@ -560,18 +546,18 @@
     "combined_rank":176.0
   },
   {
-    "symbol":"BKNG",
-    "name":"Booking Holdings Inc.",
-    "sector":"Consumer Cyclical",
-    "market_cap":173788573000,
-    "earnings_yield":4.8,
-    "return_on_capital":94.1,
-    "return_1d":2.68,
-    "return_1m":-2.09,
-    "return_1y":-22.66,
-    "ey_rank":162.0,
-    "roc_rank":20.0,
-    "combined_rank":182.0
+    "symbol":"NEM",
+    "name":"Newmont Corporation",
+    "sector":"Basic Materials",
+    "market_cap":110434100000,
+    "earnings_yield":11.12,
+    "return_on_capital":24.75,
+    "return_1d":-1.62,
+    "return_1m":-0.9,
+    "return_1y":51.73,
+    "ey_rank":19.0,
+    "roc_rank":157.0,
+    "combined_rank":176.0
   },
   {
     "symbol":"HON",
@@ -585,6 +571,20 @@
     "return_1y":1.62,
     "ey_rank":53.0,
     "roc_rank":129.0,
+    "combined_rank":182.0
+  },
+  {
+    "symbol":"BKNG",
+    "name":"Booking Holdings Inc.",
+    "sector":"Consumer Cyclical",
+    "market_cap":173788573000,
+    "earnings_yield":4.8,
+    "return_on_capital":94.1,
+    "return_1d":2.68,
+    "return_1m":-2.09,
+    "return_1y":-22.66,
+    "ey_rank":162.0,
+    "roc_rank":20.0,
     "combined_rank":182.0
   },
   {
@@ -700,20 +700,6 @@
     "combined_rank":202.0
   },
   {
-    "symbol":"PH",
-    "name":"Parker-Hannifin Corporation",
-    "sector":"Industrials",
-    "market_cap":89613701000,
-    "earnings_yield":4.57,
-    "return_on_capital":80.54,
-    "return_1d":0.21,
-    "return_1m":2.75,
-    "return_1y":35.62,
-    "ey_rank":174.0,
-    "roc_rank":30.0,
-    "combined_rank":204.0
-  },
-  {
     "symbol":"CQP",
     "name":"Cheniere Energy Partners, L.P.",
     "sector":"Energy",
@@ -728,18 +714,18 @@
     "combined_rank":204.0
   },
   {
-    "symbol":"RYAAY",
-    "name":"Ryanair Holdings plc",
+    "symbol":"PH",
+    "name":"Parker-Hannifin Corporation",
     "sector":"Industrials",
-    "market_cap":26388967144,
-    "earnings_yield":9.71,
-    "return_on_capital":22.1,
-    "return_1d":0.89,
-    "return_1m":-10.8,
-    "return_1y":-9.04,
-    "ey_rank":32.0,
-    "roc_rank":173.0,
-    "combined_rank":205.0
+    "market_cap":89613701000,
+    "earnings_yield":4.57,
+    "return_on_capital":80.54,
+    "return_1d":0.21,
+    "return_1m":2.75,
+    "return_1y":35.62,
+    "ey_rank":174.0,
+    "roc_rank":30.0,
+    "combined_rank":204.0
   },
   {
     "symbol":"WDC",
@@ -753,6 +739,20 @@
     "return_1y":649.86,
     "ey_rank":107.0,
     "roc_rank":98.0,
+    "combined_rank":205.0
+  },
+  {
+    "symbol":"RYAAY",
+    "name":"Ryanair Holdings plc",
+    "sector":"Industrials",
+    "market_cap":26388967144,
+    "earnings_yield":9.71,
+    "return_on_capital":22.1,
+    "return_1d":0.89,
+    "return_1m":-10.8,
+    "return_1y":-9.04,
+    "ey_rank":32.0,
+    "roc_rank":173.0,
     "combined_rank":205.0
   },
   {
@@ -1078,20 +1078,6 @@
     "combined_rank":232.0
   },
   {
-    "symbol":"AMAT",
-    "name":"Applied Materials, Inc.",
-    "sector":"Technology",
-    "market_cap":185989320000,
-    "earnings_yield":5.13,
-    "return_on_capital":39.15,
-    "return_1d":-4.72,
-    "return_1m":-8.95,
-    "return_1y":186.75,
-    "ey_rank":149.0,
-    "roc_rank":85.0,
-    "combined_rank":234.0
-  },
-  {
     "symbol":"AME",
     "name":"AMETEK, Inc.",
     "sector":"Industrials",
@@ -1103,6 +1089,20 @@
     "return_1y":33.48,
     "ey_rank":216.0,
     "roc_rank":18.0,
+    "combined_rank":234.0
+  },
+  {
+    "symbol":"AMAT",
+    "name":"Applied Materials, Inc.",
+    "sector":"Technology",
+    "market_cap":185989320000,
+    "earnings_yield":5.13,
+    "return_on_capital":39.15,
+    "return_1d":-4.72,
+    "return_1m":-8.95,
+    "return_1y":186.75,
+    "ey_rank":149.0,
+    "roc_rank":85.0,
     "combined_rank":234.0
   },
   {
@@ -1148,6 +1148,20 @@
     "combined_rank":238.5
   },
   {
+    "symbol":"SAP",
+    "name":"SAP SE",
+    "sector":"Technology",
+    "market_cap":241059657366,
+    "earnings_yield":4.47,
+    "return_on_capital":49.35,
+    "return_1d":9.3,
+    "return_1m":4.75,
+    "return_1y":-44.95,
+    "ey_rank":179.5,
+    "roc_rank":62.0,
+    "combined_rank":241.5
+  },
+  {
     "symbol":"ILMN",
     "name":"Illumina, Inc.",
     "sector":"Healthcare",
@@ -1173,20 +1187,6 @@
     "return_1y":33.52,
     "ey_rank":114.5,
     "roc_rank":127.0,
-    "combined_rank":241.5
-  },
-  {
-    "symbol":"SAP",
-    "name":"SAP SE",
-    "sector":"Technology",
-    "market_cap":241059657366,
-    "earnings_yield":4.47,
-    "return_on_capital":49.35,
-    "return_1d":9.3,
-    "return_1m":4.75,
-    "return_1y":-44.95,
-    "ey_rank":179.5,
-    "roc_rank":62.0,
     "combined_rank":241.5
   },
   {
@@ -1218,20 +1218,6 @@
     "combined_rank":245.0
   },
   {
-    "symbol":"TDG",
-    "name":"TransDigm Group Incorporated",
-    "sector":"Industrials",
-    "market_cap":76708764000,
-    "earnings_yield":4.04,
-    "return_on_capital":63.07,
-    "return_1d":1.88,
-    "return_1m":-6.5,
-    "return_1y":-22.6,
-    "ey_rank":203.0,
-    "roc_rank":43.0,
-    "combined_rank":246.0
-  },
-  {
     "symbol":"TS",
     "name":"Tenaris S.A.",
     "sector":"Energy",
@@ -1246,31 +1232,31 @@
     "combined_rank":246.0
   },
   {
-    "symbol":"NOC",
-    "name":"Northrop Grumman Corporation",
+    "symbol":"TDG",
+    "name":"TransDigm Group Incorporated",
     "sector":"Industrials",
-    "market_cap":81825135000,
-    "earnings_yield":5.9,
-    "return_on_capital":28.88,
-    "return_1d":1.64,
-    "return_1m":7.8,
-    "return_1y":-4.62,
-    "ey_rank":110.0,
-    "roc_rank":137.0,
-    "combined_rank":247.0
+    "market_cap":76708764000,
+    "earnings_yield":4.04,
+    "return_on_capital":63.07,
+    "return_1d":1.88,
+    "return_1m":-6.5,
+    "return_1y":-22.6,
+    "ey_rank":203.0,
+    "roc_rank":43.0,
+    "combined_rank":246.0
   },
   {
-    "symbol":"MPC",
-    "name":"Marathon Petroleum Corporation",
+    "symbol":"DVN",
+    "name":"Devon Energy Corporation",
     "sector":"Energy",
-    "market_cap":49602150000,
-    "earnings_yield":10.5,
-    "return_on_capital":15.66,
-    "return_1d":-0.97,
-    "return_1m":25.45,
-    "return_1y":74.18,
-    "ey_rank":21.5,
-    "roc_rank":225.5,
+    "market_cap":23003640000,
+    "earnings_yield":13.06,
+    "return_on_capital":14.81,
+    "return_1d":-0.55,
+    "return_1m":5.38,
+    "return_1y":35.5,
+    "ey_rank":10.0,
+    "roc_rank":237.0,
     "combined_rank":247.0
   },
   {
@@ -1288,17 +1274,31 @@
     "combined_rank":247.0
   },
   {
-    "symbol":"DVN",
-    "name":"Devon Energy Corporation",
+    "symbol":"MPC",
+    "name":"Marathon Petroleum Corporation",
     "sector":"Energy",
-    "market_cap":23003640000,
-    "earnings_yield":13.06,
-    "return_on_capital":14.81,
-    "return_1d":-0.55,
-    "return_1m":5.38,
-    "return_1y":35.5,
-    "ey_rank":10.0,
-    "roc_rank":237.0,
+    "market_cap":49602150000,
+    "earnings_yield":10.5,
+    "return_on_capital":15.66,
+    "return_1d":-0.97,
+    "return_1m":25.45,
+    "return_1y":74.18,
+    "ey_rank":21.5,
+    "roc_rank":225.5,
+    "combined_rank":247.0
+  },
+  {
+    "symbol":"NOC",
+    "name":"Northrop Grumman Corporation",
+    "sector":"Industrials",
+    "market_cap":81825135000,
+    "earnings_yield":5.9,
+    "return_on_capital":28.88,
+    "return_1d":1.64,
+    "return_1m":7.8,
+    "return_1y":-4.62,
+    "ey_rank":110.0,
+    "roc_rank":137.0,
     "combined_rank":247.0
   },
   {
@@ -1344,20 +1344,6 @@
     "combined_rank":249.0
   },
   {
-    "symbol":"BIIB",
-    "name":"Biogen Inc.",
-    "sector":"Healthcare",
-    "market_cap":25817733000,
-    "earnings_yield":7.28,
-    "return_on_capital":20.78,
-    "return_1d":0.78,
-    "return_1m":1.3,
-    "return_1y":54.37,
-    "ey_rank":70.0,
-    "roc_rank":183.0,
-    "combined_rank":253.0
-  },
-  {
     "symbol":"SHW",
     "name":"The Sherwin-Williams Company",
     "sector":"Basic Materials",
@@ -1369,6 +1355,20 @@
     "return_1y":-7.42,
     "ey_rank":203.0,
     "roc_rank":50.0,
+    "combined_rank":253.0
+  },
+  {
+    "symbol":"BIIB",
+    "name":"Biogen Inc.",
+    "sector":"Healthcare",
+    "market_cap":25817733000,
+    "earnings_yield":7.28,
+    "return_on_capital":20.78,
+    "return_1d":0.78,
+    "return_1m":1.3,
+    "return_1y":54.37,
+    "ey_rank":70.0,
+    "roc_rank":183.0,
     "combined_rank":253.0
   },
   {
@@ -1554,20 +1554,6 @@
     "combined_rank":273.5
   },
   {
-    "symbol":"LOW",
-    "name":"Lowe's Companies, Inc.",
-    "sector":"Consumer Cyclical",
-    "market_cap":149286540000,
-    "earnings_yield":4.53,
-    "return_on_capital":35.23,
-    "return_1d":null,
-    "return_1m":null,
-    "return_1y":null,
-    "ey_rank":176.0,
-    "roc_rank":100.0,
-    "combined_rank":276.0
-  },
-  {
     "symbol":"NVDA",
     "name":"NVIDIA Corporation",
     "sector":"Technology",
@@ -1579,6 +1565,20 @@
     "return_1y":null,
     "ey_rank":257.0,
     "roc_rank":19.0,
+    "combined_rank":276.0
+  },
+  {
+    "symbol":"LOW",
+    "name":"Lowe's Companies, Inc.",
+    "sector":"Consumer Cyclical",
+    "market_cap":149286540000,
+    "earnings_yield":4.53,
+    "return_on_capital":35.23,
+    "return_1d":null,
+    "return_1m":null,
+    "return_1y":null,
+    "ey_rank":176.0,
+    "roc_rank":100.0,
     "combined_rank":276.0
   },
   {
@@ -1764,20 +1764,6 @@
     "combined_rank":288.0
   },
   {
-    "symbol":"JBL",
-    "name":"Jabil Inc.",
-    "sector":"Technology",
-    "market_cap":22428885000,
-    "earnings_yield":4.76,
-    "return_on_capital":30.58,
-    "return_1d":null,
-    "return_1m":null,
-    "return_1y":null,
-    "ey_rank":165.5,
-    "roc_rank":123.0,
-    "combined_rank":288.5
-  },
-  {
     "symbol":"FICO",
     "name":"Fair Isaac Corporation",
     "sector":"Technology",
@@ -1789,6 +1775,20 @@
     "return_1y":null,
     "ey_rank":285.5,
     "roc_rank":3.0,
+    "combined_rank":288.5
+  },
+  {
+    "symbol":"JBL",
+    "name":"Jabil Inc.",
+    "sector":"Technology",
+    "market_cap":22428885000,
+    "earnings_yield":4.76,
+    "return_on_capital":30.58,
+    "return_1d":null,
+    "return_1m":null,
+    "return_1y":null,
+    "ey_rank":165.5,
+    "roc_rank":123.0,
     "combined_rank":288.5
   },
   {
@@ -2226,20 +2226,6 @@
     "combined_rank":316.0
   },
   {
-    "symbol":"FAST",
-    "name":"Fastenal Company",
-    "sector":"Industrials",
-    "market_cap":46053188000,
-    "earnings_yield":3.59,
-    "return_on_capital":38.3,
-    "return_1d":null,
-    "return_1m":null,
-    "return_1y":null,
-    "ey_rank":228.5,
-    "roc_rank":88.0,
-    "combined_rank":316.5
-  },
-  {
     "symbol":"FTI",
     "name":"TechnipFMC plc",
     "sector":"Energy",
@@ -2251,6 +2237,20 @@
     "return_1y":null,
     "ey_rank":138.5,
     "roc_rank":178.0,
+    "combined_rank":316.5
+  },
+  {
+    "symbol":"FAST",
+    "name":"Fastenal Company",
+    "sector":"Industrials",
+    "market_cap":46053188000,
+    "earnings_yield":3.59,
+    "return_on_capital":38.3,
+    "return_1d":null,
+    "return_1m":null,
+    "return_1y":null,
+    "ey_rank":228.5,
+    "roc_rank":88.0,
     "combined_rank":316.5
   },
   {
@@ -2268,17 +2268,17 @@
     "combined_rank":317.0
   },
   {
-    "symbol":"JD",
-    "name":"JD.com, Inc.",
-    "sector":"Consumer Cyclical",
-    "market_cap":285678827070,
-    "earnings_yield":11.57,
-    "return_on_capital":7.92,
+    "symbol":"MNST",
+    "name":"Monster Beverage Corporation",
+    "sector":"Consumer Defensive",
+    "market_cap":74821256290,
+    "earnings_yield":3.42,
+    "return_on_capital":42.69,
     "return_1d":null,
     "return_1m":null,
     "return_1y":null,
-    "ey_rank":17.0,
-    "roc_rank":300.0,
+    "ey_rank":240.0,
+    "roc_rank":77.0,
     "combined_rank":317.0
   },
   {
@@ -2296,17 +2296,17 @@
     "combined_rank":317.0
   },
   {
-    "symbol":"MNST",
-    "name":"Monster Beverage Corporation",
-    "sector":"Consumer Defensive",
-    "market_cap":74821256290,
-    "earnings_yield":3.42,
-    "return_on_capital":42.69,
+    "symbol":"JD",
+    "name":"JD.com, Inc.",
+    "sector":"Consumer Cyclical",
+    "market_cap":285678827070,
+    "earnings_yield":11.57,
+    "return_on_capital":7.92,
     "return_1d":null,
     "return_1m":null,
     "return_1y":null,
-    "ey_rank":240.0,
-    "roc_rank":77.0,
+    "ey_rank":17.0,
+    "roc_rank":300.0,
     "combined_rank":317.0
   },
   {
@@ -2520,6 +2520,20 @@
     "combined_rank":328.0
   },
   {
+    "symbol":"PFE",
+    "name":"Pfizer Inc.",
+    "sector":"Healthcare",
+    "market_cap":141500699100,
+    "earnings_yield":4.9,
+    "return_on_capital":22.07,
+    "return_1d":null,
+    "return_1m":null,
+    "return_1y":null,
+    "ey_rank":156.0,
+    "roc_rank":174.0,
+    "combined_rank":330.0
+  },
+  {
     "symbol":"DIS",
     "name":"The Walt Disney Company",
     "sector":"Communication Services",
@@ -2545,20 +2559,6 @@
     "return_1y":null,
     "ey_rank":233.0,
     "roc_rank":97.0,
-    "combined_rank":330.0
-  },
-  {
-    "symbol":"PFE",
-    "name":"Pfizer Inc.",
-    "sector":"Healthcare",
-    "market_cap":141500699100,
-    "earnings_yield":4.9,
-    "return_on_capital":22.07,
-    "return_1d":null,
-    "return_1m":null,
-    "return_1y":null,
-    "ey_rank":156.0,
-    "roc_rank":174.0,
     "combined_rank":330.0
   },
   {
@@ -2730,20 +2730,6 @@
     "combined_rank":341.5
   },
   {
-    "symbol":"VIK",
-    "name":"Viking Holdings Ltd",
-    "sector":"Consumer Cyclical",
-    "market_cap":31670192180,
-    "earnings_yield":4.55,
-    "return_on_capital":23.8,
-    "return_1d":null,
-    "return_1m":null,
-    "return_1y":null,
-    "ey_rank":175.0,
-    "roc_rank":167.0,
-    "combined_rank":342.0
-  },
-  {
     "symbol":"SYK",
     "name":"Stryker Corporation",
     "sector":"Healthcare",
@@ -2755,6 +2741,20 @@
     "return_1y":null,
     "ey_rank":237.0,
     "roc_rank":105.0,
+    "combined_rank":342.0
+  },
+  {
+    "symbol":"VIK",
+    "name":"Viking Holdings Ltd",
+    "sector":"Consumer Cyclical",
+    "market_cap":31670192180,
+    "earnings_yield":4.55,
+    "return_on_capital":23.8,
+    "return_1d":null,
+    "return_1m":null,
+    "return_1y":null,
+    "ey_rank":175.0,
+    "roc_rank":167.0,
     "combined_rank":342.0
   },
   {
