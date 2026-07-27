@@ -6166,5 +6166,29 @@
     "intangible_assets": 1000691000,
     "goodwill": 184332000,
     "fetched_at": "2026-07-24T15:25:20.893190Z"
+  },
+  "JBS": {
+    "symbol": "JBS",
+    "name": "Jbs N.V.",
+    "sector": "Consumer Defensive",
+    "ebit": 23584091000,
+    "total_assets": 248344325000,
+    "total_current_assets": 101403450000,
+    "total_current_liabilities": 63475776000,
+    "intangible_assets": 10040097000,
+    "goodwill": 32187041000,
+    "fetched_at": "2026-07-27T16:18:47.946666Z"
+  },
+  "TCOM": {
+    "symbol": "TCOM",
+    "name": "Trip.com Group Limited",
+    "sector": "Consumer Cyclical",
+    "ebit": 38958844000,
+    "total_assets": 267557270000,
+    "total_current_assets": 121127084000,
+    "total_current_liabilities": 78218777000,
+    "intangible_assets": 13021287000,
+    "goodwill": 62307652000,
+    "fetched_at": "2026-07-27T16:18:48.472321Z"
   }
 }
