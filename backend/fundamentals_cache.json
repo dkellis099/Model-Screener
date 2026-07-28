@@ -6190,5 +6190,29 @@
     "intangible_assets": 13021287000,
     "goodwill": 62307652000,
     "fetched_at": "2026-07-27T16:18:48.472321Z"
+  },
+  "FISV": {
+    "symbol": "FISV",
+    "name": "Fiserv, Inc.",
+    "sector": "Technology",
+    "ebit": 5794000000,
+    "total_assets": 80133000000,
+    "total_current_assets": 24654000000,
+    "total_current_liabilities": 23890000000,
+    "intangible_assets": 10161000000,
+    "goodwill": 37703000000,
+    "fetched_at": "2026-07-28T16:04:57.494513Z"
+  },
+  "CPRT": {
+    "symbol": "CPRT",
+    "name": "Copart, Inc.",
+    "sector": "Industrials",
+    "ebit": 1895581000,
+    "total_assets": 10090902000,
+    "total_current_assets": 5638483000,
+    "total_current_liabilities": 683281000,
+    "intangible_assets": 62832000,
+    "goodwill": 517779000,
+    "fetched_at": "2026-07-28T16:04:58.012017Z"
   }
 }
