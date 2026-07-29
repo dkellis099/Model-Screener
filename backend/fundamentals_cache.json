@@ -6214,5 +6214,17 @@
     "intangible_assets": 62832000,
     "goodwill": 517779000,
     "fetched_at": "2026-07-28T16:04:58.012017Z"
+  },
+  "VRSK": {
+    "symbol": "VRSK",
+    "name": "Verisk Analytics, Inc.",
+    "sector": "Technology",
+    "ebit": 1379900000,
+    "total_assets": 6195500000,
+    "total_current_assets": 2765400000,
+    "total_current_liabilities": 2300300000,
+    "intangible_assets": 346600000,
+    "goodwill": 1878200000,
+    "fetched_at": "2026-07-29T15:48:52.219119Z"
   }
 }
