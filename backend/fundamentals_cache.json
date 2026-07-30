@@ -6226,5 +6226,17 @@
     "intangible_assets": 346600000,
     "goodwill": 1878200000,
     "fetched_at": "2026-07-29T15:48:52.219119Z"
+  },
+  "MTD": {
+    "symbol": "MTD",
+    "name": "Mettler-Toledo International Inc.",
+    "sector": "Healthcare",
+    "ebit": 1109124000,
+    "total_assets": 3712646000,
+    "total_current_assets": 1362667000,
+    "total_current_liabilities": 1198116000,
+    "intangible_assets": 278910000,
+    "goodwill": 739225000,
+    "fetched_at": "2026-07-30T15:51:54.227253Z"
   }
 }
