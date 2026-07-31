@@ -6238,5 +6238,29 @@
     "intangible_assets": 278910000,
     "goodwill": 739225000,
     "fetched_at": "2026-07-30T15:51:54.227253Z"
+  },
+  "LPLA": {
+    "symbol": "LPLA",
+    "name": "LPL Financial Holdings Inc.",
+    "sector": "Financial Services",
+    "ebit": 1552913000,
+    "total_assets": 18492753000,
+    "total_current_assets": 8813894000,
+    "total_current_liabilities": 3642059000,
+    "intangible_assets": 3330788000,
+    "goodwill": 2644723000,
+    "fetched_at": "2026-07-31T16:01:49.015397Z"
+  },
+  "ZM": {
+    "symbol": "ZM",
+    "name": "Zoom Communications, Inc.",
+    "sector": "Technology",
+    "ebit": 2422285000,
+    "total_assets": 11960416000,
+    "total_current_assets": 8657959000,
+    "total_current_liabilities": 1999190000,
+    "intangible_assets": 71236000,
+    "goodwill": 400392000,
+    "fetched_at": "2026-07-31T16:01:49.569152Z"
   }
 }
