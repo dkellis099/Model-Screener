@@ -6262,5 +6262,29 @@
     "intangible_assets": 71236000,
     "goodwill": 400392000,
     "fetched_at": "2026-07-31T16:01:49.569152Z"
+  },
+  "SYM": {
+    "symbol": "SYM",
+    "name": "Symbotic Inc.",
+    "sector": "Industrials",
+    "ebit": -92659000,
+    "total_assets": 2401197000,
+    "total_current_assets": 1890328000,
+    "total_current_liabilities": 1729423000,
+    "intangible_assets": 79149000,
+    "goodwill": 59871000,
+    "fetched_at": "2026-08-03T16:24:57.585742Z"
+  },
+  "MDB": {
+    "symbol": "MDB",
+    "name": "MongoDB, Inc.",
+    "sector": "Technology",
+    "ebit": -55691000,
+    "total_assets": 3758848000,
+    "total_current_assets": 3114855000,
+    "total_current_liabilities": 669496000,
+    "intangible_assets": 34502000,
+    "goodwill": 191397000,
+    "fetched_at": "2026-08-03T16:24:58.820879Z"
   }
 }
