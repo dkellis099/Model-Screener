@@ -6286,5 +6286,41 @@
     "intangible_assets": 34502000,
     "goodwill": 191397000,
     "fetched_at": "2026-08-03T16:24:58.820879Z"
+  },
+  "WSM": {
+    "symbol": "WSM",
+    "name": "Williams-Sonoma, Inc.",
+    "sector": "Consumer Cyclical",
+    "ebit": 1452560000,
+    "total_assets": 5411912000,
+    "total_current_assets": 2713187000,
+    "total_current_liabilities": 1954130000,
+    "intangible_assets": 0,
+    "goodwill": 77398000,
+    "fetched_at": "2026-08-04T16:11:35.401126Z"
+  },
+  "P": {
+    "symbol": "P",
+    "name": "Everpure, Inc.",
+    "sector": "Industrials",
+    "ebit": 231622940,
+    "total_assets": 4674259000,
+    "total_current_assets": 3063492000,
+    "total_current_liabilities": 1909990000,
+    "intangible_assets": 7346000,
+    "goodwill": 365075000,
+    "fetched_at": "2026-08-04T16:11:36.190035Z"
+  },
+  "TEAM": {
+    "symbol": "TEAM",
+    "name": "Atlassian Corporation",
+    "sector": "Technology",
+    "ebit": -68345000,
+    "total_assets": 6041970000,
+    "total_current_assets": 3891237000,
+    "total_current_liabilities": 3180859000,
+    "intangible_assets": 244840000,
+    "goodwill": 1304445000,
+    "fetched_at": "2026-08-04T16:11:42.482080Z"
   }
 }
