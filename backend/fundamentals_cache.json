@@ -6322,5 +6322,17 @@
     "intangible_assets": 244840000,
     "goodwill": 1304445000,
     "fetched_at": "2026-08-04T16:11:42.482080Z"
+  },
+  "MER-PK": {
+    "symbol": "MER-PK",
+    "name": "Merrill Lynch & Co., Inc.",
+    "sector": "Financial Services",
+    "ebit": 0,
+    "total_assets": 3411738000000,
+    "total_current_assets": 28595000000,
+    "total_current_liabilities": 54935000000,
+    "intangible_assets": 0,
+    "goodwill": 69021000000,
+    "fetched_at": "2026-08-05T16:01:10.174828Z"
   }
 }
