@@ -6334,5 +6334,41 @@
     "intangible_assets": 0,
     "goodwill": 69021000000,
     "fetched_at": "2026-08-05T16:01:10.174828Z"
+  },
+  "HONA": {
+    "symbol": "HONA",
+    "name": "Honeywell Aerospace Inc",
+    "sector": "Industrials",
+    "ebit": 3174000000,
+    "total_assets": 17685000000,
+    "total_current_assets": 8390000000,
+    "total_current_liabilities": 6577000000,
+    "intangible_assets": 2177000000,
+    "goodwill": 3025000000,
+    "fetched_at": "2026-08-07T14:51:50.188646Z"
+  },
+  "ATI": {
+    "symbol": "ATI",
+    "name": "ATI Inc.",
+    "sector": "Industrials",
+    "ebit": 632999999,
+    "total_assets": 5099600000,
+    "total_current_assets": 2680000000,
+    "total_current_liabilities": 1006300000,
+    "intangible_assets": 35900000,
+    "goodwill": 225200000,
+    "fetched_at": "2026-08-07T14:51:51.247655Z"
+  },
+  "WAT": {
+    "symbol": "WAT",
+    "name": "Waters Corporation",
+    "sector": "Healthcare",
+    "ebit": 805649000,
+    "total_assets": 5076550000,
+    "total_current_assets": 2147645000,
+    "total_current_liabilities": 1239499000,
+    "intangible_assets": 558179000,
+    "goodwill": 1340081000,
+    "fetched_at": "2026-08-07T14:51:52.304148Z"
   }
 }
