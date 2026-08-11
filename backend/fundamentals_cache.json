@@ -6394,5 +6394,17 @@
     "intangible_assets": 97651000,
     "goodwill": 136110000,
     "fetched_at": "2026-08-10T14:58:03.067919Z"
+  },
+  "ZS": {
+    "symbol": "ZS",
+    "name": "Zscaler, Inc.",
+    "sector": "Technology",
+    "ebit": -8769000,
+    "total_assets": 6419888000,
+    "total_current_assets": 4894290000,
+    "total_current_liabilities": 2429611000,
+    "intangible_assets": 47323000,
+    "goodwill": 417730000,
+    "fetched_at": "2026-08-11T14:56:33.279829Z"
   }
 }
