@@ -6021,7 +6021,7 @@
     "total_current_liabilities": 263747000,
     "intangible_assets": 3981000,
     "goodwill": 7000000,
-    "fetched_at": "2026-07-14T15:23:09.298133Z"
+    "fetched_at": "2026-08-14T14:50:44.015423Z"
   },
   "TECK": {
     "symbol": "TECK",
@@ -6033,7 +6033,7 @@
     "total_current_liabilities": 4399411845,
     "intangible_assets": 168862276,
     "goodwill": 420656912,
-    "fetched_at": "2026-07-14T15:23:09.810716Z"
+    "fetched_at": "2026-08-14T14:50:40.072738Z"
   },
   "MSTR": {
     "symbol": "MSTR",
@@ -6045,7 +6045,7 @@
     "total_current_liabilities": 456492000,
     "intangible_assets": 58854028000,
     "goodwill": 0,
-    "fetched_at": "2026-07-14T15:23:10.389234Z"
+    "fetched_at": "2026-08-14T14:50:41.448702Z"
   },
   "BDXA": {
     "symbol": "BDXA",
@@ -6418,5 +6418,17 @@
     "intangible_assets": 1730000000,
     "goodwill": 20084000000,
     "fetched_at": "2026-08-13T14:56:38.450423Z"
+  },
+  "FOXA": {
+    "symbol": "FOXA",
+    "name": "Fox Corporation",
+    "sector": "Communication Services",
+    "ebit": 2552000000,
+    "total_assets": 22482000000,
+    "total_current_assets": 8453000000,
+    "total_current_liabilities": 2667000000,
+    "intangible_assets": 2870000000,
+    "goodwill": 3647000000,
+    "fetched_at": "2026-08-14T14:50:42.740963Z"
   }
 }
