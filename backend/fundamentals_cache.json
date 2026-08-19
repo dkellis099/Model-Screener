@@ -6430,5 +6430,17 @@
     "intangible_assets": 2870000000,
     "goodwill": 3647000000,
     "fetched_at": "2026-08-14T14:50:42.740963Z"
+  },
+  "MRNA": {
+    "symbol": "MRNA",
+    "name": "Moderna, Inc.",
+    "sector": "Healthcare",
+    "ebit": -2768000000,
+    "total_assets": 12338000000,
+    "total_current_assets": 6544000000,
+    "total_current_liabilities": 1987000000,
+    "intangible_assets": 45000000,
+    "goodwill": 52000000,
+    "fetched_at": "2026-08-19T14:32:29.820125Z"
   }
 }
