@@ -6442,5 +6442,17 @@
     "intangible_assets": 45000000,
     "goodwill": 52000000,
     "fetched_at": "2026-08-19T14:32:29.820125Z"
+  },
+  "BNTX": {
+    "symbol": "BNTX",
+    "name": "BioNTech SE",
+    "sector": "Healthcare",
+    "ebit": -995688191,
+    "total_assets": 21979241541,
+    "total_current_assets": 16139727926,
+    "total_current_liabilities": 2141388226,
+    "intangible_assets": 1605316478,
+    "goodwill": 367743419,
+    "fetched_at": "2026-08-21T14:33:53.088048Z"
   }
 }
