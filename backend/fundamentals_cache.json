@@ -6177,7 +6177,7 @@
     "total_current_liabilities": 63475776000,
     "intangible_assets": 10040097000,
     "goodwill": 32187041000,
-    "fetched_at": "2026-07-27T16:18:47.946666Z"
+    "fetched_at": "2026-08-27T23:37:36.930413Z"
   },
   "TCOM": {
     "symbol": "TCOM",
@@ -6189,7 +6189,7 @@
     "total_current_liabilities": 78218777000,
     "intangible_assets": 13021287000,
     "goodwill": 62307652000,
-    "fetched_at": "2026-07-27T16:18:48.472321Z"
+    "fetched_at": "2026-08-27T23:37:37.600126Z"
   },
   "FISV": {
     "symbol": "FISV",
@@ -6213,7 +6213,7 @@
     "total_current_liabilities": 683281000,
     "intangible_assets": 62832000,
     "goodwill": 517779000,
-    "fetched_at": "2026-07-28T16:04:58.012017Z"
+    "fetched_at": "2026-08-27T23:37:36.284893Z"
   },
   "VRSK": {
     "symbol": "VRSK",
@@ -6454,5 +6454,17 @@
     "intangible_assets": 1605316478,
     "goodwill": 367743419,
     "fetched_at": "2026-08-21T14:33:53.088048Z"
+  },
+  "OKTA": {
+    "symbol": "OKTA",
+    "name": "Okta, Inc.",
+    "sector": "Technology",
+    "ebit": 259000000,
+    "total_assets": 9710000000,
+    "total_current_assets": 3473000000,
+    "total_current_liabilities": 2554000000,
+    "intangible_assets": 91000000,
+    "goodwill": 5487000000,
+    "fetched_at": "2026-08-27T23:37:38.608695Z"
   }
 }
