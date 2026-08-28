@@ -6466,5 +6466,41 @@
     "intangible_assets": 91000000,
     "goodwill": 5487000000,
     "fetched_at": "2026-08-27T23:37:38.608695Z"
+  },
+  "CTA-PB": {
+    "symbol": "CTA-PB",
+    "name": "EIDP, Inc. USD 4.50 Cum Pfd Registered Shs",
+    "sector": "Basic Materials",
+    "ebit": 1868000000,
+    "total_assets": 42845000000,
+    "total_current_assets": 17335000000,
+    "total_current_liabilities": 12125000000,
+    "intangible_assets": 8301000000,
+    "goodwill": 10465000000,
+    "fetched_at": "2026-08-28T23:24:19.897426Z"
+  },
+  "CTA-PA": {
+    "symbol": "CTA-PA",
+    "name": "EIDP, Inc.",
+    "sector": "Basic Materials",
+    "ebit": 1868000000,
+    "total_assets": 42845000000,
+    "total_current_assets": 17335000000,
+    "total_current_liabilities": 12125000000,
+    "intangible_assets": 8301000000,
+    "goodwill": 10465000000,
+    "fetched_at": "2026-08-28T23:24:21.011452Z"
+  },
+  "CTSH": {
+    "symbol": "CTSH",
+    "name": "Cognizant Technology Solutions Corporation",
+    "sector": "Technology",
+    "ebit": 3623000000,
+    "total_assets": 20692000000,
+    "total_current_assets": 8551000000,
+    "total_current_liabilities": 3659000000,
+    "intangible_assets": 1417000000,
+    "goodwill": 7106000000,
+    "fetched_at": "2026-08-28T23:24:21.854289Z"
   }
 }
