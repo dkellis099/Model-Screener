@@ -6285,7 +6285,7 @@
     "total_current_liabilities": 669496000,
     "intangible_assets": 34502000,
     "goodwill": 191397000,
-    "fetched_at": "2026-08-03T16:24:58.820879Z"
+    "fetched_at": "2026-09-02T17:37:32.392524Z"
   },
   "WSM": {
     "symbol": "WSM",
@@ -6502,5 +6502,17 @@
     "intangible_assets": 1417000000,
     "goodwill": 7106000000,
     "fetched_at": "2026-08-28T23:24:21.854289Z"
+  },
+  "HPQ": {
+    "symbol": "HPQ",
+    "name": "HP Inc.",
+    "sector": "Technology",
+    "ebit": 3174000000,
+    "total_assets": 41769000000,
+    "total_current_assets": 22453000000,
+    "total_current_liabilities": 29258000000,
+    "intangible_assets": 1012000000,
+    "goodwill": 8706000000,
+    "fetched_at": "2026-09-02T17:37:33.762263Z"
   }
 }
