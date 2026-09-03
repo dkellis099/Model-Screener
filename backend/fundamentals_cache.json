@@ -6302,26 +6302,26 @@
   "P": {
     "symbol": "P",
     "name": "Everpure, Inc.",
-    "sector": "Industrials",
+    "sector": "Technology",
     "ebit": 231622940,
     "total_assets": 4674259000,
     "total_current_assets": 3063492000,
     "total_current_liabilities": 1909990000,
     "intangible_assets": 7346000,
     "goodwill": 365075000,
-    "fetched_at": "2026-08-04T16:11:36.190035Z"
+    "fetched_at": "2026-09-03T17:32:23.829875Z"
   },
   "TEAM": {
     "symbol": "TEAM",
     "name": "Atlassian Corporation",
     "sector": "Technology",
-    "ebit": -68345000,
-    "total_assets": 6041970000,
-    "total_current_assets": 3891237000,
-    "total_current_liabilities": 3180859000,
-    "intangible_assets": 244840000,
-    "goodwill": 1304445000,
-    "fetched_at": "2026-08-04T16:11:42.482080Z"
+    "ebit": 10355000,
+    "total_assets": 6103529000,
+    "total_current_assets": 2797122000,
+    "total_current_liabilities": 3571128000,
+    "intangible_assets": 432258000,
+    "goodwill": 2302739000,
+    "fetched_at": "2026-09-03T17:32:22.782817Z"
   },
   "MER-PK": {
     "symbol": "MER-PK",
