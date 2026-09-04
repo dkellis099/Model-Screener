@@ -6201,7 +6201,7 @@
     "total_current_liabilities": 23890000000,
     "intangible_assets": 10161000000,
     "goodwill": 37703000000,
-    "fetched_at": "2026-07-28T16:04:57.494513Z"
+    "fetched_at": "2026-09-04T17:22:52.833173Z"
   },
   "CPRT": {
     "symbol": "CPRT",
@@ -6325,7 +6325,7 @@
   },
   "MER-PK": {
     "symbol": "MER-PK",
-    "name": "Merrill Lynch & Co., Inc.",
+    "name": "Merrill Lynch Capital Trust I GTD CAP 6.45%",
     "sector": "Financial Services",
     "ebit": 0,
     "total_assets": 3411738000000,
@@ -6333,7 +6333,7 @@
     "total_current_liabilities": 54935000000,
     "intangible_assets": 0,
     "goodwill": 69021000000,
-    "fetched_at": "2026-08-05T16:01:10.174828Z"
+    "fetched_at": "2026-09-04T17:22:51.745255Z"
   },
   "HONA": {
     "symbol": "HONA",
