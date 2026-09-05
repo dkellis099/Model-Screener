@@ -6514,5 +6514,17 @@
     "intangible_assets": 1012000000,
     "goodwill": 8706000000,
     "fetched_at": "2026-09-02T17:37:33.762263Z"
+  },
+  "RPRX": {
+    "symbol": "RPRX",
+    "name": "Royalty Pharma plc",
+    "sector": "Healthcare",
+    "ebit": 1631856000,
+    "total_assets": 19620780000,
+    "total_current_assets": 619000000,
+    "total_current_liabilities": 636211000,
+    "intangible_assets": 0,
+    "goodwill": 924634000,
+    "fetched_at": "2026-09-05T16:33:34.899994Z"
   }
 }
