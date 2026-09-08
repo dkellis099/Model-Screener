@@ -6526,5 +6526,17 @@
     "intangible_assets": 0,
     "goodwill": 924634000,
     "fetched_at": "2026-09-05T16:33:34.899994Z"
+  },
+  "ROIV": {
+    "symbol": "ROIV",
+    "name": "Roivant Sciences Ltd.",
+    "sector": "Healthcare",
+    "ebit": -264578000,
+    "total_assets": 5728045000,
+    "total_current_assets": 5167384000,
+    "total_current_liabilities": 281244000,
+    "intangible_assets": 0,
+    "goodwill": 0,
+    "fetched_at": "2026-09-08T17:45:56.987254Z"
   }
 }
