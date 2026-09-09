@@ -9,7 +9,7 @@
     "total_current_liabilities": 165631000000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-08-10T14:57:48.640119Z"
+    "fetched_at": "2026-09-09T17:35:39.763550Z"
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -21,7 +21,7 @@
     "total_current_liabilities": 168825000000,
     "intangible_assets": 18609000000,
     "goodwill": 119651000000,
-    "fetched_at": "2026-08-10T14:57:51.187150Z"
+    "fetched_at": "2026-09-09T17:35:40.334395Z"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -45,7 +45,7 @@
     "total_current_liabilities": 218005000000,
     "intangible_assets": 9197000000,
     "goodwill": 23273000000,
-    "fetched_at": "2026-08-10T14:57:52.418026Z"
+    "fetched_at": "2026-09-09T17:35:40.979504Z"
   },
   "NVDA": {
     "symbol": "NVDA",
@@ -57,7 +57,7 @@
     "total_current_liabilities": 32163000000,
     "intangible_assets": 3306000000,
     "goodwill": 20832000000,
-    "fetched_at": "2026-08-10T14:57:47.332943Z"
+    "fetched_at": "2026-09-09T17:35:39.132124Z"
   },
   "META": {
     "symbol": "META",
@@ -69,7 +69,7 @@
     "total_current_liabilities": 41836000000,
     "intangible_assets": 3692000000,
     "goodwill": 24534000000,
-    "fetched_at": "2026-08-10T14:57:53.693695Z"
+    "fetched_at": "2026-09-09T17:35:41.460579Z"
   },
   "ADBE": {
     "symbol": "ADBE",
@@ -81,19 +81,19 @@
     "total_current_liabilities": 10200000000,
     "intangible_assets": 495000000,
     "goodwill": 12857000000,
-    "fetched_at": "2026-08-10T14:57:59.263302Z"
+    "fetched_at": "2026-09-09T17:35:44.186334Z"
   },
   "CSCO": {
     "symbol": "CSCO",
     "name": "Cisco Systems, Inc.",
     "sector": "Technology",
-    "ebit": 12516000000,
-    "total_assets": 122291000000,
-    "total_current_assets": 34986000000,
-    "total_current_liabilities": 35064000000,
-    "intangible_assets": 9175000000,
-    "goodwill": 59136000000,
-    "fetched_at": "2026-08-10T14:57:57.662452Z"
+    "ebit": 17479000000,
+    "total_assets": 129637000000,
+    "total_current_assets": 38665000000,
+    "total_current_liabilities": 41525000000,
+    "intangible_assets": 7557000000,
+    "goodwill": 59477000000,
+    "fetched_at": "2026-09-09T17:35:43.002197Z"
   },
   "AMD": {
     "symbol": "AMD",
@@ -105,7 +105,7 @@
     "total_current_liabilities": 9455000000,
     "intangible_assets": 16705000000,
     "goodwill": 25126000000,
-    "fetched_at": "2026-08-10T14:57:55.058231Z"
+    "fetched_at": "2026-09-09T17:35:42.031567Z"
   },
   "INTC": {
     "symbol": "INTC",
@@ -117,7 +117,7 @@
     "total_current_liabilities": 31575000000,
     "intangible_assets": 2772000000,
     "goodwill": 23912000000,
-    "fetched_at": "2026-08-10T14:57:56.420802Z"
+    "fetched_at": "2026-09-09T17:35:42.523265Z"
   },
   "GOOG": {
     "symbol": "GOOG",
@@ -6393,7 +6393,7 @@
     "total_current_liabilities": 468874000,
     "intangible_assets": 97651000,
     "goodwill": 136110000,
-    "fetched_at": "2026-08-10T14:58:03.067919Z"
+    "fetched_at": "2026-09-09T17:35:45.308198Z"
   },
   "ZS": {
     "symbol": "ZS",
