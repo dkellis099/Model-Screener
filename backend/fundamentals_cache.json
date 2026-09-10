@@ -6538,5 +6538,17 @@
     "intangible_assets": 0,
     "goodwill": 0,
     "fetched_at": "2026-09-08T17:45:56.987254Z"
+  },
+  "AWK": {
+    "symbol": "AWK",
+    "name": "American Water Works Company, Inc.",
+    "sector": "Utilities",
+    "ebit": 2037000000,
+    "total_assets": 36525000000,
+    "total_current_assets": 2191000000,
+    "total_current_liabilities": 4747000000,
+    "intangible_assets": 0,
+    "goodwill": 1156000000,
+    "fetched_at": "2026-09-10T17:29:53.181970Z"
   }
 }
