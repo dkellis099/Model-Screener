@@ -5121,7 +5121,7 @@
     "total_current_liabilities": 2490000000,
     "intangible_assets": 13893000000,
     "goodwill": 8079000000,
-    "fetched_at": "2026-08-12T15:05:19.512246Z"
+    "fetched_at": "2026-09-16T17:59:00.681580Z"
   },
   "VOD": {
     "symbol": "VOD",
@@ -6129,7 +6129,7 @@
     "total_current_liabilities": 37378999000000,
     "intangible_assets": 3241879000000,
     "goodwill": 807523000000,
-    "fetched_at": "2026-08-17T14:26:08.954129Z"
+    "fetched_at": "2026-09-16T17:58:59.750816Z"
   },
   "DG": {
     "symbol": "DG",
@@ -6231,13 +6231,13 @@
     "symbol": "MTD",
     "name": "Mettler-Toledo International Inc.",
     "sector": "Healthcare",
-    "ebit": 1109124000,
+    "ebit": 1118490000,
     "total_assets": 3712646000,
     "total_current_assets": 1362667000,
     "total_current_liabilities": 1198116000,
     "intangible_assets": 278910000,
     "goodwill": 739225000,
-    "fetched_at": "2026-07-30T15:51:54.227253Z"
+    "fetched_at": "2026-09-16T17:59:01.247244Z"
   },
   "LPLA": {
     "symbol": "LPLA",
