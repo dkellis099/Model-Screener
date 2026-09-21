@@ -5649,7 +5649,7 @@
     "total_current_liabilities": 2346394000,
     "intangible_assets": 265634000,
     "goodwill": 1091482000,
-    "fetched_at": "2026-08-18T14:32:17.895325Z"
+    "fetched_at": "2026-09-21T19:05:06.487497Z"
   },
   "GEHC": {
     "symbol": "GEHC",
@@ -5721,7 +5721,7 @@
     "total_current_liabilities": 5588000000,
     "intangible_assets": 0,
     "goodwill": 2938000000,
-    "fetched_at": "2026-08-18T14:32:16.599659Z"
+    "fetched_at": "2026-09-21T19:05:07.416487Z"
   },
   "FTS": {
     "symbol": "FTS",
@@ -5733,7 +5733,7 @@
     "total_current_liabilities": 7513000000,
     "intangible_assets": 1723000000,
     "goodwill": 12527000000,
-    "fetched_at": "2026-08-17T14:26:11.549946Z"
+    "fetched_at": "2026-09-21T19:05:09.084331Z"
   },
   "TDY": {
     "symbol": "TDY",
@@ -5961,7 +5961,7 @@
     "total_current_liabilities": 456492000,
     "intangible_assets": 58854028000,
     "goodwill": 0,
-    "fetched_at": "2026-08-20T14:35:00.548791Z"
+    "fetched_at": "2026-09-21T19:05:05.478587Z"
   },
   "KGC": {
     "symbol": "KGC",
@@ -6441,7 +6441,7 @@
     "total_current_liabilities": 1987000000,
     "intangible_assets": 45000000,
     "goodwill": 52000000,
-    "fetched_at": "2026-08-19T14:32:29.820125Z"
+    "fetched_at": "2026-09-21T19:05:03.173917Z"
   },
   "BNTX": {
     "symbol": "BNTX",
@@ -6550,5 +6550,29 @@
     "intangible_assets": 0,
     "goodwill": 1156000000,
     "fetched_at": "2026-09-10T17:29:53.181970Z"
+  },
+  "VRSN": {
+    "symbol": "VRSN",
+    "name": "VeriSign, Inc.",
+    "sector": "Technology",
+    "ebit": 1140300000,
+    "total_assets": 1325900000,
+    "total_current_assets": 652500000,
+    "total_current_liabilities": 1333100000,
+    "intangible_assets": 145200000,
+    "goodwill": 52500000,
+    "fetched_at": "2026-09-21T19:05:08.270564Z"
+  },
+  "DGX": {
+    "symbol": "DGX",
+    "name": "Quest Diagnostics Incorporated",
+    "sector": "Healthcare",
+    "ebit": 1624000000,
+    "total_assets": 16225000000,
+    "total_current_assets": 2378000000,
+    "total_current_liabilities": 2278000000,
+    "intangible_assets": 1636000000,
+    "goodwill": 8945000000,
+    "fetched_at": "2026-09-21T19:05:09.982641Z"
   }
 }
