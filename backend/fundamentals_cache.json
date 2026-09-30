@@ -6261,7 +6261,7 @@
     "total_current_liabilities": 1999190000,
     "intangible_assets": 71236000,
     "goodwill": 400392000,
-    "fetched_at": "2026-08-30T17:56:09.387810Z"
+    "fetched_at": "2026-09-30T18:50:16.849892Z"
   },
   "SYM": {
     "symbol": "SYM",
@@ -6586,5 +6586,17 @@
     "intangible_assets": 0,
     "goodwill": 0,
     "fetched_at": "2026-09-25T18:14:00.646331Z"
+  },
+  "LGHL": {
+    "symbol": "LGHL",
+    "name": "Lion Group Holding Ltd.",
+    "sector": "Financial Services",
+    "ebit": -2836424,
+    "total_assets": 54645847,
+    "total_current_assets": 26234458,
+    "total_current_liabilities": 9055193,
+    "intangible_assets": 0,
+    "goodwill": 0,
+    "fetched_at": "2026-09-30T18:50:14.545228Z"
   }
 }
