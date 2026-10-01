@@ -4689,7 +4689,7 @@
     "total_current_liabilities": 5126390000,
     "intangible_assets": 18234000,
     "goodwill": 142624000,
-    "fetched_at": "2026-08-31T19:50:47.198605Z"
+    "fetched_at": "2026-10-01T19:17:20.792399Z"
   },
   "PFH": {
     "symbol": "PFH",
@@ -6021,7 +6021,7 @@
     "total_current_liabilities": 263747000,
     "intangible_assets": 3981000,
     "goodwill": 7000000,
-    "fetched_at": "2026-08-14T14:50:44.015423Z"
+    "fetched_at": "2026-10-01T19:17:22.484406Z"
   },
   "TECK": {
     "symbol": "TECK",
@@ -6501,7 +6501,7 @@
     "total_current_liabilities": 3659000000,
     "intangible_assets": 1417000000,
     "goodwill": 7106000000,
-    "fetched_at": "2026-08-28T23:24:21.854289Z"
+    "fetched_at": "2026-10-01T19:17:21.688265Z"
   },
   "HPQ": {
     "symbol": "HPQ",
@@ -6598,5 +6598,17 @@
     "intangible_assets": 0,
     "goodwill": 0,
     "fetched_at": "2026-09-30T18:50:14.545228Z"
+  },
+  "NVT": {
+    "symbol": "NVT",
+    "name": "nVent Electric plc",
+    "sector": "Industrials",
+    "ebit": 625000000,
+    "total_assets": 6851900000,
+    "total_current_assets": 1639600000,
+    "total_current_liabilities": 1003500000,
+    "intangible_assets": 1876500000,
+    "goodwill": 2678000000,
+    "fetched_at": "2026-10-01T19:17:23.271141Z"
   }
 }
