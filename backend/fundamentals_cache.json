@@ -6309,19 +6309,19 @@
     "total_current_liabilities": 1909990000,
     "intangible_assets": 7346000,
     "goodwill": 365075000,
-    "fetched_at": "2026-09-03T17:32:23.829875Z"
+    "fetched_at": "2026-10-03T17:47:59.507861Z"
   },
   "TEAM": {
     "symbol": "TEAM",
     "name": "Atlassian Corporation",
     "sector": "Technology",
-    "ebit": 10355000,
+    "ebit": 71500000,
     "total_assets": 6103529000,
     "total_current_assets": 2797122000,
     "total_current_liabilities": 3571128000,
     "intangible_assets": 432258000,
     "goodwill": 2302739000,
-    "fetched_at": "2026-09-03T17:32:22.782817Z"
+    "fetched_at": "2026-10-03T17:47:58.593432Z"
   },
   "MER-PK": {
     "symbol": "MER-PK",
