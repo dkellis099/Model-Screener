@@ -9,7 +9,7 @@
     "total_current_liabilities": 165631000000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-09T17:35:39.763550Z"
+    "fetched_at": "2026-10-09T19:16:24.033250Z"
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -21,7 +21,7 @@
     "total_current_liabilities": 168825000000,
     "intangible_assets": 18609000000,
     "goodwill": 119651000000,
-    "fetched_at": "2026-09-09T17:35:40.334395Z"
+    "fetched_at": "2026-10-09T19:16:25.073917Z"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -45,7 +45,7 @@
     "total_current_liabilities": 218005000000,
     "intangible_assets": 9197000000,
     "goodwill": 23273000000,
-    "fetched_at": "2026-09-09T17:35:40.979504Z"
+    "fetched_at": "2026-10-09T19:16:26.084848Z"
   },
   "NVDA": {
     "symbol": "NVDA",
@@ -57,7 +57,7 @@
     "total_current_liabilities": 32163000000,
     "intangible_assets": 3306000000,
     "goodwill": 20832000000,
-    "fetched_at": "2026-09-09T17:35:39.132124Z"
+    "fetched_at": "2026-10-09T19:16:22.997563Z"
   },
   "META": {
     "symbol": "META",
@@ -69,19 +69,19 @@
     "total_current_liabilities": 41836000000,
     "intangible_assets": 3692000000,
     "goodwill": 24534000000,
-    "fetched_at": "2026-09-09T17:35:41.460579Z"
+    "fetched_at": "2026-10-09T19:16:27.176291Z"
   },
   "ADBE": {
     "symbol": "ADBE",
     "name": "Adobe Inc.",
     "sector": "Technology",
-    "ebit": 8931000000,
+    "ebit": 8997000000,
     "total_assets": 29496000000,
     "total_current_assets": 10163000000,
     "total_current_liabilities": 10200000000,
     "intangible_assets": 495000000,
     "goodwill": 12857000000,
-    "fetched_at": "2026-09-09T17:35:44.186334Z"
+    "fetched_at": "2026-10-09T19:16:31.846948Z"
   },
   "CSCO": {
     "symbol": "CSCO",
@@ -93,7 +93,7 @@
     "total_current_liabilities": 41525000000,
     "intangible_assets": 7557000000,
     "goodwill": 59477000000,
-    "fetched_at": "2026-09-09T17:35:43.002197Z"
+    "fetched_at": "2026-10-09T19:16:30.782132Z"
   },
   "AMD": {
     "symbol": "AMD",
@@ -105,7 +105,7 @@
     "total_current_liabilities": 9455000000,
     "intangible_assets": 16705000000,
     "goodwill": 25126000000,
-    "fetched_at": "2026-09-09T17:35:42.031567Z"
+    "fetched_at": "2026-10-09T19:16:28.633256Z"
   },
   "INTC": {
     "symbol": "INTC",
@@ -117,7 +117,7 @@
     "total_current_liabilities": 31575000000,
     "intangible_assets": 2772000000,
     "goodwill": 23912000000,
-    "fetched_at": "2026-09-09T17:35:42.523265Z"
+    "fetched_at": "2026-10-09T19:16:29.742130Z"
   },
   "GOOG": {
     "symbol": "GOOG",
@@ -6610,5 +6610,17 @@
     "intangible_assets": 1876500000,
     "goodwill": 2678000000,
     "fetched_at": "2026-10-01T19:17:23.271141Z"
+  },
+  "FFIV": {
+    "symbol": "FFIV",
+    "name": "F5, Inc.",
+    "sector": "Technology",
+    "ebit": 791433000,
+    "total_assets": 6319492000,
+    "total_current_assets": 2481678000,
+    "total_current_liabilities": 1612581000,
+    "intangible_assets": 96266000,
+    "goodwill": 2443882000,
+    "fetched_at": "2026-10-09T19:16:33.892588Z"
   }
 }
