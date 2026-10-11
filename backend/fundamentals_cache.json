@@ -129,7 +129,7 @@
     "total_current_liabilities": 102745000000,
     "intangible_assets": 0,
     "goodwill": 33380000000,
-    "fetched_at": "2026-09-11T17:32:59.986020Z"
+    "fetched_at": "2026-10-11T18:37:16.636126Z"
   },
   "TSM": {
     "symbol": "TSM",
@@ -141,7 +141,7 @@
     "total_current_liabilities": 1522414000000,
     "intangible_assets": 19061500000,
     "goodwill": 5891100000,
-    "fetched_at": "2026-09-11T17:33:00.633070Z"
+    "fetched_at": "2026-10-11T18:37:17.134577Z"
   },
   "AVGO": {
     "symbol": "AVGO",
@@ -153,7 +153,7 @@
     "total_current_liabilities": 18514000000,
     "intangible_assets": 32273000000,
     "goodwill": 97801000000,
-    "fetched_at": "2026-09-11T17:33:02.320459Z"
+    "fetched_at": "2026-10-11T18:37:18.017016Z"
   },
   "SPCX": {
     "symbol": "SPCX",
@@ -165,7 +165,7 @@
     "total_current_liabilities": 21400000000,
     "intangible_assets": 1548000000,
     "goodwill": 11809000000,
-    "fetched_at": "2026-09-11T17:33:01.500957Z"
+    "fetched_at": "2026-10-11T18:37:17.573416Z"
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -177,19 +177,19 @@
     "total_current_liabilities": 31714000000,
     "intangible_assets": 135000000,
     "goodwill": 257000000,
-    "fetched_at": "2026-09-11T17:33:02.883089Z"
+    "fetched_at": "2026-10-11T18:37:18.486959Z"
   },
   "LLY": {
     "symbol": "LLY",
     "name": "Eli Lilly and Company",
     "sector": "Healthcare",
-    "ebit": 26373000000,
+    "ebit": 29696000000,
     "total_assets": 112476000000,
     "total_current_assets": 55629000000,
     "total_current_liabilities": 35228000000,
     "intangible_assets": 6521000000,
     "goodwill": 5898000000,
-    "fetched_at": "2026-09-11T17:33:04.950632Z"
+    "fetched_at": "2026-10-11T18:37:20.919711Z"
   },
   "BRK-A": {
     "symbol": "BRK-A",
@@ -201,7 +201,7 @@
     "total_current_liabilities": 70536000000,
     "intangible_assets": 34842000000,
     "goodwill": 83074000000,
-    "fetched_at": "2026-09-11T17:33:03.981699Z"
+    "fetched_at": "2026-10-11T18:37:19.534445Z"
   },
   "BRK-B": {
     "symbol": "BRK-B",
@@ -213,19 +213,19 @@
     "total_current_liabilities": 70536000000,
     "intangible_assets": 34842000000,
     "goodwill": 83074000000,
-    "fetched_at": "2026-09-11T17:33:04.433559Z"
+    "fetched_at": "2026-10-11T18:37:19.967476Z"
   },
   "MU": {
     "symbol": "MU",
     "name": "Micron Technology, Inc.",
     "sector": "Technology",
-    "ebit": 10140000000,
-    "total_assets": 82798000000,
-    "total_current_assets": 28841000000,
-    "total_current_liabilities": 11454000000,
-    "intangible_assets": 453000000,
+    "ebit": 99907000000,
+    "total_assets": 195888000000,
+    "total_current_assets": 91070000000,
+    "total_current_liabilities": 27482000000,
+    "intangible_assets": 0,
     "goodwill": 1150000000,
-    "fetched_at": "2026-09-11T17:33:03.455534Z"
+    "fetched_at": "2026-10-11T18:37:19.046148Z"
   },
   "WMT": {
     "symbol": "WMT",
@@ -237,7 +237,7 @@
     "total_current_liabilities": 107469000000,
     "intangible_assets": 0,
     "goodwill": 28735000000,
-    "fetched_at": "2026-09-11T17:33:06.222477Z"
+    "fetched_at": "2026-10-11T18:37:21.887615Z"
   },
   "JPM": {
     "symbol": "JPM",
@@ -249,7 +249,7 @@
     "total_current_liabilities": 3584541000000,
     "intangible_assets": 11727000000,
     "goodwill": 52731000000,
-    "fetched_at": "2026-09-11T17:33:05.399822Z"
+    "fetched_at": "2026-10-11T18:37:21.447915Z"
   },
   "V": {
     "symbol": "V",
@@ -261,19 +261,19 @@
     "total_current_liabilities": 35048000000,
     "intangible_assets": 27646000000,
     "goodwill": 19879000000,
-    "fetched_at": "2026-09-11T17:33:06.714132Z"
+    "fetched_at": "2026-10-11T18:37:22.329253Z"
   },
   "ASML": {
     "symbol": "ASML",
     "name": "ASML Holding N.V.",
     "sector": "Technology",
     "ebit": 11406100000,
-    "total_assets": 50545079000,
-    "total_current_assets": 30603070000,
-    "total_current_liabilities": 24253573000,
-    "intangible_assets": 539870000,
-    "goodwill": 4586647000,
-    "fetched_at": "2026-09-11T17:33:07.626699Z"
+    "total_assets": 50566600000,
+    "total_current_assets": 30616100000,
+    "total_current_liabilities": 24263900000,
+    "intangible_assets": 540100000,
+    "goodwill": 4588600000,
+    "fetched_at": "2026-10-11T18:37:23.430369Z"
   },
   "JNJ": {
     "symbol": "JNJ",
@@ -285,11 +285,11 @@
     "total_current_liabilities": 54126000000,
     "intangible_assets": 50403000000,
     "goodwill": 48772000000,
-    "fetched_at": "2026-09-11T17:33:08.062479Z"
+    "fetched_at": "2026-10-11T18:37:23.938195Z"
   },
   "XOM": {
     "symbol": "XOM",
-    "name": "Exxon Mobil Corporation",
+    "name": "Exxonmobil Holdings Corporation",
     "sector": "Energy",
     "ebit": 41871000000,
     "total_assets": 448980000000,
@@ -297,19 +297,19 @@
     "total_current_liabilities": 72330000000,
     "intangible_assets": 20908000000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:33:07.166417Z"
+    "fetched_at": "2026-10-11T18:37:22.987399Z"
   },
   "MA": {
     "symbol": "MA",
     "name": "Mastercard Incorporated",
     "sector": "Financial Services",
-    "ebit": 19300000000,
+    "ebit": 19401000000,
     "total_assets": 54157000000,
     "total_current_assets": 23558000000,
     "total_current_liabilities": 22762000000,
     "intangible_assets": 5554000000,
     "goodwill": 9560000000,
-    "fetched_at": "2026-09-11T17:33:08.516368Z"
+    "fetched_at": "2026-10-11T18:37:24.371450Z"
   },
   "AMAT": {
     "symbol": "AMAT",
@@ -321,7 +321,7 @@
     "total_current_liabilities": 7999000000,
     "intangible_assets": 226000000,
     "goodwill": 3707000000,
-    "fetched_at": "2026-09-11T17:33:15.011298Z"
+    "fetched_at": "2026-10-11T18:37:26.998289Z"
   },
   "ABBV": {
     "symbol": "ABBV",
@@ -333,7 +333,7 @@
     "total_current_liabilities": 43289000000,
     "intangible_assets": 52641000000,
     "goodwill": 35640000000,
-    "fetched_at": "2026-09-11T17:33:08.963592Z"
+    "fetched_at": "2026-10-11T18:37:24.809838Z"
   },
   "CAT": {
     "symbol": "CAT",
@@ -345,7 +345,7 @@
     "total_current_liabilities": 36558000000,
     "intangible_assets": 241000000,
     "goodwill": 5321000000,
-    "fetched_at": "2026-09-11T17:33:13.279339Z"
+    "fetched_at": "2026-10-11T18:37:29.269872Z"
   },
   "BAC": {
     "symbol": "BAC",
@@ -357,7 +357,7 @@
     "total_current_liabilities": 2559605000000,
     "intangible_assets": 0,
     "goodwill": 69021000000,
-    "fetched_at": "2026-09-11T17:33:09.849859Z"
+    "fetched_at": "2026-10-11T18:37:28.375065Z"
   },
   "LRCX": {
     "symbol": "LRCX",
@@ -367,21 +367,21 @@
     "total_assets": 23529743000,
     "total_current_assets": 15610705000,
     "total_current_liabilities": 5937249000,
-    "intangible_assets": 1895859000,
-    "goodwill": 0,
-    "fetched_at": "2026-09-11T17:33:13.720142Z"
+    "intangible_assets": 269300000,
+    "goodwill": 1626559000,
+    "fetched_at": "2026-10-11T18:37:27.459216Z"
   },
   "COST": {
     "symbol": "COST",
     "name": "Costco Wholesale Corporation",
     "sector": "Consumer Defensive",
-    "ebit": 10972000000,
-    "total_assets": 77099000000,
-    "total_current_assets": 38380000000,
-    "total_current_liabilities": 37108000000,
+    "ebit": 11685000000,
+    "total_assets": 89045000000,
+    "total_current_assets": 46582000000,
+    "total_current_liabilities": 43952000000,
     "intangible_assets": 0,
-    "goodwill": 994000000,
-    "fetched_at": "2026-09-11T17:33:11.930286Z"
+    "goodwill": 0,
+    "fetched_at": "2026-10-11T18:37:26.121423Z"
   },
   "ORCL": {
     "symbol": "ORCL",
@@ -393,7 +393,7 @@
     "total_current_liabilities": 41764000000,
     "intangible_assets": 3229000000,
     "goodwill": 62261000000,
-    "fetched_at": "2026-09-11T17:33:10.290392Z"
+    "fetched_at": "2026-10-11T18:37:26.558164Z"
   },
   "UNH": {
     "symbol": "UNH",
@@ -405,7 +405,7 @@
     "total_current_liabilities": 114897000000,
     "intangible_assets": 20474000000,
     "goodwill": 110499000000,
-    "fetched_at": "2026-09-11T17:33:16.776519Z"
+    "fetched_at": "2026-10-11T18:37:30.662670Z"
   },
   "GE": {
     "symbol": "GE",
@@ -417,7 +417,7 @@
     "total_current_liabilities": 38980000000,
     "intangible_assets": 4225000000,
     "goodwill": 9060000000,
-    "fetched_at": "2026-09-11T17:33:17.213608Z"
+    "fetched_at": "2026-10-11T18:37:31.563960Z"
   },
   "KO": {
     "symbol": "KO",
@@ -429,7 +429,7 @@
     "total_current_liabilities": 21281000000,
     "intangible_assets": 12531000000,
     "goodwill": 15491000000,
-    "fetched_at": "2026-09-11T17:33:12.830862Z"
+    "fetched_at": "2026-10-11T18:37:28.811830Z"
   },
   "CVX": {
     "symbol": "CVX",
@@ -441,7 +441,7 @@
     "total_current_liabilities": 33387000000,
     "intangible_assets": 0,
     "goodwill": 4568000000,
-    "fetched_at": "2026-09-11T17:33:11.439007Z"
+    "fetched_at": "2026-10-11T18:37:25.686120Z"
   },
   "PG": {
     "symbol": "PG",
@@ -453,7 +453,7 @@
     "total_current_liabilities": 38694000000,
     "intangible_assets": 21444000000,
     "goodwill": 41276000000,
-    "fetched_at": "2026-09-11T17:33:16.342100Z"
+    "fetched_at": "2026-10-11T18:37:30.209132Z"
   },
   "MS": {
     "symbol": "MS",
@@ -465,7 +465,7 @@
     "total_current_liabilities": 559572000000,
     "intangible_assets": 6010000000,
     "goodwill": 16726000000,
-    "fetched_at": "2026-09-11T17:33:17.651336Z"
+    "fetched_at": "2026-10-11T18:37:32.879836Z"
   },
   "HD": {
     "symbol": "HD",
@@ -477,7 +477,7 @@
     "total_current_liabilities": 32424000000,
     "intangible_assets": 10329000000,
     "goodwill": 22344000000,
-    "fetched_at": "2026-09-11T17:33:18.530050Z"
+    "fetched_at": "2026-10-11T18:37:33.760518Z"
   },
   "HSBC": {
     "symbol": "HSBC",
@@ -489,7 +489,7 @@
     "total_current_liabilities": 1987430000000,
     "intangible_assets": 8688000000,
     "goodwill": 4419000000,
-    "fetched_at": "2026-09-11T17:33:15.474061Z"
+    "fetched_at": "2026-10-11T18:37:32.009284Z"
   },
   "NFLX": {
     "symbol": "NFLX",
@@ -501,7 +501,7 @@
     "total_current_liabilities": 10980930000,
     "intangible_assets": 32778392000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:33:18.092890Z"
+    "fetched_at": "2026-10-11T18:37:33.318006Z"
   },
   "ARM": {
     "symbol": "ARM",
@@ -513,7 +513,7 @@
     "total_current_liabilities": 1040000000,
     "intangible_assets": 230000000,
     "goodwill": 1623000000,
-    "fetched_at": "2026-09-11T17:33:20.345289Z"
+    "fetched_at": "2026-10-11T18:37:34.193369Z"
   },
   "GS": {
     "symbol": "GS",
@@ -525,7 +525,7 @@
     "total_current_liabilities": 1226809000000,
     "intangible_assets": 842000000,
     "goodwill": 5949000000,
-    "fetched_at": "2026-09-11T17:33:18.970683Z"
+    "fetched_at": "2026-10-11T18:37:37.790113Z"
   },
   "MRK": {
     "symbol": "MRK",
@@ -537,7 +537,7 @@
     "total_current_liabilities": 28327000000,
     "intangible_assets": 26681000000,
     "goodwill": 21579000000,
-    "fetched_at": "2026-09-11T17:33:15.907088Z"
+    "fetched_at": "2026-10-11T18:37:29.709520Z"
   },
   "RY": {
     "symbol": "RY",
@@ -549,7 +549,7 @@
     "total_current_liabilities": 1554487000000,
     "intangible_assets": 7402000000,
     "goodwill": 19405000000,
-    "fetched_at": "2026-09-11T17:33:19.865185Z"
+    "fetched_at": "2026-10-11T18:37:37.352482Z"
   },
   "NVS": {
     "symbol": "NVS",
@@ -561,7 +561,7 @@
     "total_current_liabilities": 27278047000,
     "intangible_assets": 29411051000,
     "goodwill": 25567044000,
-    "fetched_at": "2026-09-11T17:33:23.530648Z"
+    "fetched_at": "2026-10-11T18:37:35.594128Z"
   },
   "PLTR": {
     "symbol": "PLTR",
@@ -573,7 +573,7 @@
     "total_current_liabilities": 1175581000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:33:12.392606Z"
+    "fetched_at": "2026-10-11T18:37:25.246967Z"
   },
   "KLAC": {
     "symbol": "KLAC",
@@ -585,19 +585,19 @@
     "total_current_liabilities": 4304927000,
     "intangible_assets": 255835000,
     "goodwill": 1788758000,
-    "fetched_at": "2026-09-11T17:33:27.423759Z"
+    "fetched_at": "2026-10-11T18:37:38.667185Z"
   },
   "PM": {
     "symbol": "PM",
     "name": "Philip Morris International Inc.",
     "sector": "Consumer Defensive",
-    "ebit": 15467000000,
+    "ebit": 16726000000,
     "total_assets": 69185000000,
     "total_current_assets": 24363000000,
     "total_current_liabilities": 25427000000,
     "intangible_assets": 10884000000,
     "goodwill": 17264000000,
-    "fetched_at": "2026-09-11T17:33:19.427199Z"
+    "fetched_at": "2026-10-11T18:37:32.441728Z"
   },
   "GEV": {
     "symbol": "GEV",
@@ -609,7 +609,7 @@
     "total_current_liabilities": 40972000000,
     "intangible_assets": 727000000,
     "goodwill": 4439000000,
-    "fetched_at": "2026-09-11T17:33:23.969917Z"
+    "fetched_at": "2026-10-11T18:37:36.472610Z"
   },
   "DELL": {
     "symbol": "DELL",
@@ -621,7 +621,7 @@
     "total_current_liabilities": 63269000000,
     "intangible_assets": 4533000000,
     "goodwill": 19547000000,
-    "fetched_at": "2026-09-11T17:33:14.502520Z"
+    "fetched_at": "2026-10-11T18:37:27.924354Z"
   },
   "TXN": {
     "symbol": "TXN",
@@ -633,7 +633,7 @@
     "total_current_liabilities": 3159000000,
     "intangible_assets": 238000000,
     "goodwill": 4330000000,
-    "fetched_at": "2026-09-11T17:33:24.865364Z"
+    "fetched_at": "2026-10-11T18:37:38.225352Z"
   },
   "IBM": {
     "symbol": "IBM",
@@ -645,7 +645,7 @@
     "total_current_liabilities": 38658000000,
     "intangible_assets": 11391000000,
     "goodwill": 67717000000,
-    "fetched_at": "2026-09-11T17:33:28.734648Z"
+    "fetched_at": "2026-10-11T18:37:47.098120Z"
   },
   "BABA": {
     "symbol": "BABA",
@@ -657,7 +657,7 @@
     "total_current_liabilities": 474618800000,
     "intangible_assets": 16919574000,
     "goodwill": 246454119000,
-    "fetched_at": "2026-09-11T17:33:23.089889Z"
+    "fetched_at": "2026-10-11T18:37:36.913286Z"
   },
   "RTX": {
     "symbol": "RTX",
@@ -669,7 +669,7 @@
     "total_current_liabilities": 58784000000,
     "intangible_assets": 31845000000,
     "goodwill": 53343000000,
-    "fetched_at": "2026-09-11T17:33:22.649038Z"
+    "fetched_at": "2026-10-11T18:37:40.002169Z"
   },
   "WFC": {
     "symbol": "WFC",
@@ -681,7 +681,7 @@
     "total_current_liabilities": 1722685000000,
     "intangible_assets": 6327000000,
     "goodwill": 24967000000,
-    "fetched_at": "2026-09-11T17:33:20.787321Z"
+    "fetched_at": "2026-10-11T18:37:39.103487Z"
   },
   "SNDK": {
     "symbol": "SNDK",
@@ -693,7 +693,7 @@
     "total_current_liabilities": 5581000000,
     "intangible_assets": 0,
     "goodwill": 4994000000,
-    "fetched_at": "2026-09-11T17:33:25.735807Z"
+    "fetched_at": "2026-10-11T18:37:42.800880Z"
   },
   "MUFG": {
     "symbol": "MUFG",
@@ -705,7 +705,7 @@
     "total_current_liabilities": 50509410751000,
     "intangible_assets": 1450787134000,
     "goodwill": 513683309000,
-    "fetched_at": "2026-09-11T17:33:21.228674Z"
+    "fetched_at": "2026-10-11T18:37:39.568624Z"
   },
   "AXP": {
     "symbol": "AXP",
@@ -717,19 +717,19 @@
     "total_current_liabilities": 170806000000,
     "intangible_assets": 90000000,
     "goodwill": 4873000000,
-    "fetched_at": "2026-09-11T17:33:29.604418Z"
+    "fetched_at": "2026-10-11T18:37:47.585732Z"
   },
   "LIN": {
     "symbol": "LIN",
     "name": "Linde plc",
     "sector": "Basic Materials",
-    "ebit": 9183000000,
+    "ebit": 9254000000,
     "total_assets": 86817000000,
     "total_current_assets": 13325000000,
     "total_current_liabilities": 15198000000,
     "intangible_assets": 11871000000,
     "goodwill": 27927000000,
-    "fetched_at": "2026-09-11T17:33:30.480730Z"
+    "fetched_at": "2026-10-11T18:37:44.470429Z"
   },
   "C": {
     "symbol": "C",
@@ -741,7 +741,7 @@
     "total_current_liabilities": 1530287000000,
     "intangible_assets": 4284000000,
     "goodwill": 19098000000,
-    "fetched_at": "2026-09-11T17:33:26.991685Z"
+    "fetched_at": "2026-10-11T18:37:44.907603Z"
   },
   "ANET": {
     "symbol": "ANET",
@@ -753,7 +753,7 @@
     "total_current_liabilities": 5376500000,
     "intangible_assets": 0,
     "goodwill": 416100000,
-    "fetched_at": "2026-09-11T17:33:24.411002Z"
+    "fetched_at": "2026-10-11T18:37:36.029926Z"
   },
   "SHEL": {
     "symbol": "SHEL",
@@ -765,7 +765,7 @@
     "total_current_liabilities": 82415000000,
     "intangible_assets": 11010000000,
     "goodwill": 15662000000,
-    "fetched_at": "2026-09-11T17:33:21.709006Z"
+    "fetched_at": "2026-10-11T18:37:35.070682Z"
   },
   "NVO": {
     "symbol": "NVO",
@@ -777,7 +777,7 @@
     "total_current_liabilities": 215661000000,
     "intangible_assets": 110208000000,
     "goodwill": 19845000000,
-    "fetched_at": "2026-09-11T17:33:36.249287Z"
+    "fetched_at": "2026-10-11T18:37:53.730083Z"
   },
   "PANW": {
     "symbol": "PANW",
@@ -789,7 +789,7 @@
     "total_current_liabilities": 9923000000,
     "intangible_assets": 7017000000,
     "goodwill": 22010000000,
-    "fetched_at": "2026-09-11T17:33:22.207410Z"
+    "fetched_at": "2026-10-11T18:37:31.115894Z"
   },
   "TM": {
     "symbol": "TM",
@@ -801,7 +801,7 @@
     "total_current_liabilities": 33750769601000,
     "intangible_assets": 0,
     "goodwill": 1398795612000,
-    "fetched_at": "2026-09-11T17:33:27.857070Z"
+    "fetched_at": "2026-10-11T18:37:46.225922Z"
   },
   "BHP": {
     "symbol": "BHP",
@@ -813,7 +813,7 @@
     "total_current_liabilities": 16465000000,
     "intangible_assets": 772000000,
     "goodwill": 1341000000,
-    "fetched_at": "2026-09-11T17:33:29.171309Z"
+    "fetched_at": "2026-10-11T18:37:45.787141Z"
   },
   "TMUS": {
     "symbol": "TMUS",
@@ -825,7 +825,7 @@
     "total_current_liabilities": 24500000000,
     "intangible_assets": 3843000000,
     "goodwill": 13678000000,
-    "fetched_at": "2026-09-11T17:33:35.365992Z"
+    "fetched_at": "2026-10-11T18:37:58.723326Z"
   },
   "TD": {
     "symbol": "TD",
@@ -837,7 +837,7 @@
     "total_current_liabilities": 1641442000000,
     "intangible_assets": 3409000000,
     "goodwill": 18980000000,
-    "fetched_at": "2026-09-11T17:33:33.101926Z"
+    "fetched_at": "2026-10-11T18:37:48.900082Z"
   },
   "SAN": {
     "symbol": "SAN",
@@ -849,7 +849,7 @@
     "total_current_liabilities": 1295088000000,
     "intangible_assets": 5350000000,
     "goodwill": 11958000000,
-    "fetched_at": "2026-09-11T17:33:30.044190Z"
+    "fetched_at": "2026-10-11T18:37:48.027826Z"
   },
   "TMO": {
     "symbol": "TMO",
@@ -861,7 +861,7 @@
     "total_current_liabilities": 15189000000,
     "intangible_assets": 15838000000,
     "goodwill": 49362000000,
-    "fetched_at": "2026-09-11T17:33:28.296241Z"
+    "fetched_at": "2026-10-11T18:37:41.334647Z"
   },
   "QCOM": {
     "symbol": "QCOM",
@@ -873,7 +873,7 @@
     "total_current_liabilities": 9144000000,
     "intangible_assets": 1148000000,
     "goodwill": 11358000000,
-    "fetched_at": "2026-09-11T17:33:35.806700Z"
+    "fetched_at": "2026-10-11T18:37:51.096246Z"
   },
   "MCD": {
     "symbol": "MCD",
@@ -885,7 +885,7 @@
     "total_current_liabilities": 4361000000,
     "intangible_assets": 1061000000,
     "goodwill": 3354000000,
-    "fetched_at": "2026-09-11T17:33:39.729120Z"
+    "fetched_at": "2026-10-11T18:37:55.481159Z"
   },
   "AMGN": {
     "symbol": "AMGN",
@@ -897,19 +897,19 @@
     "total_current_liabilities": 25489000000,
     "intangible_assets": 22276000000,
     "goodwill": 18680000000,
-    "fetched_at": "2026-09-11T17:33:32.668340Z"
+    "fetched_at": "2026-10-11T18:37:43.248529Z"
   },
   "APH": {
     "symbol": "APH",
     "name": "Amphenol Corporation",
     "sector": "Technology",
-    "ebit": 5968500000,
+    "ebit": 6048400000,
     "total_assets": 36236900000,
     "total_current_assets": 20267200000,
     "total_current_liabilities": 6802800000,
     "intangible_assets": 2241400000,
     "goodwill": 10575400000,
-    "fetched_at": "2026-09-11T17:33:32.232798Z"
+    "fetched_at": "2026-10-11T18:37:46.659489Z"
   },
   "MRVL": {
     "symbol": "MRVL",
@@ -921,7 +921,7 @@
     "total_current_liabilities": 3220500000,
     "intangible_assets": 2051000000,
     "goodwill": 11062200000,
-    "fetched_at": "2026-09-11T17:33:31.347271Z"
+    "fetched_at": "2026-10-11T18:37:42.361495Z"
   },
   "STX": {
     "symbol": "STX",
@@ -933,7 +933,7 @@
     "total_current_liabilities": 3284000000,
     "intangible_assets": 0,
     "goodwill": 1221000000,
-    "fetched_at": "2026-09-11T17:33:37.117709Z"
+    "fetched_at": "2026-10-11T18:37:51.539829Z"
   },
   "PEP": {
     "symbol": "PEP",
@@ -945,7 +945,7 @@
     "total_current_liabilities": 32764000000,
     "intangible_assets": 15066000000,
     "goodwill": 18916000000,
-    "fetched_at": "2026-09-11T17:33:36.681946Z"
+    "fetched_at": "2026-10-11T18:37:53.286114Z"
   },
   "ADI": {
     "symbol": "ADI",
@@ -957,7 +957,7 @@
     "total_current_liabilities": 3245801000,
     "intangible_assets": 8013815000,
     "goodwill": 26945180000,
-    "fetched_at": "2026-09-11T17:33:38.774678Z"
+    "fetched_at": "2026-10-11T18:37:48.459852Z"
   },
   "CRWD": {
     "symbol": "CRWD",
@@ -969,7 +969,7 @@
     "total_current_liabilities": 4184192000,
     "intangible_assets": 136702000,
     "goodwill": 1363294000,
-    "fetched_at": "2026-09-11T17:33:31.785364Z"
+    "fetched_at": "2026-10-11T18:37:34.631170Z"
   },
   "WDC": {
     "symbol": "WDC",
@@ -981,19 +981,19 @@
     "total_current_liabilities": 4240000000,
     "intangible_assets": 77000000,
     "goodwill": 4321000000,
-    "fetched_at": "2026-09-11T17:33:49.149801Z"
+    "fetched_at": "2026-10-11T18:38:04.724930Z"
   },
   "SAP": {
     "symbol": "SAP",
     "name": "SAP SE",
     "sector": "Technology",
     "ebit": 10762000000,
-    "total_assets": 70332054000,
-    "total_current_assets": 20247379000,
-    "total_current_liabilities": 17242658000,
-    "intangible_assets": 2281029000,
-    "goodwill": 29001651000,
-    "fetched_at": "2026-09-11T17:33:26.169754Z"
+    "total_assets": 70362000000,
+    "total_current_assets": 20256000000,
+    "total_current_liabilities": 17250000000,
+    "intangible_assets": 2282000000,
+    "goodwill": 29014000000,
+    "fetched_at": "2026-10-11T18:37:40.454452Z"
   },
   "NEE": {
     "symbol": "NEE",
@@ -1005,7 +1005,7 @@
     "total_current_liabilities": 22817000000,
     "intangible_assets": 3667000000,
     "goodwill": 4849000000,
-    "fetched_at": "2026-09-11T17:33:42.204554Z"
+    "fetched_at": "2026-10-11T18:37:57.686672Z"
   },
   "SCHW": {
     "symbol": "SCHW",
@@ -1017,7 +1017,7 @@
     "total_current_liabilities": 406540000000,
     "intangible_assets": 7233000000,
     "goodwill": 11951000000,
-    "fetched_at": "2026-09-11T17:33:37.840509Z"
+    "fetched_at": "2026-10-11T18:37:54.164750Z"
   },
   "TTE": {
     "symbol": "TTE",
@@ -1029,7 +1029,7 @@
     "total_current_liabilities": 92567729000,
     "intangible_assets": 37345000000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:33:33.543439Z"
+    "fetched_at": "2026-10-11T18:37:49.350869Z"
   },
   "VZ": {
     "symbol": "VZ",
@@ -1041,7 +1041,7 @@
     "total_current_liabilities": 62370000000,
     "intangible_assets": 10458000000,
     "goodwill": 22841000000,
-    "fetched_at": "2026-09-11T17:33:30.911871Z"
+    "fetched_at": "2026-10-11T18:37:52.419534Z"
   },
   "BA": {
     "symbol": "BA",
@@ -1053,7 +1053,7 @@
     "total_current_liabilities": 108115000000,
     "intangible_assets": 1567000000,
     "goodwill": 17275000000,
-    "fetched_at": "2026-09-11T17:33:44.406894Z"
+    "fetched_at": "2026-10-11T18:38:01.969577Z"
   },
   "UNP": {
     "symbol": "UNP",
@@ -1065,7 +1065,7 @@
     "total_current_liabilities": 5014000000,
     "intangible_assets": 745000000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:33:43.535026Z"
+    "fetched_at": "2026-10-11T18:37:56.361888Z"
   },
   "UBS": {
     "symbol": "UBS",
@@ -1077,7 +1077,7 @@
     "total_current_liabilities": 1023196000000,
     "intangible_assets": 698307000,
     "goodwill": 4808885000,
-    "fetched_at": "2026-09-11T17:33:40.167336Z"
+    "fetched_at": "2026-10-11T18:37:59.161074Z"
   },
   "DIS": {
     "symbol": "DIS",
@@ -1089,7 +1089,7 @@
     "total_current_liabilities": 34162000000,
     "intangible_assets": 9272000000,
     "goodwill": 73294000000,
-    "fetched_at": "2026-09-11T17:33:38.333940Z"
+    "fetched_at": "2026-10-11T18:37:50.228439Z"
   },
   "TJX": {
     "symbol": "TJX",
@@ -1113,7 +1113,7 @@
     "total_current_liabilities": 1855679000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:33:42.670895Z"
+    "fetched_at": "2026-10-11T18:37:57.236728Z"
   },
   "ABT": {
     "symbol": "ABT",
@@ -1125,7 +1125,7 @@
     "total_current_liabilities": 16496000000,
     "intangible_assets": 5526000000,
     "goodwill": 24035000000,
-    "fetched_at": "2026-09-11T17:33:41.768180Z"
+    "fetched_at": "2026-10-11T18:37:52.853125Z"
   },
   "GILD": {
     "symbol": "GILD",
@@ -1137,7 +1137,7 @@
     "total_current_liabilities": 11813000000,
     "intangible_assets": 16978000000,
     "goodwill": 8314000000,
-    "fetched_at": "2026-09-11T17:33:41.047085Z"
+    "fetched_at": "2026-10-11T18:37:50.664699Z"
   },
   "IBKR": {
     "symbol": "IBKR",
@@ -1149,19 +1149,19 @@
     "total_current_liabilities": 157277000000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:33:47.753866Z"
+    "fetched_at": "2026-10-11T18:38:01.411481Z"
   },
   "SHOP": {
     "symbol": "SHOP",
     "name": "Shopify Inc.",
     "sector": "Technology",
-    "ebit": 1509000000,
+    "ebit": 1898000000,
     "total_assets": 15189000000,
     "total_current_assets": 8296000000,
     "total_current_liabilities": 1392000000,
     "intangible_assets": 30000000,
     "goodwill": 491000000,
-    "fetched_at": "2026-09-11T17:33:43.101128Z"
+    "fetched_at": "2026-10-11T18:37:45.345891Z"
   },
   "BLK": {
     "symbol": "BLK",
@@ -1173,7 +1173,7 @@
     "total_current_liabilities": 1740000000,
     "intangible_assets": 27968000000,
     "goodwill": 35283000000,
-    "fetched_at": "2026-09-11T17:33:43.968354Z"
+    "fetched_at": "2026-10-11T18:37:54.602424Z"
   },
   "GLW": {
     "symbol": "GLW",
@@ -1185,7 +1185,7 @@
     "total_current_liabilities": 5628000000,
     "intangible_assets": 657000000,
     "goodwill": 2489000000,
-    "fetched_at": "2026-09-11T17:33:50.499651Z"
+    "fetched_at": "2026-10-11T18:38:05.164432Z"
   },
   "DE": {
     "symbol": "DE",
@@ -1197,7 +1197,7 @@
     "total_current_liabilities": 32455000000,
     "intangible_assets": 1362000000,
     "goodwill": 4188000000,
-    "fetched_at": "2026-09-11T17:33:39.222594Z"
+    "fetched_at": "2026-10-11T18:37:55.038833Z"
   },
   "APP": {
     "symbol": "APP",
@@ -1209,7 +1209,7 @@
     "total_current_liabilities": 1333788000,
     "intangible_assets": 396714000,
     "goodwill": 1539986000,
-    "fetched_at": "2026-09-11T17:34:09.879128Z"
+    "fetched_at": "2026-10-11T18:38:28.211936Z"
   },
   "ETN": {
     "symbol": "ETN",
@@ -1221,7 +1221,7 @@
     "total_current_liabilities": 9370000000,
     "intangible_assets": 5054000000,
     "goodwill": 15769000000,
-    "fetched_at": "2026-09-11T17:33:45.273011Z"
+    "fetched_at": "2026-10-11T18:37:55.917951Z"
   },
   "BUD": {
     "symbol": "BUD",
@@ -1233,7 +1233,7 @@
     "total_current_liabilities": 34475000000,
     "intangible_assets": 41985000000,
     "goodwill": 117908000000,
-    "fetched_at": "2026-09-11T17:33:49.586091Z"
+    "fetched_at": "2026-10-11T18:38:00.530081Z"
   },
   "UBER": {
     "symbol": "UBER",
@@ -1245,7 +1245,7 @@
     "total_current_liabilities": 12320000000,
     "intangible_assets": 1048000000,
     "goodwill": 8931000000,
-    "fetched_at": "2026-09-11T17:33:50.063371Z"
+    "fetched_at": "2026-10-11T18:38:02.925594Z"
   },
   "T": {
     "symbol": "T",
@@ -1257,7 +1257,7 @@
     "total_current_liabilities": 53780000000,
     "intangible_assets": 5254000000,
     "goodwill": 63425000000,
-    "fetched_at": "2026-09-11T17:33:40.609204Z"
+    "fetched_at": "2026-10-11T18:38:00.972450Z"
   },
   "SCCO": {
     "symbol": "SCCO",
@@ -1269,7 +1269,7 @@
     "total_current_liabilities": 2145100000,
     "intangible_assets": 80500000,
     "goodwill": 41900000,
-    "fetched_at": "2026-09-11T17:33:46.599509Z"
+    "fetched_at": "2026-10-11T18:37:51.977346Z"
   },
   "BX": {
     "symbol": "BX",
@@ -1281,7 +1281,7 @@
     "total_current_liabilities": 3224432000,
     "intangible_assets": 131359000,
     "goodwill": 1890202000,
-    "fetched_at": "2026-09-11T17:33:48.708561Z"
+    "fetched_at": "2026-10-11T18:38:04.287967Z"
   },
   "RIO": {
     "symbol": "RIO",
@@ -1293,7 +1293,7 @@
     "total_current_liabilities": 14930000000,
     "intangible_assets": 5227000000,
     "goodwill": 2949000000,
-    "fetched_at": "2026-09-11T17:33:46.153037Z"
+    "fetched_at": "2026-10-11T18:38:00.084025Z"
   },
   "TBB": {
     "symbol": "TBB",
@@ -1305,7 +1305,7 @@
     "total_current_liabilities": 53780000000,
     "intangible_assets": 5254000000,
     "goodwill": 63425000000,
-    "fetched_at": "2026-09-11T17:33:47.043166Z"
+    "fetched_at": "2026-10-11T18:38:02.476347Z"
   },
   "ISRG": {
     "symbol": "ISRG",
@@ -1329,7 +1329,7 @@
     "total_current_liabilities": 633093000000,
     "intangible_assets": 0,
     "goodwill": 2856000000,
-    "fetched_at": "2026-09-11T17:33:45.710101Z"
+    "fetched_at": "2026-10-11T18:38:03.376968Z"
   },
   "DHR": {
     "symbol": "DHR",
@@ -1341,7 +1341,7 @@
     "total_current_liabilities": 6807000000,
     "intangible_assets": 17817000000,
     "goodwill": 43151000000,
-    "fetched_at": "2026-09-11T17:33:51.636600Z"
+    "fetched_at": "2026-10-11T18:37:59.612571Z"
   },
   "PFE": {
     "symbol": "PFE",
@@ -1353,7 +1353,7 @@
     "total_current_liabilities": 36984000000,
     "intangible_assets": 53731000000,
     "goodwill": 71264000000,
-    "fetched_at": "2026-09-11T17:33:48.261419Z"
+    "fetched_at": "2026-10-11T18:37:58.125205Z"
   },
   "CB": {
     "symbol": "CB",
@@ -1401,7 +1401,7 @@
     "total_current_liabilities": 37118000000,
     "intangible_assets": 6815000000,
     "goodwill": 57941000000,
-    "fetched_at": "2026-09-11T17:33:33.977645Z"
+    "fetched_at": "2026-10-11T18:37:49.792727Z"
   },
   "COP": {
     "symbol": "COP",
@@ -1413,7 +1413,7 @@
     "total_current_liabilities": 11972000000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:33:44.839785Z"
+    "fetched_at": "2026-10-11T18:37:56.802220Z"
   },
   "PGR": {
     "symbol": "PGR",
@@ -1473,7 +1473,7 @@
     "total_current_liabilities": 30617000000,
     "intangible_assets": 37846000000,
     "goodwill": 21242000000,
-    "fetched_at": "2026-09-11T17:33:25.302057Z"
+    "fetched_at": "2026-10-11T18:37:40.896949Z"
   },
   "SPGI": {
     "symbol": "SPGI",
@@ -1509,7 +1509,7 @@
     "total_current_liabilities": 14524000000,
     "intangible_assets": 47932601000,
     "goodwill": 38848596000,
-    "fetched_at": "2026-09-11T17:34:02.750160Z"
+    "fetched_at": "2026-10-11T18:38:07.890036Z"
   },
   "SYK": {
     "symbol": "SYK",
@@ -1521,7 +1521,7 @@
     "total_current_liabilities": 7794000000,
     "intangible_assets": 5681000000,
     "goodwill": 19291000000,
-    "fetched_at": "2026-09-11T17:34:16.173886Z"
+    "fetched_at": "2026-10-11T18:38:12.767801Z"
   },
   "COF": {
     "symbol": "COF",
@@ -1557,7 +1557,7 @@
     "total_current_liabilities": 10210400000,
     "intangible_assets": 166800000,
     "goodwill": 3368900000,
-    "fetched_at": "2026-09-11T17:34:06.900527Z"
+    "fetched_at": "2026-10-11T18:38:15.834330Z"
   },
   "SONY": {
     "symbol": "SONY",
@@ -1593,7 +1593,7 @@
     "total_current_liabilities": 9154000000,
     "intangible_assets": 11876000000,
     "goodwill": 5787000000,
-    "fetched_at": "2026-09-11T17:34:04.651120Z"
+    "fetched_at": "2026-10-11T18:38:08.330405Z"
   },
   "PH": {
     "symbol": "PH",
@@ -1629,7 +1629,7 @@
     "total_current_liabilities": 8368621000,
     "intangible_assets": 5476171000,
     "goodwill": 48414235000,
-    "fetched_at": "2026-09-11T17:34:14.420790Z"
+    "fetched_at": "2026-10-11T18:38:17.744650Z"
   },
   "PDD": {
     "symbol": "PDD",
@@ -1641,7 +1641,7 @@
     "total_current_liabilities": 212350375000,
     "intangible_assets": 15397000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:34:09.390753Z"
+    "fetched_at": "2026-10-11T18:38:08.765167Z"
   },
   "BMY": {
     "symbol": "BMY",
@@ -1665,7 +1665,7 @@
     "total_current_liabilities": 4407000000,
     "intangible_assets": 1894800000,
     "goodwill": 2033700000,
-    "fetched_at": "2026-09-11T17:34:22.274862Z"
+    "fetched_at": "2026-10-11T18:38:27.342840Z"
   },
   "LOW": {
     "symbol": "LOW",
@@ -1677,7 +1677,7 @@
     "total_current_liabilities": 19463000000,
     "intangible_assets": 5908000000,
     "goodwill": 3945000000,
-    "fetched_at": "2026-09-11T17:34:08.360636Z"
+    "fetched_at": "2026-10-11T18:38:14.964183Z"
   },
   "FTNT": {
     "symbol": "FTNT",
@@ -1689,7 +1689,7 @@
     "total_current_liabilities": 5034000000,
     "intangible_assets": 97300000,
     "goodwill": 257400000,
-    "fetched_at": "2026-09-11T17:34:05.529831Z"
+    "fetched_at": "2026-10-11T18:38:03.841373Z"
   },
   "PBR": {
     "symbol": "PBR",
@@ -1725,7 +1725,7 @@
     "total_current_liabilities": 848453000000,
     "intangible_assets": 2894000000,
     "goodwill": 5475000000,
-    "fetched_at": "2026-09-11T17:34:12.629128Z"
+    "fetched_at": "2026-10-11T18:38:18.614022Z"
   },
   "SO": {
     "symbol": "SO",
@@ -1737,7 +1737,7 @@
     "total_current_liabilities": 16888000000,
     "intangible_assets": 300000000,
     "goodwill": 5161000000,
-    "fetched_at": "2026-09-11T17:34:20.801758Z"
+    "fetched_at": "2026-10-11T18:38:20.773957Z"
   },
   "SOMN": {
     "symbol": "SOMN",
@@ -1749,23 +1749,23 @@
     "total_current_liabilities": 16888000000,
     "intangible_assets": 300000000,
     "goodwill": 5161000000,
-    "fetched_at": "2026-09-11T17:34:15.738438Z"
+    "fetched_at": "2026-10-11T18:38:19.811734Z"
   },
   "HWM": {
     "symbol": "HWM",
     "name": "Howmet Aerospace Inc.",
     "sector": "Industrials",
-    "ebit": 1991000000,
+    "ebit": 2105000000,
     "total_assets": 11179000000,
     "total_current_assets": 3779000000,
     "total_current_liabilities": 1771000000,
     "intangible_assets": 457000000,
     "goodwill": 4022000000,
-    "fetched_at": "2026-09-11T17:34:28.057643Z"
+    "fetched_at": "2026-10-11T18:38:30.331820Z"
   },
   "MDT": {
     "symbol": "MDT",
-    "name": "Medtronic plc",
+    "name": "Medtronic Plc",
     "sector": "Healthcare",
     "ebit": 6851000000,
     "total_assets": 93028000000,
@@ -1773,7 +1773,7 @@
     "total_current_liabilities": 11658000000,
     "intangible_assets": 10146000000,
     "goodwill": 42587000000,
-    "fetched_at": "2026-09-11T17:34:04.215378Z"
+    "fetched_at": "2026-10-11T18:38:09.209000Z"
   },
   "BNS": {
     "symbol": "BNS",
@@ -1785,7 +1785,7 @@
     "total_current_liabilities": 1066659000000,
     "intangible_assets": 7584000000,
     "goodwill": 8585000000,
-    "fetched_at": "2026-09-11T17:34:05.087840Z"
+    "fetched_at": "2026-10-11T18:38:11.890678Z"
   },
   "SOJE": {
     "symbol": "SOJE",
@@ -1797,19 +1797,19 @@
     "total_current_liabilities": 16888000000,
     "intangible_assets": 300000000,
     "goodwill": 5161000000,
-    "fetched_at": "2026-09-11T17:34:13.068780Z"
+    "fetched_at": "2026-10-11T18:38:16.786713Z"
   },
   "TT": {
     "symbol": "TT",
     "name": "Trane Technologies plc",
     "sector": "Industrials",
-    "ebit": 3906100000,
+    "ebit": 3871400000,
     "total_assets": 21420700000,
     "total_current_assets": 7863000000,
     "total_current_liabilities": 6286700000,
     "intangible_assets": 3236700000,
     "goodwill": 6457000000,
-    "fetched_at": "2026-09-11T17:34:23.597105Z"
+    "fetched_at": "2026-10-11T18:38:14.095655Z"
   },
   "SNY": {
     "symbol": "SNY",
@@ -1821,7 +1821,7 @@
     "total_current_liabilities": 28345000000,
     "intangible_assets": 26261000000,
     "goodwill": 41300000000,
-    "fetched_at": "2026-09-11T17:34:19.500589Z"
+    "fetched_at": "2026-10-11T18:38:24.706572Z"
   },
   "CDNS": {
     "symbol": "CDNS",
@@ -1833,7 +1833,7 @@
     "total_current_liabilities": 1635291000,
     "intangible_assets": 718223000,
     "goodwill": 2749143000,
-    "fetched_at": "2026-09-11T17:34:45.593937Z"
+    "fetched_at": "2026-10-11T18:38:24.267580Z"
   },
   "IBN": {
     "symbol": "IBN",
@@ -1845,7 +1845,7 @@
     "total_current_liabilities": 18300201200000,
     "intangible_assets": 0,
     "goodwill": 105500500000,
-    "fetched_at": "2026-09-11T17:34:13.949983Z"
+    "fetched_at": "2026-10-11T18:38:20.341212Z"
   },
   "GSK": {
     "symbol": "GSK",
@@ -1857,7 +1857,7 @@
     "total_current_liabilities": 21353401000,
     "intangible_assets": 16718562000,
     "goodwill": 7005665000,
-    "fetched_at": "2026-09-11T17:34:25.913281Z"
+    "fetched_at": "2026-10-11T18:38:27.778050Z"
   },
   "BP": {
     "symbol": "BP",
@@ -1881,7 +1881,7 @@
     "total_current_liabilities": 386862000000,
     "intangible_assets": 2822000000,
     "goodwill": 16767000000,
-    "fetched_at": "2026-09-11T17:34:07.923584Z"
+    "fetched_at": "2026-10-11T18:38:22.079630Z"
   },
   "EQIX": {
     "symbol": "EQIX",
@@ -1893,7 +1893,7 @@
     "total_current_liabilities": 3893000000,
     "intangible_assets": 1316000000,
     "goodwill": 5984000000,
-    "fetched_at": "2026-09-11T17:34:17.681927Z"
+    "fetched_at": "2026-10-11T18:38:18.179741Z"
   },
   "GD": {
     "symbol": "GD",
@@ -1905,7 +1905,7 @@
     "total_current_liabilities": 16796000000,
     "intangible_assets": 1375000000,
     "goodwill": 21009000000,
-    "fetched_at": "2026-09-11T17:34:24.985354Z"
+    "fetched_at": "2026-10-11T18:38:30.805188Z"
   },
   "PBR-A": {
     "symbol": "PBR-A",
@@ -1929,7 +1929,7 @@
     "total_current_liabilities": 440866000000,
     "intangible_assets": 3659000000,
     "goodwill": 10959000000,
-    "fetched_at": "2026-09-11T17:34:24.552432Z"
+    "fetched_at": "2026-10-11T18:38:35.122511Z"
   },
   "SMFG": {
     "symbol": "SMFG",
@@ -1941,7 +1941,7 @@
     "total_current_liabilities": 32853808128000,
     "intangible_assets": 912590967000,
     "goodwill": 243438273000,
-    "fetched_at": "2026-09-11T17:34:13.504645Z"
+    "fetched_at": "2026-10-11T18:38:23.388920Z"
   },
   "NEM": {
     "symbol": "NEM",
@@ -1965,19 +1965,19 @@
     "total_current_liabilities": 28771000000,
     "intangible_assets": 168000000,
     "goodwill": 385000000,
-    "fetched_at": "2026-09-11T17:34:20.368675Z"
+    "fetched_at": "2026-10-11T18:38:21.645766Z"
   },
   "SPOT": {
     "symbol": "SPOT",
     "name": "Spotify Technology S.A.",
     "sector": "Communication Services",
     "ebit": 2255000000,
-    "total_assets": 15008609540,
-    "total_current_assets": 10491532849,
-    "total_current_liabilities": 6082410192,
-    "intangible_assets": 40982549,
-    "goodwill": 1082539069,
-    "fetched_at": "2026-09-11T17:34:10.756824Z"
+    "total_assets": 15015000000,
+    "total_current_assets": 10496000000,
+    "total_current_liabilities": 6085000000,
+    "intangible_assets": 41000000,
+    "goodwill": 1083000000,
+    "fetched_at": "2026-10-11T18:38:10.966742Z"
   },
   "MAR": {
     "symbol": "MAR",
@@ -1989,7 +1989,7 @@
     "total_current_liabilities": 8398000000,
     "intangible_assets": 10336000000,
     "goodwill": 8907000000,
-    "fetched_at": "2026-09-11T17:34:34.358190Z"
+    "fetched_at": "2026-10-11T18:38:26.024330Z"
   },
   "DUK": {
     "symbol": "DUK",
@@ -2001,7 +2001,7 @@
     "total_current_liabilities": 21047000000,
     "intangible_assets": 0,
     "goodwill": 19010000000,
-    "fetched_at": "2026-09-11T17:34:27.318876Z"
+    "fetched_at": "2026-10-11T18:38:28.660673Z"
   },
   "ADP": {
     "symbol": "ADP",
@@ -2013,7 +2013,7 @@
     "total_current_liabilities": 50024900000,
     "intangible_assets": 1653300000,
     "goodwill": 3284400000,
-    "fetched_at": "2026-09-11T17:34:11.752232Z"
+    "fetched_at": "2026-10-11T18:38:11.441817Z"
   },
   "BN": {
     "symbol": "BN",
@@ -2025,7 +2025,7 @@
     "total_current_liabilities": 62348000000,
     "intangible_assets": 38496000000,
     "goodwill": 43355000000,
-    "fetched_at": "2026-09-11T17:34:36.591315Z"
+    "fetched_at": "2026-10-11T18:38:38.951535Z"
   },
   "BNJ": {
     "symbol": "BNJ",
@@ -2037,7 +2037,7 @@
     "total_current_liabilities": 62348000000,
     "intangible_assets": 38496000000,
     "goodwill": 43355000000,
-    "fetched_at": "2026-09-11T17:34:31.612877Z"
+    "fetched_at": "2026-10-11T18:38:33.787057Z"
   },
   "BNH": {
     "symbol": "BNH",
@@ -2049,7 +2049,7 @@
     "total_current_liabilities": 62348000000,
     "intangible_assets": 38496000000,
     "goodwill": 43355000000,
-    "fetched_at": "2026-09-11T17:34:26.498781Z"
+    "fetched_at": "2026-10-11T18:38:29.894733Z"
   },
   "USB": {
     "symbol": "USB",
@@ -2061,7 +2061,7 @@
     "total_current_liabilities": 539378000000,
     "intangible_assets": 4904000000,
     "goodwill": 12635000000,
-    "fetched_at": "2026-09-11T17:34:23.160134Z"
+    "fetched_at": "2026-10-11T18:38:32.867843Z"
   },
   "PWR": {
     "symbol": "PWR",
@@ -2073,7 +2073,7 @@
     "total_current_liabilities": 8716198000,
     "intangible_assets": 2906188000,
     "goodwill": 7317228000,
-    "fetched_at": "2026-09-11T17:34:24.042026Z"
+    "fetched_at": "2026-10-11T18:38:13.208489Z"
   },
   "MCK": {
     "symbol": "MCK",
@@ -2085,7 +2085,7 @@
     "total_current_liabilities": 67017000000,
     "intangible_assets": 4079000000,
     "goodwill": 11316000000,
-    "fetched_at": "2026-09-11T17:34:19.063123Z"
+    "fetched_at": "2026-10-11T18:38:10.530431Z"
   },
   "MNST": {
     "symbol": "MNST",
@@ -2097,7 +2097,7 @@
     "total_current_liabilities": 1447780000,
     "intangible_assets": 1379268000,
     "goodwill": 1331643000,
-    "fetched_at": "2026-09-11T17:34:38.886537Z"
+    "fetched_at": "2026-10-11T18:38:36.060045Z"
   },
   "ITUB": {
     "symbol": "ITUB",
@@ -2109,7 +2109,7 @@
     "total_current_liabilities": 585762889000,
     "intangible_assets": 15746094000,
     "goodwill": 8340812000,
-    "fetched_at": "2026-09-11T17:34:29.805976Z"
+    "fetched_at": "2026-10-11T18:38:09.648434Z"
   },
   "WM": {
     "symbol": "WM",
@@ -2121,7 +2121,7 @@
     "total_current_liabilities": 5524000000,
     "intangible_assets": 3767000000,
     "goodwill": 13880000000,
-    "fetched_at": "2026-09-11T17:34:36.158048Z"
+    "fetched_at": "2026-10-11T18:38:37.885810Z"
   },
   "MELI": {
     "symbol": "MELI",
@@ -2133,7 +2133,7 @@
     "total_current_liabilities": 28633000000,
     "intangible_assets": 33000000,
     "goodwill": 163000000,
-    "fetched_at": "2026-09-11T17:34:25.479981Z"
+    "fetched_at": "2026-10-11T18:38:25.144401Z"
   },
   "NET": {
     "symbol": "NET",
@@ -2145,7 +2145,7 @@
     "total_current_liabilities": 2350563000,
     "intangible_assets": 41799000,
     "goodwill": 226563000,
-    "fetched_at": "2026-09-11T17:34:10.318563Z"
+    "fetched_at": "2026-10-11T18:38:06.036022Z"
   },
   "ING": {
     "symbol": "ING",
@@ -2157,7 +2157,7 @@
     "total_current_liabilities": 819079000000,
     "intangible_assets": 1509357000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:34:12.191443Z"
+    "fetched_at": "2026-10-11T18:38:26.901645Z"
   },
   "CMI": {
     "symbol": "CMI",
@@ -2181,7 +2181,7 @@
     "total_current_liabilities": 3133000000,
     "intangible_assets": 187000000,
     "goodwill": 80000000,
-    "fetched_at": "2026-09-11T17:34:30.246948Z"
+    "fetched_at": "2026-10-11T18:38:34.664985Z"
   },
   "ELV": {
     "symbol": "ELV",
@@ -2193,7 +2193,7 @@
     "total_current_liabilities": 19957000000,
     "intangible_assets": 11200000000,
     "goodwill": 28344000000,
-    "fetched_at": "2026-09-11T17:34:31.177423Z"
+    "fetched_at": "2026-10-11T18:38:32.418425Z"
   },
   "BCS": {
     "symbol": "BCS",
@@ -2205,7 +2205,7 @@
     "total_current_liabilities": 697655000000,
     "intangible_assets": 3869000000,
     "goodwill": 4415000000,
-    "fetched_at": "2026-09-11T17:34:30.739787Z"
+    "fetched_at": "2026-10-11T18:38:45.907828Z"
   },
   "SNOW": {
     "symbol": "SNOW",
@@ -2217,19 +2217,19 @@
     "total_current_liabilities": 4421691000,
     "intangible_assets": 246916000,
     "goodwill": 1194367000,
-    "fetched_at": "2026-09-11T17:34:07.487717Z"
+    "fetched_at": "2026-10-11T18:38:06.985876Z"
   },
   "CEG": {
     "symbol": "CEG",
     "name": "Constellation Energy Corporation",
     "sector": "Utilities",
-    "ebit": 4022000000,
+    "ebit": 4038000000,
     "total_assets": 57249000000,
     "total_current_assets": 12119000000,
     "total_current_liabilities": 7944000000,
     "intangible_assets": 0,
     "goodwill": 420000000,
-    "fetched_at": "2026-09-11T17:34:19.936496Z"
+    "fetched_at": "2026-10-11T18:38:12.328854Z"
   },
   "HCA": {
     "symbol": "HCA",
@@ -2241,7 +2241,7 @@
     "total_current_liabilities": 16350000000,
     "intangible_assets": 10293000000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:34:28.648899Z"
+    "fetched_at": "2026-10-11T18:38:22.514922Z"
   },
   "DDOG": {
     "symbol": "DDOG",
@@ -2253,7 +2253,7 @@
     "total_current_liabilities": 1591401000,
     "intangible_assets": 14968000,
     "goodwill": 530568000,
-    "fetched_at": "2026-09-11T17:34:47.835923Z"
+    "fetched_at": "2026-10-11T18:38:14.533141Z"
   },
   "ASX": {
     "symbol": "ASX",
@@ -2265,7 +2265,7 @@
     "total_current_liabilities": 244349000000,
     "intangible_assets": 64807000000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:34:35.719843Z"
+    "fetched_at": "2026-10-11T18:38:17.305015Z"
   },
   "WMB": {
     "symbol": "WMB",
@@ -2277,7 +2277,7 @@
     "total_current_liabilities": 6106000000,
     "intangible_assets": 6763000000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:34:32.486918Z"
+    "fetched_at": "2026-10-11T18:38:33.326359Z"
   },
   "CNQ": {
     "symbol": "CNQ",
@@ -2289,7 +2289,7 @@
     "total_current_liabilities": 8056429000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:34:17.250917Z"
+    "fetched_at": "2026-10-11T18:38:15.398583Z"
   },
   "EQNR": {
     "symbol": "EQNR",
@@ -2301,7 +2301,7 @@
     "total_current_liabilities": 30601315000,
     "intangible_assets": 0,
     "goodwill": 5950061000,
-    "fetched_at": "2026-09-11T17:34:11.194366Z"
+    "fetched_at": "2026-10-11T18:38:16.350411Z"
   },
   "FCX": {
     "symbol": "FCX",
@@ -2313,7 +2313,7 @@
     "total_current_liabilities": 6019000000,
     "intangible_assets": 432000000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:34:18.115415Z"
+    "fetched_at": "2026-10-11T18:38:13.661782Z"
   },
   "JCI": {
     "symbol": "JCI",
@@ -2325,7 +2325,7 @@
     "total_current_liabilities": 10941000000,
     "intangible_assets": 3613000000,
     "goodwill": 16633000000,
-    "fetched_at": "2026-09-11T17:34:33.412926Z"
+    "fetched_at": "2026-10-11T18:38:26.465449Z"
   },
   "MRSH": {
     "symbol": "MRSH",
@@ -2337,7 +2337,7 @@
     "total_current_liabilities": 21060000000,
     "intangible_assets": 5212000000,
     "goodwill": 24337000000,
-    "fetched_at": "2026-09-11T17:34:39.365311Z"
+    "fetched_at": "2026-10-11T18:38:37.448432Z"
   },
   "CME": {
     "symbol": "CME",
@@ -2349,7 +2349,7 @@
     "total_current_liabilities": 55800000,
     "intangible_assets": 19786000000,
     "goodwill": 10514700000,
-    "fetched_at": "2026-09-11T17:34:22.721849Z"
+    "fetched_at": "2026-10-11T18:38:19.057326Z"
   },
   "KKR": {
     "symbol": "KKR",
@@ -2361,7 +2361,7 @@
     "total_current_liabilities": 892207000,
     "intangible_assets": 8781973000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:34:29.090165Z"
+    "fetched_at": "2026-10-11T18:38:40.826693Z"
   },
   "ABNB": {
     "symbol": "ABNB",
@@ -2373,7 +2373,7 @@
     "total_current_liabilities": 13649000000,
     "intangible_assets": 16000000,
     "goodwill": 754000000,
-    "fetched_at": "2026-09-11T17:34:21.830240Z"
+    "fetched_at": "2026-10-11T18:38:21.213115Z"
   },
   "VLO": {
     "symbol": "VLO",
@@ -2385,7 +2385,7 @@
     "total_current_liabilities": 14109000000,
     "intangible_assets": 123000000,
     "goodwill": 260000000,
-    "fetched_at": "2026-09-11T17:34:06.471200Z"
+    "fetched_at": "2026-10-11T18:38:07.437361Z"
   },
   "MCO": {
     "symbol": "MCO",
@@ -2397,7 +2397,7 @@
     "total_current_liabilities": 2981000000,
     "intangible_assets": 1866000000,
     "goodwill": 6368000000,
-    "fetched_at": "2026-09-11T17:34:41.283028Z"
+    "fetched_at": "2026-10-11T18:38:42.511045Z"
   },
   "CMCSA": {
     "symbol": "CMCSA",
@@ -2421,7 +2421,7 @@
     "total_current_liabilities": 511382000000,
     "intangible_assets": 5583000000,
     "goodwill": 3010000000,
-    "fetched_at": "2026-09-11T17:34:35.282680Z"
+    "fetched_at": "2026-10-11T18:38:44.589867Z"
   },
   "MPC": {
     "symbol": "MPC",
@@ -2433,7 +2433,7 @@
     "total_current_liabilities": 19678000000,
     "intangible_assets": 2714000000,
     "goodwill": 9354000000,
-    "fetched_at": "2026-09-11T17:34:03.701005Z"
+    "fetched_at": "2026-10-11T18:38:05.599088Z"
   },
   "UPS": {
     "symbol": "UPS",
@@ -2445,7 +2445,7 @@
     "total_current_liabilities": 15620000000,
     "intangible_assets": 4021000000,
     "goodwill": 5837000000,
-    "fetched_at": "2026-09-11T17:34:37.022297Z"
+    "fetched_at": "2026-10-11T18:38:43.259240Z"
   },
   "NTES": {
     "symbol": "NTES",
@@ -2469,7 +2469,7 @@
     "total_current_liabilities": 3722494000,
     "intangible_assets": 12679591000,
     "goodwill": 26899215000,
-    "fetched_at": "2026-09-11T17:34:53.016569Z"
+    "fetched_at": "2026-10-11T18:38:22.950074Z"
   },
   "DASH": {
     "symbol": "DASH",
@@ -2481,19 +2481,19 @@
     "total_current_liabilities": 6147000000,
     "intangible_assets": 2260000000,
     "goodwill": 5519000000,
-    "fetched_at": "2026-09-11T17:34:32.917887Z"
+    "fetched_at": "2026-10-11T18:38:35.602801Z"
   },
   "ACN": {
     "symbol": "ACN",
     "name": "Accenture plc",
     "sector": "Technology",
-    "ebit": 10498948000,
-    "total_assets": 65394897000,
-    "total_current_assets": 28900689000,
-    "total_current_liabilities": 20352097000,
-    "intangible_assets": 2410755000,
-    "goodwill": 22536416000,
-    "fetched_at": "2026-09-11T17:34:08.798343Z"
+    "ebit": 11675612000,
+    "total_assets": 73597792000,
+    "total_current_assets": 31831140000,
+    "total_current_liabilities": 22304374000,
+    "intangible_assets": 0,
+    "goodwill": 26819458000,
+    "fetched_at": "2026-10-11T18:38:06.473151Z"
   },
   "NGG": {
     "symbol": "NGG",
@@ -2505,7 +2505,7 @@
     "total_current_liabilities": 9797483000,
     "intangible_assets": 3879191000,
     "goodwill": 9417465000,
-    "fetched_at": "2026-09-11T17:34:50.925932Z"
+    "fetched_at": "2026-10-11T18:38:47.671920Z"
   },
   "MMM": {
     "symbol": "MMM",
@@ -2517,7 +2517,7 @@
     "total_current_liabilities": 9595000000,
     "intangible_assets": 1103000000,
     "goodwill": 6419000000,
-    "fetched_at": "2026-09-11T17:34:37.493133Z"
+    "fetched_at": "2026-10-11T18:38:40.374195Z"
   },
   "SHW": {
     "symbol": "SHW",
@@ -2529,7 +2529,7 @@
     "total_current_liabilities": 6920300000,
     "intangible_assets": 3966100000,
     "goodwill": 8036600000,
-    "fetched_at": "2026-09-11T17:34:47.403550Z"
+    "fetched_at": "2026-10-11T18:38:45.470545Z"
   },
   "EPD": {
     "symbol": "EPD",
@@ -2541,7 +2541,7 @@
     "total_current_liabilities": 12832000000,
     "intangible_assets": 4159000000,
     "goodwill": 5712000000,
-    "fetched_at": "2026-09-11T17:34:39.815888Z"
+    "fetched_at": "2026-10-11T18:38:45.029733Z"
   },
   "CP": {
     "symbol": "CP",
@@ -2553,7 +2553,7 @@
     "total_current_liabilities": 5991000000,
     "intangible_assets": 21347000000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:34:46.028987Z"
+    "fetched_at": "2026-10-11T18:38:48.996130Z"
   },
   "CI": {
     "symbol": "CI",
@@ -2585,11 +2585,11 @@
     "sector": "Real Estate",
     "ebit": 4062100000,
     "total_assets": 63190400000,
-    "total_current_assets": 2494800000,
-    "total_current_liabilities": 3972700000,
+    "total_current_assets": 2741800000,
+    "total_current_liabilities": 6913800000,
     "intangible_assets": 14530700000,
     "goodwill": 12255500000,
-    "fetched_at": "2026-09-11T17:34:40.408542Z"
+    "fetched_at": "2026-10-11T18:38:37.005496Z"
   },
   "AMX": {
     "symbol": "AMX",
@@ -2613,7 +2613,7 @@
     "total_current_liabilities": 5126000000,
     "intangible_assets": 591000000,
     "goodwill": 5098000000,
-    "fetched_at": "2026-09-11T17:34:50.483120Z"
+    "fetched_at": "2026-10-11T18:38:48.127835Z"
   },
   "PSX": {
     "symbol": "PSX",
@@ -2625,19 +2625,19 @@
     "total_current_liabilities": 13326000000,
     "intangible_assets": 978000000,
     "goodwill": 1433000000,
-    "fetched_at": "2026-09-11T17:34:14.867395Z"
+    "fetched_at": "2026-10-11T18:38:10.093380Z"
   },
   "INTU": {
     "symbol": "INTU",
     "name": "Intuit Inc.",
     "sector": "Technology",
-    "ebit": 5884000000,
+    "ebit": 6273000000,
     "total_assets": 36786000000,
     "total_current_assets": 15311000000,
     "total_current_liabilities": 10163000000,
     "intangible_assets": 4642000000,
     "goodwill": 13981000000,
-    "fetched_at": "2026-09-11T17:34:34.840609Z"
+    "fetched_at": "2026-10-11T18:38:39.399052Z"
   },
   "MDLZ": {
     "symbol": "MDLZ",
@@ -2649,7 +2649,7 @@
     "total_current_liabilities": 21864000000,
     "intangible_assets": 19628000000,
     "goodwill": 24336000000,
-    "fetched_at": "2026-09-11T17:34:45.160992Z"
+    "fetched_at": "2026-10-11T18:38:46.344882Z"
   },
   "EMR": {
     "symbol": "EMR",
@@ -2661,7 +2661,7 @@
     "total_current_liabilities": 9797000000,
     "intangible_assets": 9458000000,
     "goodwill": 18193000000,
-    "fetched_at": "2026-09-11T17:34:37.938123Z"
+    "fetched_at": "2026-10-11T18:38:29.161175Z"
   },
   "ECL": {
     "symbol": "ECL",
@@ -2673,7 +2673,7 @@
     "total_current_liabilities": 5534700000,
     "intangible_assets": 3688500000,
     "goodwill": 9227000000,
-    "fetched_at": "2026-09-11T17:34:49.580573Z"
+    "fetched_at": "2026-10-11T18:38:43.706295Z"
   },
   "AON": {
     "symbol": "AON",
@@ -2685,7 +2685,7 @@
     "total_current_liabilities": 23226000000,
     "intangible_assets": 5727000000,
     "goodwill": 15797000000,
-    "fetched_at": "2026-09-11T17:35:09.631725Z"
+    "fetched_at": "2026-10-11T18:39:11.708558Z"
   },
   "ICE": {
     "symbol": "ICE",
@@ -2697,7 +2697,7 @@
     "total_current_liabilities": 84116000000,
     "intangible_assets": 15353000000,
     "goodwill": 30646000000,
-    "fetched_at": "2026-09-11T17:34:33.849475Z"
+    "fetched_at": "2026-10-11T18:38:34.223117Z"
   },
   "NOC": {
     "symbol": "NOC",
@@ -2799,13 +2799,13 @@
     "symbol": "EOG",
     "name": "EOG Resources, Inc.",
     "sector": "Energy",
-    "ebit": 6559329000,
+    "ebit": 6493000000,
     "total_assets": 51799000000,
     "total_current_assets": 7656000000,
     "total_current_liabilities": 4691000000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:34:48.709660Z"
+    "fetched_at": "2026-10-11T18:38:44.147977Z"
   },
   "CTAS": {
     "symbol": "CTAS",
@@ -2817,7 +2817,7 @@
     "total_current_liabilities": 2686959000,
     "intangible_assets": 287869000,
     "goodwill": 3544212000,
-    "fetched_at": "2026-09-11T17:34:41.721719Z"
+    "fetched_at": "2026-10-11T18:38:41.713880Z"
   },
   "CVNA": {
     "symbol": "CVNA",
@@ -2841,7 +2841,7 @@
     "total_current_liabilities": 92023000000,
     "intangible_assets": 3854000000,
     "goodwill": 4066000000,
-    "fetched_at": "2026-09-11T17:34:49.142470Z"
+    "fetched_at": "2026-10-11T18:38:46.787304Z"
   },
   "ORLY": {
     "symbol": "ORLY",
@@ -2865,7 +2865,7 @@
     "total_current_liabilities": 3881000000,
     "intangible_assets": 1547000000,
     "goodwill": 10299000000,
-    "fetched_at": "2026-09-11T17:35:20.684103Z"
+    "fetched_at": "2026-10-11T18:39:13.468956Z"
   },
   "ROST": {
     "symbol": "ROST",
@@ -2901,7 +2901,7 @@
     "total_current_liabilities": 2472206000,
     "intangible_assets": 0,
     "goodwill": 4157672000,
-    "fetched_at": "2026-09-11T17:34:21.378490Z"
+    "fetched_at": "2026-10-11T18:38:25.584479Z"
   },
   "SU": {
     "symbol": "SU",
@@ -2913,7 +2913,7 @@
     "total_current_liabilities": 10201680000,
     "intangible_assets": 0,
     "goodwill": 3452184000,
-    "fetched_at": "2026-09-11T17:34:44.290618Z"
+    "fetched_at": "2026-10-11T18:38:36.500758Z"
   },
   "SPG": {
     "symbol": "SPG",
@@ -2949,7 +2949,7 @@
     "total_current_liabilities": 34269000000,
     "intangible_assets": 2386000000,
     "goodwill": 3190000000,
-    "fetched_at": "2026-09-11T17:34:42.485832Z"
+    "fetched_at": "2026-10-11T18:38:41.275449Z"
   },
   "HON": {
     "symbol": "HON",
@@ -2973,7 +2973,7 @@
     "total_current_liabilities": 9950884000,
     "intangible_assets": 80934000,
     "goodwill": 13005393000,
-    "fetched_at": "2026-09-11T17:35:12.749591Z"
+    "fetched_at": "2026-10-11T18:39:04.601562Z"
   },
   "MSI": {
     "symbol": "MSI",
@@ -2985,7 +2985,7 @@
     "total_current_liabilities": 6078000000,
     "intangible_assets": 3104000000,
     "goodwill": 6800000000,
-    "fetched_at": "2026-09-11T17:34:50.034131Z"
+    "fetched_at": "2026-10-11T18:38:49.561050Z"
   },
   "GM": {
     "symbol": "GM",
@@ -2997,7 +2997,7 @@
     "total_current_liabilities": 93342000000,
     "intangible_assets": 2453000000,
     "goodwill": 1900000000,
-    "fetched_at": "2026-09-11T17:34:48.277060Z"
+    "fetched_at": "2026-10-11T18:38:48.564502Z"
   },
   "HONAV": {
     "symbol": "HONAV",
@@ -3015,13 +3015,13 @@
     "symbol": "CRH",
     "name": "CRH plc",
     "sector": "Basic Materials",
-    "ebit": 5323000000,
+    "ebit": 5615000000,
     "total_assets": 58329000000,
     "total_current_assets": 15254000000,
     "total_current_liabilities": 8754000000,
     "intangible_assets": 2048000000,
     "goodwill": 13099000000,
-    "fetched_at": "2026-09-11T17:35:21.995736Z"
+    "fetched_at": "2026-10-11T18:39:18.312969Z"
   },
   "APOS": {
     "symbol": "APOS",
@@ -3057,7 +3057,7 @@
     "total_current_liabilities": 14680550000,
     "intangible_assets": 12210000,
     "goodwill": 104462000,
-    "fetched_at": "2026-09-11T17:35:11.443247Z"
+    "fetched_at": "2026-10-11T18:39:14.340347Z"
   },
   "URI": {
     "symbol": "URI",
@@ -3087,13 +3087,13 @@
     "symbol": "TDG",
     "name": "TransDigm Group Incorporated",
     "sector": "Industrials",
-    "ebit": 4201000000,
+    "ebit": 4200000000,
     "total_assets": 22909000000,
     "total_current_assets": 7012000000,
     "total_current_liabilities": 2182000000,
     "intangible_assets": 3454000000,
     "goodwill": 10612000000,
-    "fetched_at": "2026-09-11T17:35:11.881177Z"
+    "fetched_at": "2026-10-11T18:39:05.038535Z"
   },
   "REGN": {
     "symbol": "REGN",
@@ -3105,7 +3105,7 @@
     "total_current_liabilities": 4368400000,
     "intangible_assets": 1257400000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:34:43.852481Z"
+    "fetched_at": "2026-10-11T18:38:47.229289Z"
   },
   "ET": {
     "symbol": "ET",
@@ -3177,7 +3177,7 @@
     "total_current_liabilities": 623832000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:34:42.925950Z"
+    "fetched_at": "2026-10-11T18:38:39.894429Z"
   },
   "APD": {
     "symbol": "APD",
@@ -3189,7 +3189,7 @@
     "total_current_liabilities": 4218600000,
     "intangible_assets": 293500000,
     "goodwill": 963900000,
-    "fetched_at": "2026-09-11T17:35:09.181207Z"
+    "fetched_at": "2026-10-11T18:39:03.635622Z"
   },
   "BSX": {
     "symbol": "BSX",
@@ -3237,7 +3237,7 @@
     "total_current_liabilities": 32519000000,
     "intangible_assets": 10684000000,
     "goodwill": 22593000000,
-    "fetched_at": "2026-09-11T17:35:14.941257Z"
+    "fetched_at": "2026-10-11T18:39:08.127719Z"
   },
   "PCAR": {
     "symbol": "PCAR",
@@ -3249,7 +3249,7 @@
     "total_current_liabilities": 11155100000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:10.140034Z"
+    "fetched_at": "2026-10-11T18:39:16.103629Z"
   },
   "NKE": {
     "symbol": "NKE",
@@ -3261,7 +3261,7 @@
     "total_current_liabilities": 12547000000,
     "intangible_assets": 259000000,
     "goodwill": 240000000,
-    "fetched_at": "2026-09-11T17:35:30.954250Z"
+    "fetched_at": "2026-10-11T18:39:23.627980Z"
   },
   "GWW": {
     "symbol": "GWW",
@@ -3273,7 +3273,7 @@
     "total_current_liabilities": 1940000000,
     "intangible_assets": 265000000,
     "goodwill": 360000000,
-    "fetched_at": "2026-09-11T17:35:17.176204Z"
+    "fetched_at": "2026-10-11T18:39:06.367036Z"
   },
   "ALL": {
     "symbol": "ALL",
@@ -3285,7 +3285,7 @@
     "total_current_liabilities": 70936000000,
     "intangible_assets": 6721000000,
     "goodwill": 3118000000,
-    "fetched_at": "2026-09-11T17:35:08.733808Z"
+    "fetched_at": "2026-10-11T18:39:09.026378Z"
   },
   "ALAB": {
     "symbol": "ALAB",
@@ -3297,7 +3297,7 @@
     "total_current_liabilities": 133042000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:36.640994Z"
+    "fetched_at": "2026-10-11T18:39:09.466367Z"
   },
   "TFC": {
     "symbol": "TFC",
@@ -3309,7 +3309,7 @@
     "total_current_liabilities": 428237000000,
     "intangible_assets": 1256000000,
     "goodwill": 17125000000,
-    "fetched_at": "2026-09-11T17:35:13.625651Z"
+    "fetched_at": "2026-10-11T18:39:12.600117Z"
   },
   "DLR": {
     "symbol": "DLR",
@@ -3345,7 +3345,7 @@
     "total_current_liabilities": 9999742000,
     "intangible_assets": 1398405000,
     "goodwill": 5993448000,
-    "fetched_at": "2026-09-11T17:35:21.123880Z"
+    "fetched_at": "2026-10-11T18:39:17.421314Z"
   },
   "AFL": {
     "symbol": "AFL",
@@ -3357,7 +3357,7 @@
     "total_current_liabilities": 5807000000,
     "intangible_assets": 9034000000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:23.907148Z"
+    "fetched_at": "2026-10-11T18:39:09.905859Z"
   },
   "CIEN": {
     "symbol": "CIEN",
@@ -3381,7 +3381,7 @@
     "total_current_liabilities": 10444000000,
     "intangible_assets": 1682000000,
     "goodwill": 4143000000,
-    "fetched_at": "2026-09-11T17:35:25.651121Z"
+    "fetched_at": "2026-10-11T18:39:19.612313Z"
   },
   "HPE": {
     "symbol": "HPE",
@@ -3393,7 +3393,7 @@
     "total_current_liabilities": 24643000000,
     "intangible_assets": 6368000000,
     "goodwill": 23770000000,
-    "fetched_at": "2026-09-11T17:34:44.726130Z"
+    "fetched_at": "2026-10-11T18:38:23.825443Z"
   },
   "SRE": {
     "symbol": "SRE",
@@ -3405,7 +3405,7 @@
     "total_current_liabilities": 21894000000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:31.391069Z"
+    "fetched_at": "2026-10-11T18:39:21.424455Z"
   },
   "STM": {
     "symbol": "STM",
@@ -3417,7 +3417,7 @@
     "total_current_liabilities": 3351000000,
     "intangible_assets": 324000000,
     "goodwill": 315000000,
-    "fetched_at": "2026-09-11T17:35:48.815848Z"
+    "fetched_at": "2026-10-11T18:39:35.405713Z"
   },
   "TGT": {
     "symbol": "TGT",
@@ -3441,7 +3441,7 @@
     "total_current_liabilities": 6616000000,
     "intangible_assets": 0,
     "goodwill": 166000000,
-    "fetched_at": "2026-09-11T17:35:13.181705Z"
+    "fetched_at": "2026-10-11T18:39:07.252402Z"
   },
   "VALE": {
     "symbol": "VALE",
@@ -3453,7 +3453,7 @@
     "total_current_liabilities": 15935034000,
     "intangible_assets": 7687394000,
     "goodwill": 1302249000,
-    "fetched_at": "2026-09-11T17:35:10.579232Z"
+    "fetched_at": "2026-10-11T18:39:11.272511Z"
   },
   "FIX": {
     "symbol": "FIX",
@@ -3465,7 +3465,7 @@
     "total_current_liabilities": 3393850000,
     "intangible_assets": 485168000,
     "goodwill": 1025515000,
-    "fetched_at": "2026-09-11T17:35:22.864317Z"
+    "fetched_at": "2026-10-11T18:39:06.813758Z"
   },
   "B": {
     "symbol": "B",
@@ -3489,7 +3489,7 @@
     "total_current_liabilities": 3546800000,
     "intangible_assets": 1651400000,
     "goodwill": 112300000,
-    "fetched_at": "2026-09-11T17:35:14.069468Z"
+    "fetched_at": "2026-10-11T18:39:05.482732Z"
   },
   "O": {
     "symbol": "O",
@@ -3501,7 +3501,7 @@
     "total_current_liabilities": 2916400000,
     "intangible_assets": 91784000,
     "goodwill": 4932199000,
-    "fetched_at": "2026-09-11T17:35:29.592630Z"
+    "fetched_at": "2026-10-11T18:39:25.029300Z"
   },
   "COR": {
     "symbol": "COR",
@@ -3513,7 +3513,7 @@
     "total_current_liabilities": 57820539000,
     "intangible_assets": 3774181000,
     "goodwill": 13676520000,
-    "fetched_at": "2026-09-11T17:35:15.426001Z"
+    "fetched_at": "2026-10-11T18:39:02.229284Z"
   },
   "LITE": {
     "symbol": "LITE",
@@ -3573,7 +3573,7 @@
     "total_current_liabilities": 3249000000,
     "intangible_assets": 1397000000,
     "goodwill": 8755000000,
-    "fetched_at": "2026-09-11T17:35:18.045882Z"
+    "fetched_at": "2026-10-11T18:39:14.776689Z"
   },
   "UMC": {
     "symbol": "UMC",
@@ -3585,7 +3585,7 @@
     "total_current_liabilities": 87598137000,
     "intangible_assets": 4715697000,
     "goodwill": 27179000,
-    "fetched_at": "2026-09-11T17:35:27.405481Z"
+    "fetched_at": "2026-10-11T18:39:13.904114Z"
   },
   "OKE": {
     "symbol": "OKE",
@@ -3597,7 +3597,7 @@
     "total_current_liabilities": 6365000000,
     "intangible_assets": 2901000000,
     "goodwill": 8058000000,
-    "fetched_at": "2026-09-11T17:35:17.610600Z"
+    "fetched_at": "2026-10-11T18:39:16.547225Z"
   },
   "CARR": {
     "symbol": "CARR",
@@ -3609,7 +3609,7 @@
     "total_current_liabilities": 7114000000,
     "intangible_assets": 6326000000,
     "goodwill": 15501000000,
-    "fetched_at": "2026-09-11T17:35:43.746040Z"
+    "fetched_at": "2026-10-11T18:39:38.155843Z"
   },
   "BKR": {
     "symbol": "BKR",
@@ -3621,7 +3621,7 @@
     "total_current_liabilities": 13877000000,
     "intangible_assets": 4097000000,
     "goodwill": 6068000000,
-    "fetched_at": "2026-09-11T17:35:26.526402Z"
+    "fetched_at": "2026-10-11T18:39:16.987070Z"
   },
   "RELX": {
     "symbol": "RELX",
@@ -3645,7 +3645,7 @@
     "total_current_liabilities": 27667000000,
     "intangible_assets": 5966000000,
     "goodwill": 9753000000,
-    "fetched_at": "2026-09-11T17:35:34.822521Z"
+    "fetched_at": "2026-10-11T18:39:20.980654Z"
   },
   "PSA": {
     "symbol": "PSA",
@@ -3657,7 +3657,7 @@
     "total_current_liabilities": 612889000,
     "intangible_assets": 85770000,
     "goodwill": 165843000,
-    "fetched_at": "2026-09-11T17:35:30.515589Z"
+    "fetched_at": "2026-10-11T18:39:20.058599Z"
   },
   "BDX": {
     "symbol": "BDX",
@@ -3669,7 +3669,7 @@
     "total_current_liabilities": 8313000000,
     "intangible_assets": 2994000000,
     "goodwill": 33023000000,
-    "fetched_at": "2026-09-11T17:35:41.228116Z"
+    "fetched_at": "2026-10-11T18:39:24.592258Z"
   },
   "KEYS": {
     "symbol": "KEYS",
@@ -3693,7 +3693,7 @@
     "total_current_liabilities": 43904000000,
     "intangible_assets": 2189000000,
     "goodwill": 11442000000,
-    "fetched_at": "2026-09-11T17:35:31.826883Z"
+    "fetched_at": "2026-10-11T18:39:17.868013Z"
   },
   "F": {
     "symbol": "F",
@@ -3705,7 +3705,7 @@
     "total_current_liabilities": 114890000000,
     "intangible_assets": 0,
     "goodwill": 483000000,
-    "fetched_at": "2026-09-11T17:35:29.152966Z"
+    "fetched_at": "2026-10-11T18:39:28.571962Z"
   },
   "LNG": {
     "symbol": "LNG",
@@ -3717,7 +3717,7 @@
     "total_current_liabilities": 3916000000,
     "intangible_assets": 0,
     "goodwill": 77000000,
-    "fetched_at": "2026-09-11T17:35:24.342914Z"
+    "fetched_at": "2026-10-11T18:39:10.374895Z"
   },
   "FAST": {
     "symbol": "FAST",
@@ -3729,7 +3729,7 @@
     "total_current_liabilities": 715600000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:28.269486Z"
+    "fetched_at": "2026-10-11T18:39:10.829736Z"
   },
   "LHX": {
     "symbol": "LHX",
@@ -3741,19 +3741,19 @@
     "total_current_liabilities": 7226000000,
     "intangible_assets": 6509000000,
     "goodwill": 20010000000,
-    "fetched_at": "2026-09-11T17:35:49.696131Z"
+    "fetched_at": "2026-10-11T18:39:39.926128Z"
   },
   "TER": {
     "symbol": "TER",
     "name": "Teradyne, Inc.",
     "sector": "Technology",
-    "ebit": 641368000,
+    "ebit": 684033000,
     "total_assets": 4170252999,
     "total_current_assets": 1935954000,
     "total_current_liabilities": 1101861000,
     "intangible_assets": 51271000,
     "goodwill": 521019000,
-    "fetched_at": "2026-09-11T17:35:21.564440Z"
+    "fetched_at": "2026-10-11T18:39:03.136177Z"
   },
   "ARGX": {
     "symbol": "ARGX",
@@ -3765,7 +3765,7 @@
     "total_current_liabilities": 1320186000,
     "intangible_assets": 272103000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:15.861327Z"
+    "fetched_at": "2026-10-11T18:39:24.151267Z"
   },
   "AME": {
     "symbol": "AME",
@@ -3777,7 +3777,7 @@
     "total_current_liabilities": 2842752000,
     "intangible_assets": 4128394000,
     "goodwill": 7170770000,
-    "fetched_at": "2026-09-11T17:35:30.073849Z"
+    "fetched_at": "2026-10-11T18:39:15.661850Z"
   },
   "EW": {
     "symbol": "EW",
@@ -3789,7 +3789,7 @@
     "total_current_liabilities": 1813700000,
     "intangible_assets": 1128200000,
     "goodwill": 1768600000,
-    "fetched_at": "2026-09-11T17:35:41.808663Z"
+    "fetched_at": "2026-10-11T18:39:27.239240Z"
   },
   "OXY": {
     "symbol": "OXY",
@@ -3801,19 +3801,19 @@
     "total_current_liabilities": 9428000000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:18.478934Z"
+    "fetched_at": "2026-10-11T18:39:07.686439Z"
   },
   "NUE": {
     "symbol": "NUE",
     "name": "Nucor Corporation",
     "sector": "Basic Materials",
-    "ebit": 2627000000,
+    "ebit": 2738000000,
     "total_assets": 35104000000,
     "total_current_assets": 11765000000,
     "total_current_liabilities": 4004000000,
     "intangible_assets": 2880000000,
     "goodwill": 4297000000,
-    "fetched_at": "2026-09-11T17:35:22.428401Z"
+    "fetched_at": "2026-10-11T18:39:15.223308Z"
   },
   "ETR": {
     "symbol": "ETR",
@@ -3825,7 +3825,7 @@
     "total_current_liabilities": 7822968000,
     "intangible_assets": 0,
     "goodwill": 367582000,
-    "fetched_at": "2026-09-11T17:35:38.914012Z"
+    "fetched_at": "2026-10-11T18:39:32.727082Z"
   },
   "VST": {
     "symbol": "VST",
@@ -3837,7 +3837,7 @@
     "total_current_liabilities": 11814000000,
     "intangible_assets": 2435000000,
     "goodwill": 2810000000,
-    "fetched_at": "2026-09-11T17:35:37.552954Z"
+    "fetched_at": "2026-10-11T18:39:19.133796Z"
   },
   "FANG": {
     "symbol": "FANG",
@@ -3849,7 +3849,7 @@
     "total_current_liabilities": 4600000000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:26.087337Z"
+    "fetched_at": "2026-10-11T18:39:20.544594Z"
   },
   "ELC": {
     "symbol": "ELC",
@@ -3861,7 +3861,7 @@
     "total_current_liabilities": -259792000000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:39.352480Z"
+    "fetched_at": "2026-10-11T18:39:35.841743Z"
   },
   "TAK": {
     "symbol": "TAK",
@@ -3873,7 +3873,7 @@
     "total_current_liabilities": 2440067279000,
     "intangible_assets": 3434178285000,
     "goodwill": 5834204650000,
-    "fetched_at": "2026-09-11T17:35:24.776025Z"
+    "fetched_at": "2026-10-11T18:39:08.571030Z"
   },
   "EBAY": {
     "symbol": "EBAY",
@@ -3885,7 +3885,7 @@
     "total_current_liabilities": 4637000000,
     "intangible_assets": 0,
     "goodwill": 4467000000,
-    "fetched_at": "2026-09-11T17:35:44.789264Z"
+    "fetched_at": "2026-10-11T18:39:25.908471Z"
   },
   "FITB": {
     "symbol": "FITB",
@@ -3897,7 +3897,7 @@
     "total_current_liabilities": 174828000000,
     "intangible_assets": 69000000,
     "goodwill": 4947000000,
-    "fetched_at": "2026-09-11T17:35:38.470631Z"
+    "fetched_at": "2026-10-11T18:39:37.720130Z"
   },
   "EA": {
     "symbol": "EA",
@@ -3921,19 +3921,19 @@
     "total_current_liabilities": 3445000000,
     "intangible_assets": 864000000,
     "goodwill": 3839000000,
-    "fetched_at": "2026-09-11T17:35:43.313409Z"
+    "fetched_at": "2026-10-11T18:39:31.852876Z"
   },
   "AZO": {
     "symbol": "AZO",
     "name": "AutoZone, Inc.",
     "sector": "Consumer Cyclical",
-    "ebit": 3610156000,
-    "total_assets": 19355324000,
-    "total_current_assets": 8341379000,
-    "total_current_liabilities": 9519397000,
+    "ebit": 3723314000,
+    "total_assets": 21630510000,
+    "total_current_assets": 9106134000,
+    "total_current_liabilities": 10106530000,
     "intangible_assets": 0,
-    "goodwill": 302645000,
-    "fetched_at": "2026-09-11T17:35:46.106605Z"
+    "goodwill": 0,
+    "fetched_at": "2026-10-11T18:39:32.284057Z"
   },
   "NBIS": {
     "symbol": "NBIS",
@@ -3945,7 +3945,7 @@
     "total_current_liabilities": 1527800000,
     "intangible_assets": 19700000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:32.437177Z"
+    "fetched_at": "2026-10-11T18:39:21.869161Z"
   },
   "XEL": {
     "symbol": "XEL",
@@ -3957,7 +3957,7 @@
     "total_current_liabilities": 7089000000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:45.667557Z"
+    "fetched_at": "2026-10-11T18:39:36.809306Z"
   },
   "CVE": {
     "symbol": "CVE",
@@ -3969,7 +3969,7 @@
     "total_current_liabilities": 6308854506,
     "intangible_assets": 22981255,
     "goodwill": 2909626910,
-    "fetched_at": "2026-09-11T17:35:19.804222Z"
+    "fetched_at": "2026-10-11T18:39:12.161787Z"
   },
   "MT": {
     "symbol": "MT",
@@ -3981,7 +3981,7 @@
     "total_current_liabilities": 22520000000,
     "intangible_assets": 5252000000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:26.966256Z"
+    "fetched_at": "2026-10-11T18:39:28.125169Z"
   },
   "NDAQ": {
     "symbol": "NDAQ",
@@ -3993,7 +3993,7 @@
     "total_current_liabilities": 7961000000,
     "intangible_assets": 6511000000,
     "goodwill": 14371000000,
-    "fetched_at": "2026-09-11T17:35:36.206189Z"
+    "fetched_at": "2026-10-11T18:39:22.307112Z"
   },
   "STT": {
     "symbol": "STT",
@@ -4005,7 +4005,7 @@
     "total_current_liabilities": 279012000000,
     "intangible_assets": 935000000,
     "goodwill": 8159000000,
-    "fetched_at": "2026-09-11T17:35:33.954490Z"
+    "fetched_at": "2026-10-11T18:39:29.023127Z"
   },
   "COHR": {
     "symbol": "COHR",
@@ -4017,7 +4017,7 @@
     "total_current_liabilities": 2853900000,
     "intangible_assets": 2884500000,
     "goodwill": 4375600000,
-    "fetched_at": "2026-09-11T17:35:20.243893Z"
+    "fetched_at": "2026-10-11T18:39:05.924194Z"
   },
   "WPM": {
     "symbol": "WPM",
@@ -4029,7 +4029,7 @@
     "total_current_liabilities": 154405492,
     "intangible_assets": 1117961,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:04.012007Z"
+    "fetched_at": "2026-10-11T18:39:02.671829Z"
   },
   "EXC": {
     "symbol": "EXC",
@@ -4053,7 +4053,7 @@
     "total_current_liabilities": 45599307000,
     "intangible_assets": 11042703000,
     "goodwill": 41538388000,
-    "fetched_at": "2026-09-11T17:35:46.542941Z"
+    "fetched_at": "2026-10-11T18:39:26.795862Z"
   },
   "FLEX": {
     "symbol": "FLEX",
@@ -4101,7 +4101,7 @@
     "total_current_liabilities": 10314000000,
     "intangible_assets": 1128000000,
     "goodwill": 9686000000,
-    "fetched_at": "2026-09-11T17:35:39.897632Z"
+    "fetched_at": "2026-10-11T18:39:22.748656Z"
   },
   "CCEP": {
     "symbol": "CCEP",
@@ -4113,7 +4113,7 @@
     "total_current_liabilities": 7585000000,
     "intangible_assets": 12490000000,
     "goodwill": 4536000000,
-    "fetched_at": "2026-09-11T17:35:50.126898Z"
+    "fetched_at": "2026-10-11T18:39:36.329512Z"
   },
   "GRMN": {
     "symbol": "GRMN",
@@ -4125,7 +4125,7 @@
     "total_current_liabilities": 1720071000,
     "intangible_assets": 198362000,
     "goodwill": 760241000,
-    "fetched_at": "2026-09-11T17:35:32.870009Z"
+    "fetched_at": "2026-10-11T18:39:23.187141Z"
   },
   "CBRS": {
     "symbol": "CBRS",
@@ -4149,7 +4149,7 @@
     "total_current_liabilities": 10730000000,
     "intangible_assets": 10939000000,
     "goodwill": 2436000000,
-    "fetched_at": "2026-09-11T17:35:42.249724Z"
+    "fetched_at": "2026-10-11T18:39:30.056415Z"
   },
   "CMG": {
     "symbol": "CMG",
@@ -4161,7 +4161,7 @@
     "total_current_liabilities": 1188142000,
     "intangible_assets": 0,
     "goodwill": 21939000,
-    "fetched_at": "2026-09-11T17:35:47.887969Z"
+    "fetched_at": "2026-10-11T18:39:44.964785Z"
   },
   "MCHP": {
     "symbol": "MCHP",
@@ -4173,7 +4173,7 @@
     "total_current_liabilities": 1136300000,
     "intangible_assets": 2033400000,
     "goodwill": 6695500000,
-    "fetched_at": "2026-09-11T17:36:03.961576Z"
+    "fetched_at": "2026-10-11T18:39:43.211769Z"
   },
   "CRWV": {
     "symbol": "CRWV",
@@ -4185,7 +4185,7 @@
     "total_current_liabilities": 16440000000,
     "intangible_assets": 235000000,
     "goodwill": 1101000000,
-    "fetched_at": "2026-09-11T17:35:40.345012Z"
+    "fetched_at": "2026-10-11T18:39:39.495630Z"
   },
   "INFY": {
     "symbol": "INFY",
@@ -4221,7 +4221,7 @@
     "total_current_liabilities": 10384460000,
     "intangible_assets": 1281670000,
     "goodwill": 11849018000,
-    "fetched_at": "2026-09-11T17:35:45.228905Z"
+    "fetched_at": "2026-10-11T18:39:37.272891Z"
   },
   "AMP": {
     "symbol": "AMP",
@@ -4233,7 +4233,7 @@
     "total_current_liabilities": 3182000000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:37.072811Z"
+    "fetched_at": "2026-10-11T18:39:39.058355Z"
   },
   "RKLB": {
     "symbol": "RKLB",
@@ -4245,7 +4245,7 @@
     "total_current_liabilities": 334476000,
     "intangible_assets": 224746000,
     "goodwill": 205750000,
-    "fetched_at": "2026-09-11T17:36:17.676880Z"
+    "fetched_at": "2026-10-11T18:39:47.226311Z"
   },
   "AXON": {
     "symbol": "AXON",
@@ -4281,7 +4281,7 @@
     "total_current_liabilities": 197091000,
     "intangible_assets": 29262000,
     "goodwill": 92798000,
-    "fetched_at": "2026-09-11T17:36:41.824272Z"
+    "fetched_at": "2026-10-11T18:39:45.405003Z"
   },
   "FERG": {
     "symbol": "FERG",
@@ -4305,7 +4305,7 @@
     "total_current_liabilities": 5150000000,
     "intangible_assets": 3838000000,
     "goodwill": 10216000000,
-    "fetched_at": "2026-09-11T17:35:42.877174Z"
+    "fetched_at": "2026-10-11T18:39:31.419835Z"
   },
   "YUM": {
     "symbol": "YUM",
@@ -4317,7 +4317,7 @@
     "total_current_liabilities": 1516000000,
     "intangible_assets": 909000000,
     "goodwill": 969000000,
-    "fetched_at": "2026-09-11T17:36:11.321162Z"
+    "fetched_at": "2026-10-11T18:39:45.906897Z"
   },
   "IDXX": {
     "symbol": "IDXX",
@@ -4329,7 +4329,7 @@
     "total_current_liabilities": 1148814000,
     "intangible_assets": 109843000,
     "goodwill": 414004000,
-    "fetched_at": "2026-09-11T17:36:08.577038Z"
+    "fetched_at": "2026-10-11T18:39:43.648091Z"
   },
   "MSCI": {
     "symbol": "MSCI",
@@ -4341,19 +4341,19 @@
     "total_current_liabilities": 1829713000,
     "intangible_assets": 832513000,
     "goodwill": 2923362000,
-    "fetched_at": "2026-09-11T17:36:06.282079Z"
+    "fetched_at": "2026-10-11T18:39:42.345118Z"
   },
   "ADSK": {
     "symbol": "ADSK",
     "name": "Autodesk, Inc.",
     "sector": "Technology",
-    "ebit": 1603000000,
+    "ebit": 1808000000,
     "total_assets": 12467000000,
     "total_current_assets": 4942000000,
     "total_current_liabilities": 5808000000,
     "intangible_assets": 467000000,
     "goodwill": 4295000000,
-    "fetched_at": "2026-09-11T17:35:50.564030Z"
+    "fetched_at": "2026-10-11T18:39:26.346246Z"
   },
   "VTR": {
     "symbol": "VTR",
@@ -4389,7 +4389,7 @@
     "total_current_liabilities": 11649477000,
     "intangible_assets": 5513940000,
     "goodwill": 2557278000,
-    "fetched_at": "2026-09-11T17:36:07.706217Z"
+    "fetched_at": "2026-10-11T18:39:44.523394Z"
   },
   "IX": {
     "symbol": "IX",
@@ -4413,7 +4413,7 @@
     "total_current_liabilities": 0,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:48.329029Z"
+    "fetched_at": "2026-10-11T18:39:40.809796Z"
   },
   "WCN": {
     "symbol": "WCN",
@@ -4425,7 +4425,7 @@
     "total_current_liabilities": 2120395163,
     "intangible_assets": 2002549016,
     "goodwill": 8376976365,
-    "fetched_at": "2026-09-11T17:36:06.752865Z"
+    "fetched_at": "2026-10-11T18:39:48.709607Z"
   },
   "SLF": {
     "symbol": "SLF",
@@ -4449,7 +4449,7 @@
     "total_current_liabilities": 4924329305,
     "intangible_assets": 17486000000,
     "goodwill": 8127000000,
-    "fetched_at": "2026-09-11T17:36:05.290166Z"
+    "fetched_at": "2026-10-11T18:39:42.777548Z"
   },
   "KDP": {
     "symbol": "KDP",
@@ -4485,7 +4485,7 @@
     "total_current_liabilities": 102655000000,
     "intangible_assets": 2106000000,
     "goodwill": 3435000000,
-    "fetched_at": "2026-09-11T17:36:08.138590Z"
+    "fetched_at": "2026-10-11T18:39:44.082012Z"
   },
   "LYV": {
     "symbol": "LYV",
@@ -4497,7 +4497,7 @@
     "total_current_liabilities": 11028850000,
     "intangible_assets": 1447468000,
     "goodwill": 2889178000,
-    "fetched_at": "2026-09-11T17:36:09.019001Z"
+    "fetched_at": "2026-10-11T18:39:46.789693Z"
   },
   "COIN": {
     "symbol": "COIN",
@@ -4509,7 +4509,7 @@
     "total_current_liabilities": 8701282000,
     "intangible_assets": 1397794000,
     "goodwill": 4168967000,
-    "fetched_at": "2026-09-11T17:35:47.455109Z"
+    "fetched_at": "2026-10-11T18:39:34.039596Z"
   },
   "ED": {
     "symbol": "ED",
@@ -4521,7 +4521,7 @@
     "total_current_liabilities": 6614000000,
     "intangible_assets": 0,
     "goodwill": 406000000,
-    "fetched_at": "2026-09-11T17:36:10.340431Z"
+    "fetched_at": "2026-10-11T18:39:47.676532Z"
   },
   "PYPL": {
     "symbol": "PYPL",
@@ -4533,7 +4533,7 @@
     "total_current_liabilities": 46443000000,
     "intangible_assets": 208000000,
     "goodwill": 10864000000,
-    "fetched_at": "2026-09-11T17:35:49.257472Z"
+    "fetched_at": "2026-10-11T18:39:33.598184Z"
   },
   "CBRE": {
     "symbol": "CBRE",
@@ -4609,7 +4609,7 @@
   },
   "AU": {
     "symbol": "AU",
-    "name": "AngloGold Ashanti plc",
+    "name": "AngloGold Ashanti Plc",
     "sector": "Basic Materials",
     "ebit": 4496000000,
     "total_assets": 15078000000,
@@ -4617,7 +4617,7 @@
     "total_current_liabilities": 1620000000,
     "intangible_assets": 106000000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:34.389540Z"
+    "fetched_at": "2026-10-11T18:39:33.162169Z"
   },
   "CCJ": {
     "symbol": "CCJ",
@@ -4653,19 +4653,19 @@
     "total_current_liabilities": 285000000,
     "intangible_assets": 2224000000,
     "goodwill": 10611000000,
-    "fetched_at": "2026-09-11T17:36:15.483139Z"
+    "fetched_at": "2026-10-11T18:40:07.136129Z"
   },
   "CLS": {
     "symbol": "CLS",
     "name": "Celestica Inc.",
     "sector": "Technology",
-    "ebit": 1053932231,
+    "ebit": 1035800000,
     "total_assets": 7199973239,
     "total_current_assets": 5662875626,
     "total_current_liabilities": 3932430518,
     "intangible_assets": 265715555,
     "goodwill": 332493807,
-    "fetched_at": "2026-09-11T17:36:12.220961Z"
+    "fetched_at": "2026-10-11T18:39:41.897765Z"
   },
   "ARES": {
     "symbol": "ARES",
@@ -4701,7 +4701,7 @@
     "total_current_liabilities": 228919000000,
     "intangible_assets": 22317000000,
     "goodwill": 1090000000,
-    "fetched_at": "2026-09-11T17:36:09.901774Z"
+    "fetched_at": "2026-10-11T18:39:48.240222Z"
   },
   "ADM": {
     "symbol": "ADM",
@@ -4737,7 +4737,7 @@
     "total_current_liabilities": 86328000000,
     "intangible_assets": 24428000000,
     "goodwill": 36783000000,
-    "fetched_at": "2026-09-11T17:36:40.111220Z"
+    "fetched_at": "2026-10-11T18:40:20.072848Z"
   },
   "RVMD": {
     "symbol": "RVMD",
@@ -4761,7 +4761,7 @@
     "total_current_liabilities": 122776158,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:35:35.765931Z"
+    "fetched_at": "2026-10-11T18:39:34.478120Z"
   },
   "PAYX": {
     "symbol": "PAYX",
@@ -4785,7 +4785,7 @@
     "total_current_liabilities": 440562637000,
     "intangible_assets": 19134656000,
     "goodwill": 6605003000,
-    "fetched_at": "2026-09-11T17:36:14.552036Z"
+    "fetched_at": "2026-10-11T18:39:38.615727Z"
   },
   "RDDT": {
     "symbol": "RDDT",
@@ -4797,7 +4797,7 @@
     "total_current_liabilities": 271283000,
     "intangible_assets": 15521000,
     "goodwill": 42174000,
-    "fetched_at": "2026-09-11T17:36:42.257885Z"
+    "fetched_at": "2026-10-11T18:40:16.479194Z"
   },
   "PCG": {
     "symbol": "PCG",
@@ -4845,7 +4845,7 @@
     "total_current_liabilities": 956100000,
     "intangible_assets": 1489000000,
     "goodwill": 3780900000,
-    "fetched_at": "2026-09-11T17:36:36.012354Z"
+    "fetched_at": "2026-10-11T18:40:10.885196Z"
   },
   "NTRA": {
     "symbol": "NTRA",
@@ -4857,7 +4857,7 @@
     "total_current_liabilities": 441228000,
     "intangible_assets": 373713000,
     "goodwill": 141070000,
-    "fetched_at": "2026-09-11T17:35:47.019241Z"
+    "fetched_at": "2026-10-11T18:39:13.035412Z"
   },
   "TEVA": {
     "symbol": "TEVA",
@@ -4881,7 +4881,7 @@
     "total_current_liabilities": 5945000000,
     "intangible_assets": 8694000000,
     "goodwill": 9509000000,
-    "fetched_at": "2026-09-11T17:36:29.539072Z"
+    "fetched_at": "2026-10-11T18:40:02.520035Z"
   },
   "KMB": {
     "symbol": "KMB",
@@ -4893,7 +4893,7 @@
     "total_current_liabilities": 7125000000,
     "intangible_assets": 77000000,
     "goodwill": 1839000000,
-    "fetched_at": "2026-09-11T17:36:36.447831Z"
+    "fetched_at": "2026-10-11T18:40:07.575215Z"
   },
   "ERIC": {
     "symbol": "ERIC",
@@ -4905,7 +4905,7 @@
     "total_current_liabilities": 110938925000,
     "intangible_assets": 9497165000,
     "goodwill": 46882814000,
-    "fetched_at": "2026-09-11T17:36:32.808645Z"
+    "fetched_at": "2026-10-11T18:40:12.889371Z"
   },
   "ALNY": {
     "symbol": "ALNY",
@@ -4917,7 +4917,7 @@
     "total_current_liabilities": 1466349000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:36:32.375831Z"
+    "fetched_at": "2026-10-11T18:40:14.269300Z"
   },
   "A": {
     "symbol": "A",
@@ -4941,7 +4941,7 @@
     "total_current_liabilities": 6173700000,
     "intangible_assets": 580300000,
     "goodwill": 3052800000,
-    "fetched_at": "2026-09-11T17:36:27.045677Z"
+    "fetched_at": "2026-10-11T18:40:03.565047Z"
   },
   "WDAY": {
     "symbol": "WDAY",
@@ -4953,7 +4953,7 @@
     "total_current_liabilities": 6378000000,
     "intangible_assets": 702000000,
     "goodwill": 5229000000,
-    "fetched_at": "2026-09-11T17:35:40.787520Z"
+    "fetched_at": "2026-10-11T18:39:27.686357Z"
   },
   "CCL": {
     "symbol": "CCL",
@@ -5037,7 +5037,7 @@
     "total_current_liabilities": 147099000000,
     "intangible_assets": 752000000,
     "goodwill": 5997000000,
-    "fetched_at": "2026-09-11T17:36:30.572870Z"
+    "fetched_at": "2026-10-11T18:40:14.709412Z"
   },
   "ACGL": {
     "symbol": "ACGL",
@@ -5049,7 +5049,7 @@
     "total_current_liabilities": 7441000000,
     "intangible_assets": 2332000000,
     "goodwill": 607000000,
-    "fetched_at": "2026-09-11T17:36:33.323125Z"
+    "fetched_at": "2026-10-11T18:40:04.055067Z"
   },
   "ON": {
     "symbol": "ON",
@@ -5061,7 +5061,7 @@
     "total_current_liabilities": 1287700000,
     "intangible_assets": 343900000,
     "goodwill": 1679900000,
-    "fetched_at": "2026-09-11T17:36:46.141942Z"
+    "fetched_at": "2026-10-11T18:40:18.716293Z"
   },
   "PPLC": {
     "symbol": "PPLC",
@@ -5085,7 +5085,7 @@
     "total_current_liabilities": 173422000000,
     "intangible_assets": 64000000,
     "goodwill": 8465000000,
-    "fetched_at": "2026-09-11T17:36:22.863057Z"
+    "fetched_at": "2026-10-11T18:40:11.359877Z"
   },
   "HSY": {
     "symbol": "HSY",
@@ -5097,7 +5097,7 @@
     "total_current_liabilities": 3011896000,
     "intangible_assets": 2826983000,
     "goodwill": 2996005000,
-    "fetched_at": "2026-09-11T17:36:21.536806Z"
+    "fetched_at": "2026-10-11T18:40:05.943291Z"
   },
   "PUK": {
     "symbol": "PUK",
@@ -5109,7 +5109,7 @@
     "total_current_liabilities": 0,
     "intangible_assets": 3952482000,
     "goodwill": 900742000,
-    "fetched_at": "2026-09-11T17:36:34.257405Z"
+    "fetched_at": "2026-10-11T18:40:19.169997Z"
   },
   "MDLN": {
     "symbol": "MDLN",
@@ -5169,7 +5169,7 @@
     "total_current_liabilities": 895000000,
     "intangible_assets": 459000000,
     "goodwill": 3614000000,
-    "fetched_at": "2026-09-11T17:36:40.549351Z"
+    "fetched_at": "2026-10-11T18:40:20.514300Z"
   },
   "SHG": {
     "symbol": "SHG",
@@ -5205,7 +5205,7 @@
     "total_current_liabilities": 5977678666,
     "intangible_assets": 324717395,
     "goodwill": 1497490804,
-    "fetched_at": "2026-09-11T17:36:30.127830Z"
+    "fetched_at": "2026-10-11T18:40:17.361038Z"
   },
   "EME": {
     "symbol": "EME",
@@ -5229,19 +5229,19 @@
     "total_current_liabilities": 440562637000,
     "intangible_assets": 19134656000,
     "goodwill": 6605003000,
-    "fetched_at": "2026-09-11T17:36:22.418581Z"
+    "fetched_at": "2026-10-11T18:39:41.249960Z"
   },
   "JBL": {
     "symbol": "JBL",
     "name": "Jabil Inc.",
     "sector": "Technology",
-    "ebit": 1136000000,
-    "total_assets": 18543000000,
-    "total_current_assets": 13720000000,
-    "total_current_liabilities": 13714000000,
-    "intangible_assets": 273000000,
-    "goodwill": 841000000,
-    "fetched_at": "2026-09-11T17:36:33.823406Z"
+    "ebit": 1408000000,
+    "total_assets": 27435000000,
+    "total_current_assets": 21520000000,
+    "total_current_liabilities": 21673000000,
+    "intangible_assets": 0,
+    "goodwill": 1828000000,
+    "fetched_at": "2026-10-11T18:40:09.836954Z"
   },
   "NTRS": {
     "symbol": "NTRS",
@@ -5253,7 +5253,7 @@
     "total_current_liabilities": 155740800000,
     "intangible_assets": 0,
     "goodwill": 712900000,
-    "fetched_at": "2026-09-11T17:36:25.268019Z"
+    "fetched_at": "2026-10-11T18:40:16.014706Z"
   },
   "CPNG": {
     "symbol": "CPNG",
@@ -5289,7 +5289,7 @@
     "total_current_liabilities": 21476000000,
     "intangible_assets": 4530000000,
     "goodwill": 10835000000,
-    "fetched_at": "2026-09-11T17:36:36.889784Z"
+    "fetched_at": "2026-10-11T18:40:08.474488Z"
   },
   "ALC": {
     "symbol": "ALC",
@@ -5301,7 +5301,7 @@
     "total_current_liabilities": 3049000000,
     "intangible_assets": 9006000000,
     "goodwill": 9256000000,
-    "fetched_at": "2026-09-11T17:36:37.328017Z"
+    "fetched_at": "2026-10-11T18:40:13.829491Z"
   },
   "RYAAY": {
     "symbol": "RYAAY",
@@ -5313,7 +5313,7 @@
     "total_current_liabilities": 8581740418,
     "intangible_assets": 146400000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:36:49.145125Z"
+    "fetched_at": "2026-10-11T18:40:22.332932Z"
   },
   "RJF": {
     "symbol": "RJF",
@@ -5325,7 +5325,7 @@
     "total_current_liabilities": 65966000000,
     "intangible_assets": 396000000,
     "goodwill": 1451000000,
-    "fetched_at": "2026-09-11T17:36:34.699288Z"
+    "fetched_at": "2026-10-11T18:40:17.824752Z"
   },
   "UI": {
     "symbol": "UI",
@@ -5337,7 +5337,7 @@
     "total_current_liabilities": 626627000,
     "intangible_assets": 1738000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:36:31.940345Z"
+    "fetched_at": "2026-10-11T18:39:46.348836Z"
   },
   "ONC": {
     "symbol": "ONC",
@@ -5361,7 +5361,7 @@
     "total_current_liabilities": 11020907000,
     "intangible_assets": 1663966000,
     "goodwill": 12113914000,
-    "fetched_at": "2026-09-11T17:36:16.360127Z"
+    "fetched_at": "2026-10-11T18:40:08.011343Z"
   },
   "CHT": {
     "symbol": "CHT",
@@ -5397,7 +5397,7 @@
     "total_current_liabilities": 887008000,
     "intangible_assets": 142065000,
     "goodwill": 5291787000,
-    "fetched_at": "2026-09-11T17:36:24.778078Z"
+    "fetched_at": "2026-10-11T18:39:40.363547Z"
   },
   "NTAP": {
     "symbol": "NTAP",
@@ -5409,7 +5409,7 @@
     "total_current_liabilities": 4021000000,
     "intangible_assets": 22000000,
     "goodwill": 2772000000,
-    "fetched_at": "2026-09-11T17:36:13.573121Z"
+    "fetched_at": "2026-10-11T18:39:34.946401Z"
   },
   "BAP": {
     "symbol": "BAP",
@@ -5421,7 +5421,7 @@
     "total_current_liabilities": 14440200000,
     "intangible_assets": 4764394000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:36:43.140251Z"
+    "fetched_at": "2026-10-11T18:40:18.265726Z"
   },
   "ZTS": {
     "symbol": "ZTS",
@@ -5433,7 +5433,7 @@
     "total_current_liabilities": 2235000000,
     "intangible_assets": 998000000,
     "goodwill": 2767000000,
-    "fetched_at": "2026-09-11T17:36:40.983983Z"
+    "fetched_at": "2026-10-11T18:40:13.325931Z"
   },
   "AEE": {
     "symbol": "AEE",
@@ -5445,7 +5445,7 @@
     "total_current_liabilities": 3907000000,
     "intangible_assets": 0,
     "goodwill": 411000000,
-    "fetched_at": "2026-09-11T17:36:46.578276Z"
+    "fetched_at": "2026-10-11T18:40:21.902221Z"
   },
   "DTE": {
     "symbol": "DTE",
@@ -5469,7 +5469,7 @@
     "total_current_liabilities": 4344000000,
     "intangible_assets": 209000000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:36:12.653408Z"
+    "fetched_at": "2026-10-11T18:40:08.915058Z"
   },
   "VEEV": {
     "symbol": "VEEV",
@@ -5493,7 +5493,7 @@
     "total_current_liabilities": 2066300000,
     "intangible_assets": 4240300000,
     "goodwill": 8484100000,
-    "fetched_at": "2026-09-11T17:36:47.820146Z"
+    "fetched_at": "2026-10-11T18:40:15.146241Z"
   },
   "DTW": {
     "symbol": "DTW",
@@ -5529,7 +5529,7 @@
     "total_current_liabilities": 1708000000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:36:35.568476Z"
+    "fetched_at": "2026-10-11T18:40:16.919207Z"
   },
   "LVS": {
     "symbol": "LVS",
@@ -5547,13 +5547,13 @@
     "symbol": "EXPE",
     "name": "Expedia Group, Inc.",
     "sector": "Consumer Cyclical",
-    "ebit": 1890000000,
+    "ebit": 2163000000,
     "total_assets": 24452000000,
     "total_current_assets": 12199000000,
     "total_current_liabilities": 16657000000,
     "intangible_assets": 819000000,
     "goodwill": 6872000000,
-    "fetched_at": "2026-09-11T17:36:38.347001Z"
+    "fetched_at": "2026-10-11T18:40:11.795553Z"
   },
   "EQT": {
     "symbol": "EQT",
@@ -5565,7 +5565,7 @@
     "total_current_liabilities": 2484841000,
     "intangible_assets": 200486000,
     "goodwill": 2062462000,
-    "fetched_at": "2026-09-11T17:36:31.009651Z"
+    "fetched_at": "2026-10-11T18:40:05.498395Z"
   },
   "EXR": {
     "symbol": "EXR",
@@ -5577,7 +5577,7 @@
     "total_current_liabilities": 1393113000,
     "intangible_assets": 182404000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:36:45.273664Z"
+    "fetched_at": "2026-10-11T18:40:20.982189Z"
   },
   "EL": {
     "symbol": "EL",
@@ -5601,7 +5601,7 @@
     "total_current_liabilities": 2476000000,
     "intangible_assets": 338000000,
     "goodwill": 3476000000,
-    "fetched_at": "2026-09-11T17:36:42.696718Z"
+    "fetched_at": "2026-10-11T18:40:15.581746Z"
   },
   "GFI": {
     "symbol": "GFI",
@@ -5613,7 +5613,7 @@
     "total_current_liabilities": 1699899150,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:36:05.768732Z"
+    "fetched_at": "2026-10-11T18:40:06.669365Z"
   },
   "KHC": {
     "symbol": "KHC",
@@ -5661,7 +5661,7 @@
     "total_current_liabilities": 9105000000,
     "intangible_assets": 1130000000,
     "goodwill": 13489000000,
-    "fetched_at": "2026-09-11T17:36:47.385364Z"
+    "fetched_at": "2026-10-11T18:40:19.616765Z"
   },
   "BIIB": {
     "symbol": "BIIB",
@@ -5673,7 +5673,7 @@
     "total_current_liabilities": 3349400000,
     "intangible_assets": 9178500000,
     "goodwill": 6491100000,
-    "fetched_at": "2026-09-11T17:36:37.767662Z"
+    "fetched_at": "2026-10-11T18:40:04.994330Z"
   },
   "CFG": {
     "symbol": "CFG",
@@ -5745,7 +5745,7 @@
     "total_current_liabilities": 1860100000,
     "intangible_assets": 2100100000,
     "goodwill": 8687600000,
-    "fetched_at": "2026-09-11T17:36:48.260848Z"
+    "fetched_at": "2026-10-11T18:40:21.424371Z"
   },
   "DOV": {
     "symbol": "DOV",
@@ -5817,19 +5817,19 @@
     "total_current_liabilities": 4914800000,
     "intangible_assets": 425700000,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:36:44.055101Z"
+    "fetched_at": "2026-10-11T18:40:23.256953Z"
   },
   "RMD": {
     "symbol": "RMD",
     "name": "ResMed Inc.",
     "sector": "Healthcare",
-    "ebit": 1948445000,
+    "ebit": 1908460000,
     "total_assets": 8965950000,
     "total_current_assets": 4324739000,
     "total_current_liabilities": 1395110000,
     "intangible_assets": 0,
     "goodwill": 3362312000,
-    "fetched_at": "2026-09-11T17:36:38.779881Z"
+    "fetched_at": "2026-10-11T18:40:04.547279Z"
   },
   "DXCM": {
     "symbol": "DXCM",
@@ -5841,7 +5841,7 @@
     "total_current_liabilities": 2142500000,
     "intangible_assets": 70800000,
     "goodwill": 24200000,
-    "fetched_at": "2026-09-11T17:36:39.217824Z"
+    "fetched_at": "2026-10-11T18:40:10.446598Z"
   },
   "CNP": {
     "symbol": "CNP",
@@ -5973,7 +5973,7 @@
     "total_current_liabilities": 1397052937,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-11T17:36:26.051382Z"
+    "fetched_at": "2026-10-11T18:40:22.820159Z"
   },
   "CINF": {
     "symbol": "CINF",
