@@ -5625,7 +5625,7 @@
     "total_current_liabilities": 8778000000,
     "intangible_assets": 37529000000,
     "goodwill": 22179000000,
-    "fetched_at": "2026-09-11T17:36:45.708426Z"
+    "fetched_at": "2026-10-15T18:00:44.981551Z"
   },
   "ATO": {
     "symbol": "ATO",
@@ -6273,7 +6273,7 @@
     "total_current_liabilities": 1729423000,
     "intangible_assets": 79149000,
     "goodwill": 59871000,
-    "fetched_at": "2026-09-15T17:56:32.057901Z"
+    "fetched_at": "2026-10-15T18:00:43.811982Z"
   },
   "MDB": {
     "symbol": "MDB",
@@ -6405,7 +6405,7 @@
     "total_current_liabilities": 2961311000,
     "intangible_assets": 214355000,
     "goodwill": 1218098000,
-    "fetched_at": "2026-09-14T19:02:37.153009Z"
+    "fetched_at": "2026-10-15T18:00:41.384802Z"
   },
   "EP-PC": {
     "symbol": "EP-PC",
@@ -6622,5 +6622,17 @@
     "intangible_assets": 96266000,
     "goodwill": 2443882000,
     "fetched_at": "2026-10-09T19:16:33.892588Z"
+  },
+  "DUKU": {
+    "symbol": "DUKU",
+    "name": "Duke Energy Corporation Units 1.08.29",
+    "sector": "Utilities",
+    "ebit": 9346000000,
+    "total_assets": 195736000000,
+    "total_current_assets": 11613000000,
+    "total_current_liabilities": 21047000000,
+    "intangible_assets": 0,
+    "goodwill": 19010000000,
+    "fetched_at": "2026-10-15T18:00:40.085456Z"
   }
 }
