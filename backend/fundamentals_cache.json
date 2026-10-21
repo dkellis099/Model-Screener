@@ -6634,5 +6634,29 @@
     "intangible_assets": 0,
     "goodwill": 19010000000,
     "fetched_at": "2026-10-15T18:00:40.085456Z"
+  },
+  "SN": {
+    "symbol": "SN",
+    "name": "SharkNinja, Inc.",
+    "sector": "Consumer Cyclical",
+    "ebit": 948878000,
+    "total_assets": 5349434000,
+    "total_current_assets": 3611265000,
+    "total_current_liabilities": 1773615000,
+    "intangible_assets": 451137000,
+    "goodwill": 834781000,
+    "fetched_at": "2026-10-21T18:24:23.434969Z"
+  },
+  "WST": {
+    "symbol": "WST",
+    "name": "West Pharmaceutical Services, Inc.",
+    "sector": "Healthcare",
+    "ebit": 599200000,
+    "total_assets": 4270000000,
+    "total_current_assets": 1978200000,
+    "total_current_liabilities": 654900000,
+    "intangible_assets": 7700000,
+    "goodwill": 110000000,
+    "fetched_at": "2026-10-21T18:24:24.638244Z"
   }
 }
