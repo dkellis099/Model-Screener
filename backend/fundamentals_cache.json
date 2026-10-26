@@ -6658,5 +6658,17 @@
     "intangible_assets": 7700000,
     "goodwill": 110000000,
     "fetched_at": "2026-10-21T18:24:24.638244Z"
+  },
+  "RBRK": {
+    "symbol": "RBRK",
+    "name": "Rubrik, Inc.",
+    "sector": "Technology",
+    "ebit": -309246000,
+    "total_assets": 2766536000,
+    "total_current_assets": 2223564000,
+    "total_current_liabilities": 1314059000,
+    "intangible_assets": 0,
+    "goodwill": 199606000,
+    "fetched_at": "2026-10-26T19:45:24.466878Z"
   }
 }
