@@ -1,201 +1,201 @@
 symbol,name,sector,market_cap,earnings_yield,return_on_capital,return_1d,return_1m,return_1y,ey_rank,roc_rank,combined_rank
-HPQ,HP Inc.,Technology,26175820000,9.51,113.64,-0.88,7.89,22.16,32.5,16.0,48.5
-MO,"Altria Group, Inc.",Consumer Defensive,96695820000,8.96,128.85,-0.42,6.05,13.36,43.0,10.0,53.0
-BTI,British American Tobacco p.l.c.,Consumer Defensive,91900143950,7.92,122.18,-0.32,6.88,15.05,62.0,12.0,74.0
-MU,"Micron Technology, Inc.",Technology,1079846320000,9.55,59.73,3.29,-11.44,326.17,31.0,53.0,84.0
-DELL,Dell Technologies Inc.,Technology,75838243600,9.21,63.31,7.84,-7.31,217.53,38.0,50.0,88.0
-NVO,Novo Nordisk A/S,Healthcare,1439095359150,8.73,68.33,-1.19,-0.12,-26.99,47.0,47.0,94.0
-ABEV,Ambev S.A.,Consumer Defensive,211277089037,11.18,44.34,1.59,0.17,31.28,15.5,80.0,95.5
-ADBE,Adobe Inc.,Technology,136375380000,6.54,151.36,-3.79,7.71,-29.62,89.0,9.0,98.0
-ACN,Accenture plc,Technology,116224456611,10.0,47.71,-4.41,35.46,-4.57,28.0,72.0,100.0
-GSK,GSK plc,Healthcare,73719138723,9.19,50.76,-0.07,2.75,18.1,39.0,66.0,105.0
-BUD,Anheuser-Busch InBev SA/NV,Consumer Defensive,127055360000,8.06,62.16,-0.72,5.56,32.79,55.0,52.0,107.0
-EXPE,"Expedia Group, Inc.",Consumer Cyclical,35516591530,6.14,2079.81,-1.69,5.66,27.57,107.0,2.0,109.0
-KDP,Keurig Dr Pepper Inc.,Consumer Defensive,38040381000,6.47,107.63,-0.48,10.69,28.21,94.0,18.0,112.0
-INTU,Intuit Inc.,Technology,87235320000,6.9,78.41,-4.02,21.1,-52.24,80.0,36.0,116.0
-HLN,Haleon plc,Healthcare,33620304450,6.18,124.18,-0.94,10.19,9.23,106.0,11.0,117.0
-ERIC,Telefonaktiebolaget LM Ericsson (publ),Technology,296602344050,12.99,34.69,1.7,17.57,17.2,9.0,110.0,119.0
-INFY,Infosys Limited,Technology,53981258520,8.65,48.67,-2.7,14.97,-30.81,49.0,70.0,119.0
-CMCSA,Comcast Corporation,Communication Services,101808000000,14.88,31.51,-1.38,-0.21,-25.73,4.0,124.0,128.0
-CTSH,Cognizant Technology Solutions Corporation,Technology,39923000000,9.15,42.57,-4.31,16.92,-2.23,40.5,88.0,128.5
-PAYX,"Paychex, Inc.",Industrials,36765716000,6.39,82.39,-5.54,10.07,-12.28,98.0,32.0,130.0
-UL,Unilever PLC,Consumer Defensive,121565676960,6.58,69.0,-0.82,4.07,-7.79,87.0,45.0,132.0
-AU,AngloGold Ashanti Plc,Basic Materials,43313712000,10.5,33.67,1.2,-7.2,25.55,20.5,115.0,135.5
-ADP,"Automatic Data Processing, Inc.",Technology,89452124550,6.48,71.23,-2.89,11.7,4.09,93.0,43.0,136.0
-CL,Colgate-Palmolive Company,Consumer Defensive,63903474000,5.95,87.94,-1.06,6.47,18.1,113.5,27.0,140.5
-PM,Philip Morris International Inc.,Consumer Defensive,249582400000,5.7,107.15,0.57,4.78,28.8,122.0,19.0,141.0
-JNJ,Johnson & Johnson,Healthcare,504080216000,6.3,73.08,0.75,-1.34,40.92,101.0,41.0,142.0
-NTAP,"NetApp, Inc.",Technology,21415870000,7.83,44.01,3.1,12.01,96.29,63.0,81.0,144.0
-WDC,Western Digital Corporation,Technology,185955000000,5.34,189.64,7.4,-15.61,195.52,139.0,7.0,146.0
-GFI,Gold Fields Limited,Basic Materials,39074512578,10.49,31.42,0.65,0.71,-12.08,22.0,125.0,147.0
-KVUE,Kenvue Inc.,Consumer Defensive,32953230000,5.88,81.22,-0.79,8.19,28.97,116.0,33.0,149.0
-EME,"EMCOR Group, Inc.",Industrials,27561751290,5.86,82.83,0.14,-12.89,-10.88,119.0,31.0,150.0
-EQNR,Equinor ASA,Energy,61272590000,29.65,27.94,-1.38,12.22,95.85,1.0,149.0,150.0
-BMY,Bristol-Myers Squibb Company,Healthcare,110091540000,7.63,43.55,-0.65,-4.18,39.65,67.0,84.0,151.0
-QCOM,QUALCOMM Incorporated,Technology,181168800000,7.03,46.77,1.76,-2.52,8.18,76.5,75.0,151.5
-PDD,PDD Holdings Inc.,Consumer Cyclical,1108249399452,12.83,28.57,0.21,-0.25,-41.56,10.0,143.0,153.0
-RMD,ResMed Inc.,Healthcare,28200305280,6.93,45.35,-0.96,12.91,-3.36,78.5,78.0,156.5
-PG,The Procter & Gamble Company,Consumer Defensive,355235399999,5.59,84.65,-0.54,6.73,4.31,129.0,29.0,158.0
-CI,Cigna Corporation,Healthcare,73196868040,9.25,31.94,-2.2,10.01,-0.9,37.0,121.0,158.0
-OTIS,Otis Worldwide Corporation,Industrials,34388315743,5.07,222.11,-1.26,12.05,-19.17,159.0,5.0,164.0
-CCEP,Coca-Cola Europacific Partners PLC,Consumer Defensive,35200815120,6.2,52.99,-1.51,7.51,20.93,104.0,61.0,165.0
-GILD,"Gilead Sciences, Inc.",Healthcare,152688560000,6.36,49.37,-0.32,3.93,30.8,99.0,67.0,166.0
-SNDK,Sandisk Corporation,Technology,256515000000,5.19,109.7,3.63,-24.04,598.94,152.0,17.0,169.0
-NVS,Novartis AG,Healthcare,267323036500,6.02,52.94,1.69,6.49,19.98,110.0,62.0,172.0
-HCA,"HCA Healthcare, Inc.",Healthcare,107709270600,7.7,35.45,-4.86,2.33,-0.98,65.0,107.0,172.0
-MRK,"Merck & Co., Inc.",Healthcare,263360520000,7.49,37.2,0.89,-4.59,62.14,70.0,103.0,173.0
-ITW,Illinois Tool Works Inc.,Industrials,71988160068,5.32,79.84,-0.96,-0.1,11.32,142.0,35.0,177.0
-IQV,IQVIA Holdings Inc.,Healthcare,38747979000,4.34,8207.14,-0.08,0.89,23.97,185.0,1.0,186.0
-BHP,BHP Group Limited,Basic Materials,211524090000,11.18,23.85,4.16,-2.55,48.19,15.5,173.0,188.5
-BKNG,Booking Holdings Inc.,Consumer Cyclical,173788573000,4.8,94.1,-1.65,-8.09,-26.84,170.0,24.0,194.0
-NEM,Newmont Corporation,Basic Materials,110434100000,10.66,23.73,1.85,-3.12,34.86,18.0,176.0,194.0
-HON,Honeywell International Inc.,Industrials,65369700000,7.8,29.8,-0.72,2.92,1.9,64.0,133.0,197.0
-LNG,"Cheniere Energy, Inc.",Energy,42707483000,13.24,20.45,-0.67,10.73,35.97,7.0,191.0,198.0
-ZM,"Zoom Communications, Inc.",Technology,27676418400,9.15,25.53,-0.42,11.83,15.84,40.5,161.0,201.5
-SN,"SharkNinja, Inc.",Consumer Cyclical,15776121685,5.97,41.44,-1.11,7.93,103.21,112.0,90.0,202.0
-SLB,Slb N.V.,Energy,56456980000,7.97,28.51,1.35,4.48,50.14,59.0,144.0,203.0
-CRM,"Salesforce, Inc.",Technology,201675500000,4.5,91.27,-2.6,6.11,-5.36,182.0,25.0,207.0
-CQP,"Cheniere Energy Partners, L.P.",Energy,25884320000,9.26,23.78,-0.39,5.11,21.34,36.0,175.0,211.0
-COR,"Cencora, Inc.",Healthcare,60574564599,4.0,203.06,-0.72,7.84,-1.52,206.0,6.0,212.0
-SONY,Sony Group Corporation,Technology,19633006010116,7.98,26.46,-1.56,9.84,-10.56,58.0,157.0,215.0
-DEO,Diageo plc,Consumer Defensive,44691280000,8.5,24.45,-1.47,7.87,-3.33,51.0,164.0,215.0
-AMGN,Amgen Inc.,Healthcare,176092780000,5.29,48.59,0.54,6.91,53.22,145.0,71.0,216.0
-WSM,"Williams-Sonoma, Inc.",Consumer Cyclical,25993087380,5.5,42.97,-0.38,7.78,31.69,132.0,85.0,217.0
-AMX,"América Móvil, S.A.B. de C.V.",Communication Services,1125101130660,10.27,20.44,-0.81,10.73,5.8,25.0,192.0,217.0
-MSI,"Motorola Solutions, Inc.",Technology,63707784000,4.25,90.23,-0.77,6.6,9.78,191.0,26.0,217.0
-MSFT,Microsoft Corporation,Technology,2771165580000,5.87,37.44,-0.19,4.39,1.52,117.5,100.0,217.5
-SCCO,Southern Copper Corporation,Basic Materials,118831614000,5.87,37.43,4.42,-4.15,53.26,117.5,101.0,218.5
-PBR,Petróleo Brasileiro S.A. - Petrobras,Energy,76365743025,21.98,16.67,-1.24,7.6,89.27,2.0,218.0,220.0
-HONA,Honeywell Aerospace Inc,Industrials,63360000000,5.0,53.74,-0.51,10.15,,162.0,59.0,221.0
-B,Barrick Mining Corporation,Basic Materials,74339850000,10.94,17.63,2.5,-4.61,20.67,17.0,205.0,222.0
-ZTS,Zoetis Inc.,Healthcare,55793998260,5.69,37.84,-3.17,9.76,-46.28,124.0,99.0,223.0
-AEM,Agnico Eagle Mines Limited,Basic Materials,85102873290,8.16,24.2,2.06,-2.63,9.77,54.0,169.0,223.0
-CNQ,Canadian Natural Resources Limited,Energy,97126065489,12.29,17.06,-1.81,13.8,73.04,12.0,215.0,227.0
-YUM,"Yum! Brands, Inc.",Consumer Cyclical,42055840000,4.84,53.65,-0.37,7.69,3.87,168.0,60.0,228.0
-FTI,TechnipFMC plc,Energy,18670640000,6.88,28.29,1.21,0.91,80.45,81.0,147.0,228.0
-AZO,"AutoZone, Inc.",Consumer Cyclical,48816062760,6.11,32.31,-1.37,8.0,-17.33,109.0,119.0,228.0
-AZN,AstraZeneca PLC,Healthcare,272025000000,4.76,57.84,-1.16,2.36,3.86,173.5,55.0,228.5
-HAL,Halliburton Company,Energy,23710140000,10.07,18.11,-0.1,9.17,33.35,27.0,202.0,229.0
-TT,Trane Technologies plc,Industrials,87025120000,4.31,71.16,1.19,1.85,8.12,188.0,44.0,232.0
-LOW,"Lowe's Companies, Inc.",Consumer Cyclical,149286540000,5.32,41.38,-0.01,5.62,-18.34,142.0,91.0,233.0
-WAB,Westinghouse Air Brake Technologies Corporation,Industrials,36393225000,4.42,63.42,0.03,-5.0,40.55,184.0,49.0,233.0
-MRVL,"Marvell Technology, Inc.",Technology,67950120000,4.63,54.59,3.79,-3.68,188.41,178.0,56.0,234.0
-KMB,Kimberly-Clark Corporation,Consumer Defensive,33606459000,6.19,30.43,-0.93,9.96,-8.68,105.0,129.0,234.0
-FIX,"Comfort Systems USA, Inc.",Industrials,32990868210,3.97,84.76,3.36,-22.45,31.0,207.5,28.0,235.5
-HD,"The Home Depot, Inc.",Consumer Cyclical,375473160000,4.78,52.54,-0.16,9.99,-17.54,172.0,64.0,236.0
-AME,"AMETEK, Inc.",Industrials,47314100120,3.82,97.61,1.16,-2.4,31.25,215.0,21.0,236.0
-NTES,"NetEase, Inc.",Technology,614308586557,7.17,24.73,-3.66,-5.83,-22.31,74.0,162.0,236.0
-GEHC,GE HealthCare Technologies Inc.,Healthcare,37443913032,7.47,24.33,-1.15,6.54,-8.95,71.0,166.0,237.0
-TTE,TotalEnergies SE,Energy,143361453420,14.0,15.52,-1.39,2.35,48.89,6.0,233.0,239.0
-TS,Tenaris S.A.,Energy,19986175425,12.69,15.4,1.01,6.75,67.39,11.0,234.0,245.0
-E,Eni S.p.A.,Energy,48836506101,17.45,14.04,-2.68,5.95,60.09,3.0,242.0,245.0
-DVN,Devon Energy Corporation,Energy,23003640000,13.06,14.81,-1.08,9.31,54.93,8.0,237.0,245.0
-HLT,Hilton Worldwide Holdings Inc.,Consumer Cyclical,67791000000,3.37,555.05,-2.18,7.48,28.55,245.0,3.0,248.0
-LMT,Lockheed Martin Corporation,Industrials,111679403000,5.45,33.71,-1.46,20.81,28.94,134.0,114.0,248.0
-SAP,SAP SE,Technology,241059657366,4.47,49.33,-0.87,12.98,-12.27,183.0,68.0,251.0
-MPC,Marathon Petroleum Corporation,Energy,49602150000,10.5,15.66,-6.81,12.62,123.52,20.5,230.5,251.0
-AMAT,"Applied Materials, Inc.",Technology,185989320000,5.13,39.15,2.33,-18.52,73.39,157.0,94.0,251.0
-EMR,Emerson Electric Co.,Industrials,73828104000,3.86,73.54,2.49,3.98,24.91,213.0,40.0,253.0
-EBAY,eBay Inc.,Consumer Cyclical,39282100000,5.7,30.01,-0.84,9.6,21.01,122.0,131.0,253.0
-CSCO,"Cisco Systems, Inc.",Technology,451314010000,3.69,82.93,1.13,4.44,57.84,223.0,30.0,253.0
-PH,Parker-Hannifin Corporation,Industrials,123536556000,3.77,77.66,-0.25,-6.95,16.86,217.0,37.0,254.0
-TDG,TransDigm Group Incorporated,Industrials,76708764000,4.04,63.05,,,,203.5,51.0,254.5
-TRI,Thomson Reuters Corporation,Industrials,60175678961,3.43,116.43,,,,241.5,13.0,254.5
-NOC,Northrop Grumman Corporation,Industrials,81825135000,5.9,28.88,,,,115.0,140.0,255.0
-SHW,The Sherwin-Williams Company,Basic Materials,79840992000,4.11,54.55,,,,199.0,57.0,256.0
+HPQ,HP Inc.,Technology,26175820000,9.51,113.64,-3.83,5.09,15.67,32.5,15.0,47.5
+MO,"Altria Group, Inc.",Consumer Defensive,96695820000,8.96,128.85,-0.38,6.53,14.86,43.0,9.0,52.0
+BTI,British American Tobacco p.l.c.,Consumer Defensive,91900143950,7.92,122.18,0.29,9.4,15.19,62.0,11.0,73.0
+MU,"Micron Technology, Inc.",Technology,1079846320000,9.55,59.73,5.34,-8.14,344.49,31.0,53.0,84.0
+DELL,Dell Technologies Inc.,Technology,75838243600,9.21,63.31,-1.27,-8.15,205.57,38.0,50.0,88.0
+NVO,Novo Nordisk A/S,Healthcare,1439095359150,8.73,68.33,-1.34,-0.42,-27.87,47.0,46.0,93.0
+ABEV,Ambev S.A.,Consumer Defensive,211277089037,11.18,44.34,-2.96,-3.3,25.45,15.5,80.0,95.5
+ADBE,Adobe Inc.,Technology,136375380000,6.54,151.36,-0.53,5.95,-30.95,89.0,8.0,97.0
+ACN,Accenture plc,Technology,116224456611,10.0,47.71,3.44,37.33,-3.0,28.0,72.0,100.0
+GSK,GSK plc,Healthcare,73719138723,9.19,50.76,-4.62,-1.55,10.92,39.0,66.0,105.0
+BUD,Anheuser-Busch InBev SA/NV,Consumer Defensive,127055360000,8.06,62.16,-0.69,8.77,31.11,55.0,52.0,107.0
+EXPE,"Expedia Group, Inc.",Consumer Cyclical,35516591530,6.14,2079.81,-1.14,3.22,23.56,107.0,2.0,109.0
+KDP,Keurig Dr Pepper Inc.,Consumer Defensive,38040381000,6.47,107.63,-0.26,12.05,18.95,94.0,17.0,111.0
+INTU,Intuit Inc.,Technology,87235320000,6.9,78.41,-0.66,21.73,-52.26,80.0,35.0,115.0
+HLN,Haleon plc,Healthcare,33620304450,6.18,124.18,-0.84,10.2,8.64,106.0,10.0,116.0
+INFY,Infosys Limited,Technology,53981258520,8.65,48.67,-0.87,12.83,-29.55,49.0,70.0,119.0
+ERIC,Telefonaktiebolaget LM Ericsson (publ),Technology,296602344050,12.99,34.69,-0.23,18.62,17.23,9.0,110.0,119.0
+CMCSA,Comcast Corporation,Communication Services,101808000000,14.88,31.51,-1.35,-0.25,-26.77,4.0,124.0,128.0
+CTSH,Cognizant Technology Solutions Corporation,Technology,39923000000,9.15,42.57,-0.42,16.01,-3.1,40.5,88.0,128.5
+PAYX,"Paychex, Inc.",Industrials,36765716000,6.39,82.39,-1.94,7.89,-14.29,98.0,31.0,129.0
+UL,Unilever PLC,Consumer Defensive,121565676960,6.58,69.0,-1.72,4.39,-9.47,87.0,44.0,131.0
+ADP,"Automatic Data Processing, Inc.",Technology,89452124550,6.48,71.23,-3.1,8.48,1.24,93.0,42.0,135.0
+AU,AngloGold Ashanti Plc,Basic Materials,43313712000,10.5,33.67,-0.52,-8.82,32.76,20.5,115.0,135.5
+CL,Colgate-Palmolive Company,Consumer Defensive,63903474000,5.95,87.94,-0.92,5.62,17.33,112.5,26.0,138.5
+PM,Philip Morris International Inc.,Consumer Defensive,249582400000,5.7,107.15,0.42,4.94,32.8,121.0,18.0,139.0
+JNJ,Johnson & Johnson,Healthcare,504080216000,6.3,73.08,0.91,1.35,42.5,101.0,40.0,141.0
+NTAP,"NetApp, Inc.",Technology,21415870000,7.83,44.01,-1.58,7.08,91.13,63.0,81.0,144.0
+WDC,Western Digital Corporation,Technology,185955000000,5.34,189.64,3.4,-13.15,210.92,139.0,6.0,145.0
+GFI,Gold Fields Limited,Basic Materials,39074512578,10.49,31.42,-0.17,-3.02,-4.96,22.0,125.0,147.0
+KVUE,Kenvue Inc.,Consumer Defensive,32953230000,5.88,81.22,-0.64,7.79,28.02,115.0,32.0,147.0
+EME,"EMCOR Group, Inc.",Industrials,27561751290,5.86,82.83,1.66,-11.1,-10.26,118.0,30.0,148.0
+EQNR,Equinor ASA,Energy,61272590000,29.65,27.94,1.53,15.58,96.14,1.0,149.0,150.0
+BMY,Bristol-Myers Squibb Company,Healthcare,110091540000,7.63,43.55,-1.69,-3.74,39.46,67.0,84.0,151.0
+QCOM,QUALCOMM Incorporated,Technology,181168800000,7.03,46.77,-1.47,-1.43,-3.31,76.5,75.0,151.5
+PDD,PDD Holdings Inc.,Consumer Cyclical,1108249399452,12.83,28.57,-1.86,-0.72,-44.15,10.0,143.0,153.0
+PG,The Procter & Gamble Company,Consumer Defensive,355235399999,5.59,84.65,-0.49,6.83,4.42,128.0,28.0,156.0
+RMD,ResMed Inc.,Healthcare,28200305280,6.93,45.35,-0.03,12.52,-3.28,78.5,78.0,156.5
+CI,Cigna Corporation,Healthcare,73196868040,9.25,31.94,-1.06,7.21,-4.55,37.0,121.0,158.0
+CCEP,Coca-Cola Europacific Partners PLC,Consumer Defensive,35200815120,6.2,52.99,0.0,8.41,21.15,104.0,61.0,165.0
+GILD,"Gilead Sciences, Inc.",Healthcare,152688560000,6.36,49.37,-0.17,4.98,31.83,99.0,67.0,166.0
+SNDK,Sandisk Corporation,Technology,256515000000,5.19,109.7,6.76,-19.47,689.28,152.0,16.0,168.0
+NVS,Novartis AG,Healthcare,267323036500,6.02,52.94,-0.58,7.03,20.76,110.0,62.0,172.0
+HCA,"HCA Healthcare, Inc.",Healthcare,107709270600,7.7,35.45,1.89,6.22,-2.01,65.0,107.0,172.0
+MRK,"Merck & Co., Inc.",Healthcare,263360520000,7.49,37.2,-1.09,-6.03,59.41,70.0,103.0,173.0
+ITW,Illinois Tool Works Inc.,Industrials,71988160068,5.32,79.84,-0.32,2.98,10.99,142.0,34.0,176.0
+GMAB,Genmab A/S,Healthcare,19142534180,5.54,64.48,29.01,62.02,98.52,129.5,48.0,177.5
+IQV,IQVIA Holdings Inc.,Healthcare,38747979000,4.34,8207.14,1.97,2.94,27.35,186.0,1.0,187.0
+BHP,BHP Group Limited,Basic Materials,211524090000,11.18,23.85,-0.97,-3.56,45.09,15.5,174.0,189.5
+BKNG,Booking Holdings Inc.,Consumer Cyclical,173788573000,4.8,94.1,-2.3,-9.64,-30.21,172.0,23.0,195.0
+NEM,Newmont Corporation,Basic Materials,110434100000,10.66,23.73,0.15,-3.66,43.47,18.0,177.0,195.0
+HON,Honeywell International Inc.,Industrials,65369700000,7.8,29.8,-0.33,3.78,2.58,64.0,133.0,197.0
+LNG,"Cheniere Energy, Inc.",Energy,42707483000,13.24,20.45,-0.78,11.27,35.31,7.0,192.0,199.0
+ZM,"Zoom Communications, Inc.",Technology,27676418400,9.15,25.53,1.98,12.42,16.63,40.5,162.0,202.5
+SLB,Slb N.V.,Energy,56456980000,7.97,28.51,-0.44,7.97,48.9,59.0,144.0,203.0
+CRM,"Salesforce, Inc.",Technology,201675500000,4.5,91.27,-0.13,6.78,-5.83,183.0,24.0,207.0
+COR,"Cencora, Inc.",Healthcare,60574564599,4.0,203.06,-0.23,5.54,-3.4,207.0,5.0,212.0
+CQP,"Cheniere Energy Partners, L.P.",Energy,25884320000,9.26,23.78,-1.17,6.72,21.61,36.0,176.0,212.0
+SONY,Sony Group Corporation,Technology,19633006010116,7.98,26.46,-1.97,7.55,-12.42,58.0,157.0,215.0
+AMGN,Amgen Inc.,Healthcare,176092780000,5.29,48.59,0.43,6.19,54.51,145.0,71.0,216.0
+DEO,Diageo plc,Consumer Defensive,44691280000,8.5,24.45,-1.7,7.21,-3.94,51.0,165.0,216.0
+MSFT,Microsoft Corporation,Technology,2771165580000,5.87,37.44,-0.44,3.94,-0.47,116.5,100.0,216.5
+MSI,"Motorola Solutions, Inc.",Technology,63707784000,4.25,90.23,-0.16,8.23,8.75,192.0,25.0,217.0
+WSM,"Williams-Sonoma, Inc.",Consumer Cyclical,25993087380,5.5,42.97,-0.42,8.45,29.32,132.0,85.0,217.0
+SCCO,Southern Copper Corporation,Basic Materials,118831614000,5.87,37.43,-1.16,-5.12,47.47,116.5,101.0,217.5
+AMX,"América Móvil, S.A.B. de C.V.",Communication Services,1125101130660,10.27,20.44,-0.54,9.87,5.0,25.0,193.0,218.0
+PBR,Petróleo Brasileiro S.A. - Petrobras,Energy,76365743025,21.98,16.67,-0.54,7.41,87.02,2.0,219.0,221.0
+HONA,Honeywell Aerospace Inc,Industrials,63360000000,5.0,53.74,1.66,9.81,,162.0,59.0,221.0
+ZTS,Zoetis Inc.,Healthcare,55793998260,5.69,37.84,-1.18,9.97,-47.6,123.0,99.0,222.0
+B,Barrick Mining Corporation,Basic Materials,74339850000,10.94,17.63,-0.19,-4.98,23.07,17.0,206.0,223.0
+AEM,Agnico Eagle Mines Limited,Basic Materials,85102873290,8.16,24.2,-0.3,-3.05,16.11,54.0,170.0,224.0
+FTI,TechnipFMC plc,Energy,18670640000,6.88,28.29,0.38,4.07,76.83,81.0,147.0,228.0
+AZO,"AutoZone, Inc.",Consumer Cyclical,48816062760,6.08,32.31,0.34,9.66,-17.31,109.0,119.0,228.0
+CNQ,Canadian Natural Resources Limited,Energy,97126065489,12.29,17.06,2.07,17.0,75.21,12.0,216.0,228.0
+YUM,"Yum! Brands, Inc.",Consumer Cyclical,42055840000,4.84,53.65,0.02,8.6,4.61,168.5,60.0,228.5
+HAL,Halliburton Company,Energy,23710140000,10.07,18.11,0.39,13.38,33.43,27.0,203.0,230.0
+AZN,AstraZeneca PLC,Healthcare,272025000000,4.76,57.84,-0.2,3.37,3.5,175.5,55.0,230.5
+LOW,"Lowe's Companies, Inc.",Consumer Cyclical,149286540000,5.32,41.38,-0.38,5.43,-18.97,142.0,90.0,232.0
+TT,Trane Technologies plc,Industrials,87025120000,4.31,71.16,-1.05,0.14,6.53,189.0,43.0,232.0
+WAB,Westinghouse Air Brake Technologies Corporation,Industrials,36393225000,4.42,63.42,1.28,-2.99,41.02,185.0,49.0,234.0
+KMB,Kimberly-Clark Corporation,Consumer Defensive,33606459000,6.19,30.43,-0.75,9.39,-10.23,105.0,129.0,234.0
+MRVL,"Marvell Technology, Inc.",Technology,67950120000,4.63,54.59,2.99,-4.72,182.78,179.0,56.0,235.0
+FIX,"Comfort Systems USA, Inc.",Industrials,32990868210,3.97,84.76,4.43,-19.18,37.82,208.5,27.0,235.5
+AME,"AMETEK, Inc.",Industrials,47314100120,3.82,97.61,0.94,-0.89,33.09,216.0,20.0,236.0
+NTES,"NetEase, Inc.",Technology,614308586557,7.17,24.73,-1.69,-7.93,-23.2,74.0,163.0,237.0
+GEHC,GE HealthCare Technologies Inc.,Healthcare,37443913032,7.47,24.33,6.77,14.24,-3.1,71.0,167.0,238.0
+HD,"The Home Depot, Inc.",Consumer Cyclical,375473160000,4.78,52.54,-0.51,10.01,-17.75,174.0,64.0,238.0
+TTE,TotalEnergies SE,Energy,143361453420,14.0,15.52,0.97,6.32,49.51,6.0,234.0,240.0
+DVN,Devon Energy Corporation,Energy,23003640000,13.06,14.81,0.89,10.91,56.95,8.0,238.0,246.0
+TS,Tenaris S.A.,Energy,19986175425,12.69,15.4,0.03,9.61,62.6,11.0,235.0,246.0
+E,Eni S.p.A.,Energy,48836506101,17.45,14.04,1.76,9.77,61.87,3.0,243.0,246.0
+LMT,Lockheed Martin Corporation,Industrials,111679403000,5.45,33.71,1.09,22.95,29.34,134.0,114.0,248.0
+DOV,Dover Corporation,Industrials,26793956640,5.14,39.95,0.58,9.32,16.53,156.0,92.0,248.0
+HLT,Hilton Worldwide Holdings Inc.,Consumer Cyclical,67791000000,3.37,555.05,1.25,7.89,31.08,246.0,3.0,249.0
+MPC,Marathon Petroleum Corporation,Energy,49602150000,10.5,15.66,1.21,12.56,124.87,20.5,231.5,252.0
+SAP,SAP SE,Technology,241059657366,4.47,49.33,0.25,12.11,-13.15,184.0,68.0,252.0
+AMAT,"Applied Materials, Inc.",Technology,185989320000,5.13,39.15,5.22,-18.64,80.09,158.0,94.0,252.0
+EBAY,eBay Inc.,Consumer Cyclical,39282100000,5.7,30.01,-1.06,10.81,18.95,121.0,131.0,252.0
+EMR,Emerson Electric Co.,Industrials,73828104000,3.86,73.54,0.56,6.33,24.35,214.0,39.0,253.0
+CSCO,"Cisco Systems, Inc.",Technology,451314010000,3.69,82.93,-1.03,3.08,54.41,224.0,29.0,253.0
+PH,Parker-Hannifin Corporation,Industrials,123536556000,3.77,77.66,1.38,-5.9,17.95,218.0,36.0,254.0
+NOC,Northrop Grumman Corporation,Industrials,81825135000,5.9,28.88,,,,114.0,140.0,254.0
+TRI,Thomson Reuters Corporation,Industrials,60175678961,3.43,116.43,,,,242.5,12.0,254.5
+TDG,TransDigm Group Incorporated,Industrials,76708764000,4.04,63.05,,,,204.5,51.0,255.5
+SHW,The Sherwin-Williams Company,Basic Materials,79840992000,4.11,54.55,,,,200.0,57.0,257.0
 GWW,"W.W. Grainger, Inc.",Industrials,48333495000,4.93,39.25,,,,164.5,93.0,257.5
-UI,Ubiquiti Inc.,Technology,32314155300,3.72,75.51,,,,220.5,38.0,258.5
+UI,Ubiquiti Inc.,Technology,32314155300,3.72,75.51,,,,221.5,37.0,258.5
 ILMN,"Illumina, Inc.",Healthcare,20844400000,5.4,31.77,,,,136.0,123.0,259.0
-NFLX,"Netflix, Inc.",Communication Services,396531760960,3.36,114.03,,,,246.0,15.0,261.0
-BIIB,Biogen Inc.,Healthcare,25817733000,7.28,20.78,,,,73.0,189.0,262.0
+NFLX,"Netflix, Inc.",Communication Services,396531760960,3.36,114.03,,,,247.0,14.0,261.0
 GD,General Dynamics Corporation,Industrials,90864534000,5.51,29.98,,,,131.0,132.0,263.0
-SHEL,Shell plc,Energy,216427992000,11.86,13.2,,,,13.0,251.0,264.0
-MPLX,MPLX Lp,Energy,54384030000,7.58,20.07,,,,69.0,196.0,265.0
-EOG,"EOG Resources, Inc.",Energy,56624647310,10.53,13.78,,,,19.0,246.5,265.5
-MTD,Mettler-Toledo International Inc.,Healthcare,28734519401,3.6,74.67,,,,229.5,39.0,268.5
-ORLY,"O'Reilly Automotive, Inc.",Consumer Cyclical,77662761120,4.04,51.54,,,,203.5,65.0,268.5
-ADSK,"Autodesk, Inc.",Technology,53861310000,3.33,95.31,,,,248.0,22.0,270.0
-TDY,Teledyne Technologies Incorporated,Technology,24471198000,4.31,43.76,,,,188.0,82.0,270.0
+BIIB,Biogen Inc.,Healthcare,25817733000,7.28,20.78,,,,73.0,190.0,263.0
+SHEL,Shell plc,Energy,216427992000,11.86,13.2,,,,13.0,252.0,265.0
+MPLX,MPLX Lp,Energy,54384030000,7.58,20.07,,,,69.0,197.0,266.0
+EOG,"EOG Resources, Inc.",Energy,56624647310,10.53,13.78,,,,19.0,247.5,266.5
+MTD,Mettler-Toledo International Inc.,Healthcare,28734519401,3.6,74.67,,,,230.5,38.0,268.5
+ORLY,"O'Reilly Automotive, Inc.",Consumer Cyclical,77662761120,4.04,51.54,,,,204.5,65.0,269.5
+ADSK,"Autodesk, Inc.",Technology,53861310000,3.33,95.31,,,,249.0,21.0,270.0
 KO,The Coca-Cola Company,Consumer Defensive,300822730000,5.23,31.8,,,,149.0,122.0,271.0
-CTAS,Cintas Corporation,Industrials,69379064300,3.64,65.13,,,,227.5,48.0,275.5
-UPS,"United Parcel Service, Inc.",Industrials,84212310000,7.65,17.18,,,,66.0,211.5,277.5
-MDLZ,"Mondelez International, Inc.",Consumer Defensive,69656020000,3.66,58.24,,,,225.5,54.0,279.5
-NVDA,NVIDIA Corporation,Technology,4542222730000,3.12,94.16,,,,257.0,23.0,280.0
-EC,Ecopetrol S.A.,Energy,77604475407409,14.48,11.05,,,,5.0,275.0,280.0
-DAL,"Delta Air Lines, Inc.",Industrials,44971200000,9.05,14.79,,,,42.0,238.0,280.0
-FTNT,"Fortinet, Inc.",Technology,59009571000,4.02,46.25,,,,205.0,76.0,281.0
+TDY,Teledyne Technologies Incorporated,Technology,24471198000,4.31,43.76,,,,189.0,82.0,271.0
+CTAS,Cintas Corporation,Industrials,69379064300,3.64,65.13,,,,228.5,47.0,275.5
+UPS,"United Parcel Service, Inc.",Industrials,84212310000,7.65,17.18,,,,66.0,212.5,278.5
+NVDA,NVIDIA Corporation,Technology,4542222730000,3.12,94.16,,,,258.0,22.0,280.0
+MDLZ,"Mondelez International, Inc.",Consumer Defensive,69656020000,3.66,58.24,,,,226.5,54.0,280.5
+EC,Ecopetrol S.A.,Energy,77604475407409,14.48,11.05,,,,5.0,276.0,281.0
+DAL,"Delta Air Lines, Inc.",Industrials,44971200000,9.05,14.79,,,,42.0,239.0,281.0
 UNH,UnitedHealth Group Incorporated,Healthcare,300400100000,5.28,29.35,,,,146.0,135.0,281.0
-COP,ConocoPhillips,Energy,117203651620,10.35,12.63,,,,23.0,259.0,282.0
-RIO,Rio Tinto Group,Basic Materials,129968720000,9.51,13.1,,,,32.5,252.5,285.0
-ETN,Eaton Corporation plc,Industrials,123645582000,3.87,46.99,,,,212.0,74.0,286.0
-SYY,Sysco Corporation,Consumer Defensive,39680552760,5.66,25.59,,,,127.0,160.0,287.0
-AAPL,Apple Inc.,Technology,3818743810000,3.41,68.55,,,,244.0,46.0,290.0
-DHI,"D.R. Horton, Inc.",Consumer Cyclical,52281495000,8.57,14.23,,,,50.0,240.0,290.0
-NTR,Nutrien Ltd.,Basic Materials,30016596200,8.94,13.78,,,,44.0,246.5,290.5
-SNY,Sanofi,Healthcare,100669102084,6.0,22.01,,,,111.0,182.0,293.0
-T,AT&T Inc.,Communication Services,178077960000,10.13,11.36,,,,26.0,269.0,295.0
-URI,"United Rentals, Inc.",Industrials,52120208000,5.95,21.97,,,,113.5,183.0,296.5
-BKR,Baker Hughes Company,Energy,44993520000,6.4,18.4,,,,97.0,200.0,297.0
-SU,Suncor Energy Inc.,Energy,74197710209,9.77,11.41,,,,30.0,267.0,297.0
-TGT,Target Corporation,Consumer Defensive,47893927000,8.31,13.85,,,,52.0,245.0,297.0
+FTNT,"Fortinet, Inc.",Technology,59009571000,4.02,46.25,,,,206.0,76.0,282.0
+COP,ConocoPhillips,Energy,117203651620,10.35,12.63,,,,23.0,260.0,283.0
+RIO,Rio Tinto Group,Basic Materials,129968720000,9.51,13.1,,,,32.5,253.5,286.0
+SYY,Sysco Corporation,Consumer Defensive,39680552760,5.66,25.59,,,,126.0,161.0,287.0
+ETN,Eaton Corporation plc,Industrials,123645582000,3.87,46.99,,,,213.0,74.0,287.0
+AAPL,Apple Inc.,Technology,3818743810000,3.41,68.55,,,,245.0,45.0,290.0
+DHI,"D.R. Horton, Inc.",Consumer Cyclical,52281495000,8.57,14.23,,,,50.0,241.0,291.0
+NTR,Nutrien Ltd.,Basic Materials,30016596200,8.94,13.78,,,,44.0,247.5,291.5
+SNY,Sanofi,Healthcare,100669102084,6.0,22.01,,,,111.0,183.0,294.0
+T,AT&T Inc.,Communication Services,178077960000,10.13,11.36,,,,26.0,270.0,296.0
+URI,"United Rentals, Inc.",Industrials,52120208000,5.95,21.97,,,,112.5,184.0,296.5
+TEL,TE Connectivity plc,Technology,63828280000,4.84,30.93,,,,168.5,128.0,296.5
+TGT,Target Corporation,Consumer Defensive,47893927000,8.31,13.85,,,,52.0,246.0,298.0
 META,"Meta Platforms, Inc.",Communication Services,1664086890000,5.02,29.04,,,,161.0,137.0,298.0
-ABBV,AbbVie Inc.,Healthcare,405341260000,2.02,397.07,,,,295.0,4.0,299.0
-TEL,TE Connectivity plc,Technology,64460880000,4.7,30.93,,,,176.0,128.0,304.0
-GOOG,Alphabet Inc.,Communication Services,3802000800000,4.17,34.75,,,,195.0,109.0,304.0
-GRMN,Garmin Ltd.,Technology,39553893170,5.38,24.23,,,,137.5,168.0,305.5
-TSM,Taiwan Semiconductor Manufacturing Company Limited,Technology,49375093288317,4.32,32.22,,,,186.0,120.0,306.0
-JBL,Jabil Inc.,Technology,32296508000,4.07,35.79,,,,200.5,106.0,306.5
-RACE,Ferrari N.V.,Consumer Cyclical,56087752785,3.66,43.71,,,,225.5,83.0,308.5
-ASML,ASML Holding N.V.,Technology,353751723171,3.3,53.87,,,,251.0,58.0,309.0
-MMM,3M Company,Industrials,85541429839,5.33,24.12,,,,140.0,170.0,310.0
-ELV,Elevance Health Inc.,Healthcare,77751990000,7.99,13.09,,,,57.0,254.0,311.0
-RTX,RTX Corporation,Industrials,246012760000,3.8,38.99,,,,216.0,95.0,311.0
-CMI,Cummins Inc.,Industrials,70391055000,5.67,21.47,,,,125.5,187.0,312.5
-TJX,"The TJX Companies, Inc.",Consumer Cyclical,168536250000,4.15,32.72,,,,196.0,117.0,313.0
-JD,"JD.com, Inc.",Consumer Cyclical,285678827070,11.57,7.92,,,,14.0,302.0,316.0
-FCX,Freeport-McMoRan Inc.,Basic Materials,73289970000,8.0,12.59,,,,56.0,260.0,316.0
-IDXX,"IDEXX Laboratories, Inc.",Healthcare,54187346880,2.47,81.19,,,,282.5,34.0,316.5
-APP,AppLovin Corporation,Technology,228277413420,1.81,104.28,,,,298.0,20.0,318.0
-OKE,"ONEOK, Inc.",Energy,46305000000,7.94,12.72,,,,61.0,257.0,318.0
-VG,"Venture Global, Inc.",Energy,16545320000,9.81,9.85,,,,29.0,289.0,318.0
-VALE,Vale S.A.,Basic Materials,55622138250,9.37,10.22,,,,34.0,284.0,318.0
-PEP,"PepsiCo, Inc.",Consumer Defensive,196596145200,4.79,27.96,,,,171.0,148.0,319.0
-PSX,Phillips 66,Energy,52391272320,8.71,11.15,,,,48.0,273.0,321.0
-REGN,"Regeneron Pharmaceuticals, Inc.",Healthcare,80737602000,6.57,15.1,,,,88.0,235.0,323.0
-AVGO,Broadcom Inc.,Technology,1708335600000,1.48,115.26,,,,309.0,14.0,323.0
-MDT,Medtronic Plc,Healthcare,106799575999,5.16,23.92,,,,153.0,172.0,325.0
-UNP,Union Pacific Corporation,Industrials,137057100000,6.25,16.38,,,,102.0,223.0,325.0
-IBM,International Business Machines Corporation,Technology,276156583000,3.72,35.95,,,,220.5,105.0,325.5
-EPD,Enterprise Products Partners L.P.,Energy,70147280000,7.03,13.22,,,,76.5,249.0,325.5
-ECL,Ecolab Inc.,Basic Materials,74371916000,3.35,44.65,,,,247.0,79.0,326.0
-BSP,Bending Spoons S.p.A.,Technology,23781721500,0.98,184.67,,,,318.0,8.0,326.0
-NXPI,NXP Semiconductors N.V.,Technology,54851713180,4.67,27.48,,,,177.0,151.0,328.0
-FAST,Fastenal Company,Industrials,46053188000,3.59,38.3,,,,231.0,97.0,328.0
-LIN,Linde plc,Basic Materials,198803058330,4.19,29.08,,,,193.5,136.0,329.5
-LHX,"L3Harris Technologies, Inc.",Industrials,57059552000,3.76,33.95,,,,218.0,112.0,330.0
-MNST,Monster Beverage Corporation,Consumer Defensive,74831015160,3.42,42.69,,,,243.0,87.0,330.0
-ROST,"Ross Stores, Inc.",Consumer Cyclical,60318035670,4.72,26.82,,,,175.0,155.0,330.0
-UMC,United Microelectronics Corporation,Technology,614934991440,8.8,10.19,,,,45.0,285.0,330.0
-WAT,Waters Corporation,Healthcare,22603303470,3.43,41.55,,,,241.5,89.0,330.5
-XOM,Exxonmobil Holdings Corporation,Energy,518063700000,7.6,11.77,,,,68.0,264.0,332.0
-TEVA,Teva Pharmaceutical Industries Limited,Healthcare,35860290000,4.31,28.48,,,,188.0,145.0,333.0
-STX,Seagate Technology Holdings plc,Technology,179615040000,2.19,72.69,,,,291.0,42.0,333.0
-CNI,Canadian National Railway Company,Industrials,84514199966,6.77,13.21,,,,84.0,250.0,334.0
-WDS,Woodside Energy Group Ltd,Energy,29549868800,10.28,6.86,,,,24.0,310.0,334.0
-RCL,Royal Caribbean Cruises Ltd.,Consumer Cyclical,75587320000,5.44,18.42,,,,135.0,199.0,334.0
-TRGP,Targa Resources Corp.,Energy,39667500000,5.85,16.77,,,,120.0,216.0,336.0
-APH,Amphenol Corporation,Technology,164627547999,3.58,36.4,,,,232.5,104.0,336.5
-VRT,Vertiv Holdings Co,Industrials,61841190443,2.89,47.15,,,,265.0,73.0,338.0
-LLY,Eli Lilly and Company,Healthcare,965064789360,2.97,45.81,,,,263.0,77.0,340.0
-DIS,The Walt Disney Company,Communication Services,204699880000,5.65,17.1,,,,128.0,214.0,342.0
-CVE,Cenovus Energy Inc.,Energy,42019480464,8.78,9.13,,,,46.0,296.0,342.0
-MCD,McDonald's Corporation,Consumer Cyclical,218036442000,4.59,24.59,,,,179.0,163.0,342.0
-BP,BP p.l.c.,Energy,90221489775,9.36,7.19,,,,35.0,308.0,343.0
-IMO,Imperial Oil Limited,Energy,59664298603,6.78,12.0,,,,83.0,261.0,344.0
-VZ,Verizon Communications Inc.,Communication Services,172124980000,8.3,9.52,,,,53.0,292.0,345.0
-DXCM,"DexCom, Inc.",Healthcare,25897574000,4.2,26.98,,,,192.0,154.0,346.0
-PFE,Pfizer Inc.,Healthcare,141500699100,4.9,22.07,,,,166.0,181.0,347.0
-BABA,Alibaba Group Holding Limited,Consumer Cyclical,2008501372349,6.64,11.95,,,,85.0,262.0,347.0
-CRH,CRH plc,Basic Materials,84015360000,5.67,16.31,,,,125.5,224.0,349.5
-SYK,Stryker Corporation,Healthcare,134331834000,3.49,33.96,,,,239.5,111.0,350.5
-UAL,"United Airlines Holdings, Inc.",Industrials,36565140000,7.46,10.66,,,,72.0,280.0,352.0
+BKR,Baker Hughes Company,Energy,44993520000,6.4,18.4,,,,97.0,201.0,298.0
+SU,Suncor Energy Inc.,Energy,74197710209,9.77,11.41,,,,30.0,268.0,298.0
+ABBV,AbbVie Inc.,Healthcare,405341260000,2.02,397.07,,,,296.0,4.0,300.0
+GOOG,Alphabet Inc.,Communication Services,3802000800000,4.17,34.75,,,,196.0,109.0,305.0
+GRMN,Garmin Ltd.,Technology,39553893170,5.38,24.23,,,,137.5,169.0,306.5
+TSM,Taiwan Semiconductor Manufacturing Company Limited,Technology,49375093288317,4.32,32.22,,,,187.0,120.0,307.0
+JBL,Jabil Inc.,Technology,32296508000,4.07,35.79,,,,201.5,106.0,307.5
+RACE,Ferrari N.V.,Consumer Cyclical,56087752785,3.66,43.71,,,,226.5,83.0,309.5
+ASML,ASML Holding N.V.,Technology,353751723171,3.3,53.87,,,,252.0,58.0,310.0
+MMM,3M Company,Industrials,85541429839,5.33,24.12,,,,140.0,171.0,311.0
+ELV,Elevance Health Inc.,Healthcare,77751990000,7.99,13.09,,,,57.0,255.0,312.0
+RTX,RTX Corporation,Industrials,246012760000,3.8,38.99,,,,217.0,95.0,312.0
+CMI,Cummins Inc.,Industrials,70391055000,5.67,21.47,,,,124.5,188.0,312.5
+TJX,"The TJX Companies, Inc.",Consumer Cyclical,168536250000,4.15,32.72,,,,197.0,117.0,314.0
+IDXX,"IDEXX Laboratories, Inc.",Healthcare,54187346880,2.47,81.19,,,,282.5,33.0,315.5
+JD,"JD.com, Inc.",Consumer Cyclical,285678827070,11.57,7.92,,,,14.0,303.0,317.0
+FCX,Freeport-McMoRan Inc.,Basic Materials,73289970000,8.0,12.59,,,,56.0,261.0,317.0
+APP,AppLovin Corporation,Technology,228277413420,1.81,104.28,,,,299.0,19.0,318.0
+OKE,"ONEOK, Inc.",Energy,46305000000,7.94,12.72,,,,61.0,258.0,319.0
+VALE,Vale S.A.,Basic Materials,55622138250,9.37,10.22,,,,34.0,285.0,319.0
+VG,"Venture Global, Inc.",Energy,16545320000,9.81,9.85,,,,29.0,290.0,319.0
+PEP,"PepsiCo, Inc.",Consumer Defensive,196596145200,4.79,27.96,,,,173.0,148.0,321.0
+PSX,Phillips 66,Energy,52391272320,8.71,11.15,,,,48.0,274.0,322.0
+AVGO,Broadcom Inc.,Technology,1708335600000,1.48,115.26,,,,310.0,13.0,323.0
+REGN,"Regeneron Pharmaceuticals, Inc.",Healthcare,80737602000,6.57,15.1,,,,88.0,236.0,324.0
+UNP,Union Pacific Corporation,Industrials,137057100000,6.25,16.38,,,,102.0,224.0,326.0
+MDT,Medtronic Plc,Healthcare,106799575999,5.16,23.92,,,,153.0,173.0,326.0
+BSP,Bending Spoons S.p.A.,Technology,23781721500,0.98,184.67,,,,319.0,7.0,326.0
+EPD,Enterprise Products Partners L.P.,Energy,70147280000,7.03,13.22,,,,76.5,250.0,326.5
+IBM,International Business Machines Corporation,Technology,276156583000,3.72,35.95,,,,221.5,105.0,326.5
+ECL,Ecolab Inc.,Basic Materials,74371916000,3.35,44.65,,,,248.0,79.0,327.0
+FAST,Fastenal Company,Industrials,46053188000,3.59,38.3,,,,232.0,97.0,329.0
+NXPI,NXP Semiconductors N.V.,Technology,54851713180,4.67,27.48,,,,178.0,151.0,329.0
+LH,Labcorp Holdings Inc.,Healthcare,20873216000,4.83,25.69,,,,170.5,160.0,330.5
+LIN,Linde plc,Basic Materials,198803058330,4.19,29.08,,,,194.5,136.0,330.5
+MNST,Monster Beverage Corporation,Consumer Defensive,74831015160,3.42,42.69,,,,244.0,87.0,331.0
+UMC,United Microelectronics Corporation,Technology,614934991440,8.8,10.19,,,,45.0,286.0,331.0
+LHX,"L3Harris Technologies, Inc.",Industrials,57059552000,3.76,33.95,,,,219.0,112.0,331.0
+WAT,Waters Corporation,Healthcare,22603303470,3.43,41.55,,,,242.5,89.0,331.5
+ROST,"Ross Stores, Inc.",Consumer Cyclical,60318035670,4.72,26.82,,,,177.0,155.0,332.0
+XOM,Exxonmobil Holdings Corporation,Energy,518063700000,7.6,11.77,,,,68.0,265.0,333.0
+STX,Seagate Technology Holdings plc,Technology,179615040000,2.19,72.69,,,,292.0,41.0,333.0
+TEVA,Teva Pharmaceutical Industries Limited,Healthcare,35860290000,4.31,28.48,,,,189.0,145.0,334.0
+RCL,Royal Caribbean Cruises Ltd.,Consumer Cyclical,75587320000,5.44,18.42,,,,135.0,200.0,335.0
+CNI,Canadian National Railway Company,Industrials,84514199966,6.77,13.21,,,,84.0,251.0,335.0
+WDS,Woodside Energy Group Ltd,Energy,29549868800,10.28,6.86,,,,24.0,311.0,335.0
+TRGP,Targa Resources Corp.,Energy,39667500000,5.85,16.77,,,,119.0,217.0,336.0
+APH,Amphenol Corporation,Technology,164627547999,3.58,36.4,,,,233.5,104.0,337.5
+VRT,Vertiv Holdings Co,Industrials,61841190443,2.89,47.15,,,,266.0,73.0,339.0
+LLY,Eli Lilly and Company,Healthcare,965064789360,2.97,45.81,,,,264.0,77.0,341.0
+DIS,The Walt Disney Company,Communication Services,204699880000,5.65,17.1,,,,127.0,215.0,342.0
+CVE,Cenovus Energy Inc.,Energy,42019480464,8.78,9.13,,,,46.0,297.0,343.0
+MCD,McDonald's Corporation,Consumer Cyclical,218036442000,4.59,24.59,,,,180.0,164.0,344.0
+BP,BP p.l.c.,Energy,90221489775,9.36,7.19,,,,35.0,309.0,344.0
+IMO,Imperial Oil Limited,Energy,59664298603,6.78,12.0,,,,83.0,262.0,345.0
+VZ,Verizon Communications Inc.,Communication Services,172124980000,8.3,9.52,,,,53.0,293.0,346.0
+DXCM,"DexCom, Inc.",Healthcare,25897574000,4.2,26.98,,,,193.0,154.0,347.0
+BABA,Alibaba Group Holding Limited,Consumer Cyclical,2008501372349,6.64,11.95,,,,85.0,263.0,348.0
+PFE,Pfizer Inc.,Healthcare,141500699100,4.9,22.07,,,,166.0,182.0,348.0
+CRH,CRH plc,Basic Materials,84015360000,5.67,16.31,,,,124.5,225.0,349.5
+SYK,Stryker Corporation,Healthcare,134331834000,3.49,33.96,,,,240.5,111.0,351.5

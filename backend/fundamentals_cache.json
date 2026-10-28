@@ -5757,7 +5757,7 @@
     "total_current_liabilities": 2518489000,
     "intangible_assets": 1759616000,
     "goodwill": 5430038000,
-    "fetched_at": "2026-07-13T14:10:31.775037Z"
+    "fetched_at": "2026-10-28T19:20:27.989823Z"
   },
   "NRG": {
     "symbol": "NRG",
@@ -6670,5 +6670,29 @@
     "intangible_assets": 0,
     "goodwill": 199606000,
     "fetched_at": "2026-10-26T19:45:24.466878Z"
+  },
+  "GMAB": {
+    "symbol": "GMAB",
+    "name": "Genmab A/S",
+    "sector": "Healthcare",
+    "ebit": 1265997672,
+    "total_assets": 12843630073,
+    "total_current_assets": 2878417833,
+    "total_current_liabilities": 1423744279,
+    "intangible_assets": 9102185750,
+    "goodwill": 354190061,
+    "fetched_at": "2026-10-28T19:20:26.948275Z"
+  },
+  "LH": {
+    "symbol": "LH",
+    "name": "Labcorp Holdings Inc.",
+    "sector": "Healthcare",
+    "ebit": 1331600000,
+    "total_assets": 18392700000,
+    "total_current_assets": 4020500000,
+    "total_current_liabilities": 2823500000,
+    "intangible_assets": 3596000000,
+    "goodwill": 6789500000,
+    "fetched_at": "2026-10-28T19:20:27.434240Z"
   }
 }
