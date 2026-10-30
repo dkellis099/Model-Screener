@@ -5505,7 +5505,7 @@
     "total_current_liabilities": 5409000000,
     "intangible_assets": 188000000,
     "goodwill": 1993000000,
-    "fetched_at": "2026-09-11T17:36:49.727466Z"
+    "fetched_at": "2026-10-30T18:59:45.467719Z"
   },
   "CASY": {
     "symbol": "CASY",
@@ -5853,7 +5853,7 @@
     "total_current_liabilities": 6260000000,
     "intangible_assets": 0,
     "goodwill": 3550000000,
-    "fetched_at": "2026-07-13T14:10:37.945228Z"
+    "fetched_at": "2026-10-30T18:59:46.240648Z"
   },
   "TPL": {
     "symbol": "TPL",
@@ -6207,13 +6207,13 @@
     "symbol": "CPRT",
     "name": "Copart, Inc.",
     "sector": "Industrials",
-    "ebit": 1895581000,
-    "total_assets": 10090902000,
-    "total_current_assets": 5638483000,
-    "total_current_liabilities": 683281000,
-    "intangible_assets": 62832000,
-    "goodwill": 517779000,
-    "fetched_at": "2026-08-27T23:37:36.284893Z"
+    "ebit": 1834977000,
+    "total_assets": 10027810000,
+    "total_current_assets": 5568194000,
+    "total_current_liabilities": 703741000,
+    "intangible_assets": 50477000,
+    "goodwill": 511297000,
+    "fetched_at": "2026-10-30T18:59:47.037547Z"
   },
   "VRSK": {
     "symbol": "VRSK",
