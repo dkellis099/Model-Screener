@@ -6309,7 +6309,7 @@
     "total_current_liabilities": 1909990000,
     "intangible_assets": 7346000,
     "goodwill": 365075000,
-    "fetched_at": "2026-10-03T17:47:59.507861Z"
+    "fetched_at": "2026-11-02T22:37:10.763830Z"
   },
   "TEAM": {
     "symbol": "TEAM",
@@ -6321,7 +6321,7 @@
     "total_current_liabilities": 3571128000,
     "intangible_assets": 432258000,
     "goodwill": 2302739000,
-    "fetched_at": "2026-10-03T17:47:58.593432Z"
+    "fetched_at": "2026-11-02T22:37:09.515852Z"
   },
   "MER-PK": {
     "symbol": "MER-PK",
@@ -6694,5 +6694,17 @@
     "intangible_assets": 3596000000,
     "goodwill": 6789500000,
     "fetched_at": "2026-10-28T19:20:27.434240Z"
+  },
+  "VLTO": {
+    "symbol": "VLTO",
+    "name": "Veralto Corporation",
+    "sector": "Industrials",
+    "ebit": 1269000000,
+    "total_assets": 7693000000,
+    "total_current_assets": 3432000000,
+    "total_current_liabilities": 2056000000,
+    "intangible_assets": 524000000,
+    "goodwill": 2838000000,
+    "fetched_at": "2026-11-02T22:37:14.399371Z"
   }
 }
