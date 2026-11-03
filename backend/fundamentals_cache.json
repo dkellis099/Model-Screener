@@ -6069,7 +6069,7 @@
     "total_current_liabilities": 5271000000,
     "intangible_assets": 0,
     "goodwill": 5618000000,
-    "fetched_at": "2026-07-15T15:26:23.897851Z"
+    "fetched_at": "2026-11-03T20:25:46.283528Z"
   },
   "TPR": {
     "symbol": "TPR",
@@ -6201,7 +6201,7 @@
     "total_current_liabilities": 23890000000,
     "intangible_assets": 10161000000,
     "goodwill": 37703000000,
-    "fetched_at": "2026-09-04T17:22:52.833173Z"
+    "fetched_at": "2026-11-03T20:25:42.743276Z"
   },
   "CPRT": {
     "symbol": "CPRT",
@@ -6327,13 +6327,13 @@
     "symbol": "MER-PK",
     "name": "Bank of America Corp 6.45 % Notes 2018-15.12.66 Income Capital Obligations",
     "sector": "Financial Services",
-    "ebit": 0,
+    "ebit": 116165000000,
     "total_assets": 3411738000000,
     "total_current_assets": 28595000000,
     "total_current_liabilities": 54935000000,
     "intangible_assets": 0,
     "goodwill": 69021000000,
-    "fetched_at": "2026-10-04T17:59:05.639794Z"
+    "fetched_at": "2026-11-03T20:25:38.139700Z"
   },
   "HONA": {
     "symbol": "HONA",
@@ -6556,12 +6556,12 @@
     "name": "VeriSign, Inc.",
     "sector": "Technology",
     "ebit": 1140300000,
-    "total_assets": 1325900000,
+    "total_assets": 1326900000,
     "total_current_assets": 652500000,
     "total_current_liabilities": 1333100000,
-    "intangible_assets": 145200000,
+    "intangible_assets": 0,
     "goodwill": 52500000,
-    "fetched_at": "2026-09-21T19:05:08.270564Z"
+    "fetched_at": "2026-11-03T20:25:43.933917Z"
   },
   "DGX": {
     "symbol": "DGX",
@@ -6706,5 +6706,41 @@
     "intangible_assets": 524000000,
     "goodwill": 2838000000,
     "fetched_at": "2026-11-02T22:37:14.399371Z"
+  },
+  "PHG": {
+    "symbol": "PHG",
+    "name": "Koninklijke Philips N.V.",
+    "sector": "Healthcare",
+    "ebit": 1514344311,
+    "total_assets": 26944000000,
+    "total_current_assets": 9932000000,
+    "total_current_liabilities": 7509000000,
+    "intangible_assets": 2569000000,
+    "goodwill": 9271000000,
+    "fetched_at": "2026-11-03T20:25:45.143325Z"
+  },
+  "TW": {
+    "symbol": "TW",
+    "name": "Tradeweb Markets Inc.",
+    "sector": "Financial Services",
+    "ebit": 1176915000,
+    "total_assets": 8189557000,
+    "total_current_assets": 2342584000,
+    "total_current_liabilities": 474622000,
+    "intangible_assets": 1148015000,
+    "goodwill": 3150112000,
+    "fetched_at": "2026-11-03T20:25:47.431648Z"
+  },
+  "ULTA": {
+    "symbol": "ULTA",
+    "name": "Ulta Beauty, Inc.",
+    "sector": "Consumer Cyclical",
+    "ebit": 1532992000,
+    "total_assets": 6999294000,
+    "total_current_assets": 3144146000,
+    "total_current_liabilities": 2224342000,
+    "intangible_assets": 203288000,
+    "goodwill": 226421000,
+    "fetched_at": "2026-11-03T20:25:48.615802Z"
   }
 }
