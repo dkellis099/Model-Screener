@@ -6087,13 +6087,13 @@
     "symbol": "VICI",
     "name": "VICI Properties Inc.",
     "sector": "Real Estate",
-    "ebit": 3639084000,
+    "ebit": 3664593000,
     "total_assets": 46724168000,
     "total_current_assets": 19339997000,
     "total_current_liabilities": 724974000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-08-15T14:20:55.699401Z"
+    "fetched_at": "2026-11-04T20:40:20.861189Z"
   },
   "SKHYV": {
     "symbol": "SKHYV",
@@ -6189,7 +6189,7 @@
     "total_current_liabilities": 78218777000,
     "intangible_assets": 13021287000,
     "goodwill": 62307652000,
-    "fetched_at": "2026-08-27T23:37:37.600126Z"
+    "fetched_at": "2026-11-04T20:40:21.692174Z"
   },
   "FISV": {
     "symbol": "FISV",
@@ -6537,7 +6537,7 @@
     "total_current_liabilities": 281244000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-09-08T17:45:56.987254Z"
+    "fetched_at": "2026-11-04T20:40:23.472502Z"
   },
   "AWK": {
     "symbol": "AWK",
@@ -6742,5 +6742,29 @@
     "intangible_assets": 203288000,
     "goodwill": 226421000,
     "fetched_at": "2026-11-03T20:25:48.615802Z"
+  },
+  "PPG": {
+    "symbol": "PPG",
+    "name": "PPG Industries, Inc.",
+    "sector": "Basic Materials",
+    "ebit": 2286000000,
+    "total_assets": 22098000000,
+    "total_current_assets": 7959000000,
+    "total_current_liabilities": 4900000000,
+    "intangible_assets": 1971000000,
+    "goodwill": 6149000000,
+    "fetched_at": "2026-11-04T20:40:19.945260Z"
+  },
+  "FOX": {
+    "symbol": "FOX",
+    "name": "Fox Corporation",
+    "sector": "Communication Services",
+    "ebit": 3472000000,
+    "total_assets": 22482000000,
+    "total_current_assets": 8453000000,
+    "total_current_liabilities": 2667000000,
+    "intangible_assets": 2870000000,
+    "goodwill": 3647000000,
+    "fetched_at": "2026-11-04T20:40:22.515355Z"
   }
 }
