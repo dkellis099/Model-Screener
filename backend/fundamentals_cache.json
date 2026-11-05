@@ -5877,7 +5877,7 @@
     "total_current_liabilities": 7808512000,
     "intangible_assets": 0,
     "goodwill": 4233767000,
-    "fetched_at": "2026-07-13T14:10:39.469690Z"
+    "fetched_at": "2026-11-05T20:56:26.100788Z"
   },
   "PBA": {
     "symbol": "PBA",
@@ -5889,7 +5889,7 @@
     "total_current_liabilities": 2065000000,
     "intangible_assets": 6345000000,
     "goodwill": 0,
-    "fetched_at": "2026-10-06T19:18:49.129752Z"
+    "fetched_at": "2026-11-05T20:56:24.265710Z"
   },
   "ASTS": {
     "symbol": "ASTS",
@@ -6141,7 +6141,7 @@
     "total_current_liabilities": 6961135000,
     "intangible_assets": 1200050000,
     "goodwill": 4338589000,
-    "fetched_at": "2026-10-06T19:18:50.361964Z"
+    "fetched_at": "2026-11-05T20:56:23.376906Z"
   },
   "DVN": {
     "symbol": "DVN",
@@ -6219,13 +6219,13 @@
     "symbol": "VRSK",
     "name": "Verisk Analytics, Inc.",
     "sector": "Technology",
-    "ebit": 1379900000,
+    "ebit": 1377600000,
     "total_assets": 6195500000,
     "total_current_assets": 2765400000,
     "total_current_liabilities": 2300300000,
     "intangible_assets": 346600000,
     "goodwill": 1878200000,
-    "fetched_at": "2026-07-29T15:48:52.219119Z"
+    "fetched_at": "2026-11-05T20:56:24.710460Z"
   },
   "MTD": {
     "symbol": "MTD",
@@ -6345,7 +6345,7 @@
     "total_current_liabilities": 6577000000,
     "intangible_assets": 2177000000,
     "goodwill": 3025000000,
-    "fetched_at": "2026-10-06T19:18:46.354931Z"
+    "fetched_at": "2026-11-05T20:56:20.484256Z"
   },
   "ATI": {
     "symbol": "ATI",
@@ -6369,7 +6369,7 @@
     "total_current_liabilities": 1239499000,
     "intangible_assets": 558179000,
     "goodwill": 1340081000,
-    "fetched_at": "2026-10-06T19:18:47.883970Z"
+    "fetched_at": "2026-11-05T20:56:21.492469Z"
   },
   "BSP": {
     "symbol": "BSP",
@@ -6766,5 +6766,41 @@
     "intangible_assets": 2870000000,
     "goodwill": 3647000000,
     "fetched_at": "2026-11-04T20:40:22.515355Z"
+  },
+  "CPAY": {
+    "symbol": "CPAY",
+    "name": "Corpay, Inc.",
+    "sector": "Technology",
+    "ebit": 1945527000,
+    "total_assets": 26408135000,
+    "total_current_assets": 13952040000,
+    "total_current_liabilities": 14296677000,
+    "intangible_assets": 3237729000,
+    "goodwill": 7564822000,
+    "fetched_at": "2026-11-05T20:56:23.827964Z"
+  },
+  "QSR": {
+    "symbol": "QSR",
+    "name": "Restaurant Brands International Inc.",
+    "sector": "Consumer Cyclical",
+    "ebit": 2200000000,
+    "total_assets": 25615000000,
+    "total_current_assets": 2830000000,
+    "total_current_liabilities": 2891000000,
+    "intangible_assets": 11190000000,
+    "goodwill": 6306000000,
+    "fetched_at": "2026-11-05T20:56:25.647577Z"
+  },
+  "PPL": {
+    "symbol": "PPL",
+    "name": "PPL Corporation",
+    "sector": "Utilities",
+    "ebit": 2280000000,
+    "total_assets": 45244000000,
+    "total_current_assets": 3931000000,
+    "total_current_liabilities": 4546000000,
+    "intangible_assets": 327000000,
+    "goodwill": 2247000000,
+    "fetched_at": "2026-11-05T20:56:26.538902Z"
   }
 }
