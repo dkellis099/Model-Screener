@@ -6075,13 +6075,13 @@
     "symbol": "TPR",
     "name": "Tapestry, Inc.",
     "sector": "Consumer Cyclical",
-    "ebit": 301500000,
-    "total_assets": 6580500000,
-    "total_current_assets": 2905600000,
-    "total_current_liabilities": 1556900000,
-    "intangible_assets": 719600000,
-    "goodwill": 983300000,
-    "fetched_at": "2026-07-15T15:26:24.738680Z"
+    "ebit": 1915800000,
+    "total_assets": 6691700000,
+    "total_current_assets": 2882300000,
+    "total_current_liabilities": 1645000000,
+    "intangible_assets": 716500000,
+    "goodwill": 957700000,
+    "fetched_at": "2026-11-06T20:16:08.740983Z"
   },
   "VICI": {
     "symbol": "VICI",
@@ -6177,7 +6177,7 @@
     "total_current_liabilities": 63475776000,
     "intangible_assets": 10040097000,
     "goodwill": 32187041000,
-    "fetched_at": "2026-10-07T19:45:09.853383Z"
+    "fetched_at": "2026-11-06T20:16:05.552749Z"
   },
   "TCOM": {
     "symbol": "TCOM",
@@ -6381,7 +6381,7 @@
     "total_current_liabilities": 1118530000,
     "intangible_assets": 1077974000,
     "goodwill": 2423570000,
-    "fetched_at": "2026-10-07T19:45:08.826168Z"
+    "fetched_at": "2026-11-06T20:16:06.650386Z"
   },
   "INSM": {
     "symbol": "INSM",
