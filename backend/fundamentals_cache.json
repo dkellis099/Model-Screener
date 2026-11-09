@@ -3,13 +3,13 @@
     "symbol": "AAPL",
     "name": "Apple Inc.",
     "sector": "Technology",
-    "ebit": 132729000000,
-    "total_assets": 359241000000,
-    "total_current_assets": 147957000000,
-    "total_current_liabilities": 165631000000,
-    "intangible_assets": 0,
+    "ebit": 159237000000,
+    "total_assets": 404548000000,
+    "total_current_assets": 173857000000,
+    "total_current_liabilities": 169915000000,
+    "intangible_assets": 20278000000,
     "goodwill": 0,
-    "fetched_at": "2026-10-09T19:16:24.033250Z"
+    "fetched_at": "2026-11-09T23:17:30.113910Z"
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -21,7 +21,7 @@
     "total_current_liabilities": 168825000000,
     "intangible_assets": 18609000000,
     "goodwill": 119651000000,
-    "fetched_at": "2026-10-09T19:16:25.073917Z"
+    "fetched_at": "2026-11-09T23:17:31.168338Z"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -45,7 +45,7 @@
     "total_current_liabilities": 218005000000,
     "intangible_assets": 9197000000,
     "goodwill": 23273000000,
-    "fetched_at": "2026-10-09T19:16:26.084848Z"
+    "fetched_at": "2026-11-09T23:17:31.680511Z"
   },
   "NVDA": {
     "symbol": "NVDA",
@@ -57,7 +57,7 @@
     "total_current_liabilities": 32163000000,
     "intangible_assets": 3306000000,
     "goodwill": 20832000000,
-    "fetched_at": "2026-10-09T19:16:22.997563Z"
+    "fetched_at": "2026-11-09T23:17:30.692408Z"
   },
   "META": {
     "symbol": "META",
@@ -69,7 +69,7 @@
     "total_current_liabilities": 41836000000,
     "intangible_assets": 3692000000,
     "goodwill": 24534000000,
-    "fetched_at": "2026-10-09T19:16:27.176291Z"
+    "fetched_at": "2026-11-09T23:17:32.121694Z"
   },
   "ADBE": {
     "symbol": "ADBE",
@@ -81,7 +81,7 @@
     "total_current_liabilities": 10200000000,
     "intangible_assets": 495000000,
     "goodwill": 12857000000,
-    "fetched_at": "2026-10-09T19:16:31.846948Z"
+    "fetched_at": "2026-11-09T23:17:35.086877Z"
   },
   "CSCO": {
     "symbol": "CSCO",
@@ -93,7 +93,7 @@
     "total_current_liabilities": 41525000000,
     "intangible_assets": 7557000000,
     "goodwill": 59477000000,
-    "fetched_at": "2026-10-09T19:16:30.782132Z"
+    "fetched_at": "2026-11-09T23:17:34.211740Z"
   },
   "AMD": {
     "symbol": "AMD",
@@ -105,7 +105,7 @@
     "total_current_liabilities": 9455000000,
     "intangible_assets": 16705000000,
     "goodwill": 25126000000,
-    "fetched_at": "2026-10-09T19:16:28.633256Z"
+    "fetched_at": "2026-11-09T23:17:32.561900Z"
   },
   "INTC": {
     "symbol": "INTC",
@@ -117,7 +117,7 @@
     "total_current_liabilities": 31575000000,
     "intangible_assets": 2772000000,
     "goodwill": 23912000000,
-    "fetched_at": "2026-10-09T19:16:29.742130Z"
+    "fetched_at": "2026-11-09T23:17:34.646732Z"
   },
   "GOOG": {
     "symbol": "GOOG",
@@ -6802,5 +6802,29 @@
     "intangible_assets": 327000000,
     "goodwill": 2247000000,
     "fetched_at": "2026-11-05T20:56:26.538902Z"
+  },
+  "VYLR": {
+    "symbol": "VYLR",
+    "name": "Vylor Inc.",
+    "sector": "Basic Materials",
+    "ebit": 671000000,
+    "total_assets": 22019000000,
+    "total_current_assets": 6214000000,
+    "total_current_liabilities": 7249000000,
+    "intangible_assets": 7265000000,
+    "goodwill": 5312000000,
+    "fetched_at": "2026-11-09T23:17:35.527834Z"
+  },
+  "AER": {
+    "symbol": "AER",
+    "name": "AerCap Holdings N.V.",
+    "sector": "Industrials",
+    "ebit": 6073939999,
+    "total_assets": 71671790000,
+    "total_current_assets": 3335737000,
+    "total_current_liabilities": 5431780000,
+    "intangible_assets": 0,
+    "goodwill": 1795196000,
+    "fetched_at": "2026-11-09T23:17:35.969095Z"
   }
 }
