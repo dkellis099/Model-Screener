@@ -5121,7 +5121,7 @@
     "total_current_liabilities": 2490000000,
     "intangible_assets": 13893000000,
     "goodwill": 8079000000,
-    "fetched_at": "2026-10-17T16:51:14.989242Z"
+    "fetched_at": "2026-11-16T23:13:20.416708Z"
   },
   "VOD": {
     "symbol": "VOD",
@@ -6129,7 +6129,7 @@
     "total_current_liabilities": 37378999000000,
     "intangible_assets": 3241879000000,
     "goodwill": 807523000000,
-    "fetched_at": "2026-10-17T16:51:11.658182Z"
+    "fetched_at": "2026-11-16T23:13:19.184482Z"
   },
   "DG": {
     "symbol": "DG",
@@ -6237,7 +6237,7 @@
     "total_current_liabilities": 1198116000,
     "intangible_assets": 278910000,
     "goodwill": 739225000,
-    "fetched_at": "2026-10-17T16:51:14.447637Z"
+    "fetched_at": "2026-11-16T23:13:21.580012Z"
   },
   "LPLA": {
     "symbol": "LPLA",
@@ -6393,7 +6393,7 @@
     "total_current_liabilities": 468874000,
     "intangible_assets": 97651000,
     "goodwill": 136110000,
-    "fetched_at": "2026-09-09T17:35:45.308198Z"
+    "fetched_at": "2026-11-16T23:13:23.923407Z"
   },
   "ZS": {
     "symbol": "ZS",
@@ -6838,5 +6838,29 @@
     "intangible_assets": 4231227000,
     "goodwill": 17076624000,
     "fetched_at": "2026-11-10T20:47:40.899865Z"
+  },
+  "CHD": {
+    "symbol": "CHD",
+    "name": "Church & Dwight Co., Inc.",
+    "sector": "Consumer Defensive",
+    "ebit": 1052100000,
+    "total_assets": 8912400000,
+    "total_current_assets": 1597000000,
+    "total_current_liabilities": 1497700000,
+    "intangible_assets": 3511500000,
+    "goodwill": 2627500000,
+    "fetched_at": "2026-11-16T23:13:22.760203Z"
+  },
+  "FWONA": {
+    "symbol": "FWONA",
+    "name": "Formula One Group",
+    "sector": "Communication Services",
+    "ebit": 761000000,
+    "total_assets": 15398000000,
+    "total_current_assets": 1373000000,
+    "total_current_liabilities": 939000000,
+    "intangible_assets": 5102000000,
+    "goodwill": 7025000000,
+    "fetched_at": "2026-11-16T23:13:25.095584Z"
   }
 }
