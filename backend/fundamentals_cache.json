@@ -3861,7 +3861,7 @@
     "total_current_liabilities": -259792000000,
     "intangible_assets": 0,
     "goodwill": 0,
-    "fetched_at": "2026-10-11T18:39:35.841743Z"
+    "fetched_at": "2026-11-18T21:42:42.944664Z"
   },
   "TAK": {
     "symbol": "TAK",
@@ -6862,5 +6862,41 @@
     "intangible_assets": 5102000000,
     "goodwill": 7025000000,
     "fetched_at": "2026-11-16T23:13:25.095584Z"
+  },
+  "ANT": {
+    "symbol": "ANT",
+    "name": "Anthropic PBC",
+    "sector": "Technology",
+    "ebit": -41945000000,
+    "total_assets": 24661000000,
+    "total_current_assets": 23746000000,
+    "total_current_liabilities": 2817000000,
+    "intangible_assets": 0,
+    "goodwill": 154000000,
+    "fetched_at": "2026-11-18T21:42:41.748029Z"
+  },
+  "DRI": {
+    "symbol": "DRI",
+    "name": "Darden Restaurants, Inc.",
+    "sector": "Consumer Cyclical",
+    "ebit": 1584900000,
+    "total_assets": 12862400000,
+    "total_current_assets": 942900000,
+    "total_current_liabilities": 3005400000,
+    "intangible_assets": 1449300000,
+    "goodwill": 1658200000,
+    "fetched_at": "2026-11-18T21:42:44.107487Z"
+  },
+  "DLTR": {
+    "symbol": "DLTR",
+    "name": "Dollar Tree, Inc.",
+    "sector": "Consumer Defensive",
+    "ebit": 1715000000,
+    "total_assets": 13466200000,
+    "total_current_assets": 3446200000,
+    "total_current_liabilities": 3228600000,
+    "intangible_assets": 0,
+    "goodwill": 423200000,
+    "fetched_at": "2026-11-18T21:42:45.295728Z"
   }
 }
