@@ -5649,7 +5649,7 @@
     "total_current_liabilities": 2346394000,
     "intangible_assets": 265634000,
     "goodwill": 1091482000,
-    "fetched_at": "2026-10-22T18:19:06.818054Z"
+    "fetched_at": "2026-11-21T20:22:41.072952Z"
   },
   "GEHC": {
     "symbol": "GEHC",
@@ -5733,7 +5733,7 @@
     "total_current_liabilities": 7513000000,
     "intangible_assets": 1723000000,
     "goodwill": 12527000000,
-    "fetched_at": "2026-10-22T18:19:07.480002Z"
+    "fetched_at": "2026-11-21T20:22:37.868750Z"
   },
   "TDY": {
     "symbol": "TDY",
@@ -5949,7 +5949,7 @@
     "total_current_liabilities": 7656000000,
     "intangible_assets": 343000000,
     "goodwill": 1695000000,
-    "fetched_at": "2026-10-22T18:19:08.131802Z"
+    "fetched_at": "2026-11-21T20:22:42.071798Z"
   },
   "STRF": {
     "symbol": "STRF",
@@ -6153,7 +6153,7 @@
     "total_current_liabilities": 4086000000,
     "intangible_assets": 0,
     "goodwill": 753000000,
-    "fetched_at": "2026-10-22T18:19:02.900896Z"
+    "fetched_at": "2026-11-21T20:22:36.832100Z"
   },
   "WRB": {
     "symbol": "WRB",
@@ -6441,7 +6441,7 @@
     "total_current_liabilities": 1987000000,
     "intangible_assets": 45000000,
     "goodwill": 52000000,
-    "fetched_at": "2026-10-22T18:19:01.935316Z"
+    "fetched_at": "2026-11-21T20:22:35.743508Z"
   },
   "BNTX": {
     "symbol": "BNTX",
@@ -6525,7 +6525,7 @@
     "total_current_liabilities": 636211000,
     "intangible_assets": 0,
     "goodwill": 924634000,
-    "fetched_at": "2026-10-22T18:19:08.794735Z"
+    "fetched_at": "2026-11-21T20:22:38.953106Z"
   },
   "ROIV": {
     "symbol": "ROIV",
@@ -6544,12 +6544,12 @@
     "name": "American Water Works Company, Inc.",
     "sector": "Utilities",
     "ebit": 2037000000,
-    "total_assets": 36525000000,
+    "total_assets": 35442000000,
     "total_current_assets": 2191000000,
     "total_current_liabilities": 4747000000,
     "intangible_assets": 0,
     "goodwill": 1156000000,
-    "fetched_at": "2026-10-22T18:19:09.449127Z"
+    "fetched_at": "2026-11-21T20:22:40.009743Z"
   },
   "VRSN": {
     "symbol": "VRSN",
@@ -6898,5 +6898,17 @@
     "intangible_assets": 0,
     "goodwill": 423200000,
     "fetched_at": "2026-11-18T21:42:45.295728Z"
+  },
+  "IHG": {
+    "symbol": "IHG",
+    "name": "InterContinental Hotels Group PLC",
+    "sector": "Consumer Cyclical",
+    "ebit": 1074000000,
+    "total_assets": 5345000000,
+    "total_current_assets": 2049000000,
+    "total_current_liabilities": 2100000000,
+    "intangible_assets": 820000000,
+    "goodwill": 335000000,
+    "fetched_at": "2026-11-21T20:22:43.068304Z"
   }
 }
