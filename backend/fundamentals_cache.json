@@ -6910,5 +6910,29 @@
     "intangible_assets": 820000000,
     "goodwill": 335000000,
     "fetched_at": "2026-11-21T20:22:43.068304Z"
+  },
+  "YPF": {
+    "symbol": "YPF",
+    "name": "YPF Sociedad An\u00f3nima",
+    "sector": "Energy",
+    "ebit": 2675644000000,
+    "total_assets": 42715989000000,
+    "total_current_assets": 9398127000000,
+    "total_current_liabilities": 10799793000000,
+    "intangible_assets": 626832000000,
+    "goodwill": 0,
+    "fetched_at": "2026-11-25T22:56:59.539175Z"
+  },
+  "VIV": {
+    "symbol": "VIV",
+    "name": "Telef\u00f4nica Brasil S.A.",
+    "sector": "Communication Services",
+    "ebit": 9587407000,
+    "total_assets": 128007436000,
+    "total_current_assets": 25207636000,
+    "total_current_liabilities": 25233477000,
+    "intangible_assets": 20721200000,
+    "goodwill": 27223185000,
+    "fetched_at": "2026-11-25T22:57:00.072829Z"
   }
 }
